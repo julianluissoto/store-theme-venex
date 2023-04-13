@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#header__orderOptions": {
+    "title": "order options after buy",
+
+    "children": [
+      "flex-layout.col#home__navBar--followOrder",
+      "flex-layout.col#home__navBar--pickupOrder",
+      "flex-layout.col#home__navBar--help"
+    ]
+  },
+  "rich-text#follow__order--text": {
+    "title": " follow order text",
+    "props": {
+      "text": "Follow your Order",
+      "blockClass": "home__orderOptions--text",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#pickUp__order--text": {
+    "title": " pick Up order Text",
+    "props": {
+      "text": "Pick Up your Order",
+      "blockClass": "home__orderOptions--text",
+      "font": "heading-2"
+    }
+  },
+  "flex-layout.col#home__navBar--help": {
+    "title": " helpText container",
+    "children": [
+      "rich-text#help__center--text",
+      "image#help__icon"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "border": "all",
+      "blockClass": "home__navBar--help"
+    }
+  },
+  "flex-layout.col#home__navBar--pickupOrder": {
+    "title": " pickupOrder container",
+    "children": [
+      "rich-text#pickUp__order--text",
+      "image#location__single"
+    ],
+    "props": {
+      "blockClass": "home__navBar--options",
+      "horizontalAlign": "right",
+      "border": "all"
+    }
+  },
+  "flex-layout.col#home__navBar--followOrder": {
+    "title": " followOrder container",
+    "children": [
+      "rich-text#follow__order--text",
+      "image#location__double"
+    ],
+    "props": {
+      "blockClass": "home__navBar--options",
+      "horizontalAlign": "right",
+      "border": "all"
+    }
+  },
+
+  "rich-text#help__center--text": {
+    "title": " Help Center text",
+    "props": {
+      "text": "Help Center",
+      "textAlignment": "RIG",
+      "blockClass": "help__center--text",
+      "font": "heading-1"
+    }
+  },
+
+  "image#location__double": {
+    "title": " follow order logo",
+    "props": {
+      "src": "assets/img/icons/follow-icon.png",
+      "blockClass": "home__orderOptions--followIcon"
+    }
+  },
+
+  "image#help__icon": {
+    "title": " help center icon",
+    "props": {
+      "src": "assets/img/icons/headSet-icon.png",
+      "blockClass": "help__center--headset-icon"
+    }
+  },
+
+  "image#location__single": {
+    "title": " follow order logo",
+    "props": {
+      "src": "assets/img/icons/pickupPoint-logo.png",
+      "blockClass": "home__orderOptions--followIcon"
+    }
+  }
+}
