@@ -1,0 +1,8 @@
+{
+  "header.full": {
+    "title": "header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  }
+}
