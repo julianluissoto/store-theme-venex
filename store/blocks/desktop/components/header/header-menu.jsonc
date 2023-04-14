@@ -11,12 +11,16 @@
     "props": {
       "blockClass": "header__orderOptions",
 
-      "colJustify": "center"
+      "colJustify": "around"
     },
     "children": [
       "flex-layout.col#header__container--left",
       "flex-layout.col#header__container--right"
     ]
+  },
+
+  "flex-layout.col#header__container--left": {
+    "title": "header flex left empty space"
   },
 
   "flex-layout.col#header__container--right": {
@@ -32,17 +36,14 @@
   "flex-layout.row#header__container--rightContainer": {
     "title": "header flex col container right",
     "props": {
-      "colJustify": "center"
+      "blockClass": "header__container--rightContainer"
     },
+
     "children": [
       "flex-layout.col#header__orderFollow--container",
       "flex-layout.col#header__orderPickup--container",
       "flex-layout.col#header__help--container"
     ]
-  },
-
-  "flex-layout.col#header__container--left": {
-    "title": "header flex left empty space"
   },
 
   "flex-layout.col#header__orderFollow--container": {

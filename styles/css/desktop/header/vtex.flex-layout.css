@@ -15,3 +15,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.flexRowContent--header__container--rightContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
