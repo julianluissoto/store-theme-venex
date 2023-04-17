@@ -1,6 +1,11 @@
 {
-  "header-layout.desktop": {
+  "header.full": {
     "title": "hearder layout desktop main container",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
     "children": [
       "flex-layout.row#header__orderOptions"
     ]

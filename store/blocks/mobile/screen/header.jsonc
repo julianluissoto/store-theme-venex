@@ -1,8 +1,8 @@
 {
-  "header.full": {
+  "header#mobile": {
     "title": "header",
     "blocks": [
-      "header-layout.desktop"
+      "header-layout.mobile"
     ]
   }
 }

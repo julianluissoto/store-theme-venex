@@ -1,0 +1,61 @@
+{
+  "modal-trigger#home__modal--welcome": {
+    "children": [
+      "rich-text#home__modal--text",
+      "modal-layout#home__modal--layout"
+    ],
+    "props": {}
+  },
+  "rich-text#home__modal--text": {
+    "title": "modal title",
+    "props": {
+      "showCloseButton": true,
+      "text": "click Here",
+      "displayMode": "button"
+    }
+  },
+  "modal-layout#home__modal--layout": {
+    "title": "modal layout container",
+    "props": {
+      "fullScreen": false
+    },
+    "children": [
+      "modal-header#modal__header--text",
+      "modal-content#modal__content--text"
+    ]
+  },
+
+  "modal-header#modal__header--text": {
+    "title": "modal header ",
+    "children": [
+      "rich-text#modal-content"
+    ]
+  },
+  "rich-text#modal-content": {
+    "title": "modal header text",
+    "props": {
+      "text": "Hello, welcome to Venex Hardware"
+    }
+  },
+  "modal-content#modal__content--text": {
+    "title": "modal heaer content",
+    "children": [
+      "image#modal__content--image",
+      "link#link__modal--buy"
+    ]
+  },
+
+  "image#modal__content--image": {
+    "props": {
+      "src": "assets/img/modal-img/pc-1.png",
+      "maxHeight": 300
+    }
+  },
+  "link#link__modal--buy": {
+    "title": "modal link text",
+    "props": {
+      "label": "buy",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio/pc-intel-i5-12400-ssd-240gb-16gb.html"
+    }
+  }
+}

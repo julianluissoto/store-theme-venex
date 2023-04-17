@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#phone__header": {
+    "title": "header phone container",
+    "children": [
+      "header-row#header__row"
+    ]
+  },
+  "header-row#header__row": {
+    "title": " header phone",
+    "children": [
+      "rich-text#test"
+    ]
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "estoy en header phone"
+    }
+  }
+}

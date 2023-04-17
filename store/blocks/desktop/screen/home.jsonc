@@ -1,8 +1,13 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
+  "responsive-layout.desktop#home__desktop--venex": {
+    "title": "Home  Desktop",
     "props": {
-      "blockClass": "header__container"
-    }
+      "blockClass": "home container"
+    },
+    "children": [
+      "header-row#menu__search",
+      "modal-trigger#home__modal-bestSeller",
+      "modal-trigger#home__modal--welcome"
+    ]
   }
 }
