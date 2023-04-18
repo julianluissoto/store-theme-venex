@@ -1,8 +1,8 @@
 {
-  "header#mobile": {
+  "header-layout.mobile#mobile__header": {
     "title": "header",
-    "blocks": [
-      "header-layout.mobile"
+    "children": [
+      "header-row#mobile__header1"
     ]
   }
 }

@@ -1,16 +1,4 @@
 {
-  "header.full": {
-    "title": "hearder layout desktop main container",
-    "blocks": [
-      "header-layout.desktop"
-    ]
-  },
-  "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#header__orderOptions"
-    ]
-  },
-
   "flex-layout.row#header__orderOptions": {
     "title": "order options after buy",
     "props": {
