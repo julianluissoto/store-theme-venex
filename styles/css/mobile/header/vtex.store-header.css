@@ -1,0 +1,4 @@
+.headerRowContainer--mobile__header {
+    background-color: var(--secondary-color);
+    justify-content: center
+}

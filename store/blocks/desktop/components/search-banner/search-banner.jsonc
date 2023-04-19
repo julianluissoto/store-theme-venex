@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#searchBar__container": {
+    "title": "search bar container",
+    "props": {
+      "horizontalAlign": "around"
+    },
+    "children": [
+      "flex-layout.col#searchBar__container--col",
+      "flex-layout.col#login__container--col"
+    ]
+  },
+  "flex-layout.col#searchBar__container--col": {
+    "children": [
+      "header-row#menu__search"
+    ]
+  },
+  "flex-layout.col#login__container--col": {
+    "children": [
+      "login",
+      "login-content#login__content"
+    ]
+  },
+  "login-content#login__content": {
+    "props": {
+      "optionsTitle": "sign in"
+    }
+  },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "Login / sign in",
+      "iconLabel": "Login / Sign In"
+    }
+  },
+
+  "header-row#menu__search": {
+    "children": [
+      "logo#header__menu",
+      "search-bar",
+      "login",
+      "image#fav__icon",
+      "minicart.v2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "searchBar__container"
+    }
+  },
+
+  "image#fav__icon": {
+    "title": "fav icon",
+
+    "props": {
+      "src": "assets/img/icons/heart.svg",
+      "maxHeight": 20,
+      "blockClass": "Fav-icon"
+    }
+  },
+
+  "logo#header__menu": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-venex/header_logo.png",
+      "blockClass": "desktop__logo"
+    }
+  },
+
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "search"
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ]
+  }
+}

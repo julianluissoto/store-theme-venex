@@ -1,0 +1,7 @@
+.headerRowContainer--searchBar__container {
+
+    background-color: #37373F;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+}

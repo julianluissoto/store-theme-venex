@@ -1,0 +1,7 @@
+{
+  "header-layout.desktop#desktop__header": {
+    "children": [
+      "flex-layout.row#header__orderOptions"
+    ]
+  }
+}

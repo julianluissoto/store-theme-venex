@@ -1,0 +1,54 @@
+{
+  "header-row#mobile__header1": {
+    "title": "title header mobile",
+    "props": {
+      "blockClass": "mobile__header"
+    },
+    "children": [
+      "flex-layout.row#header__phone--container"
+    ]
+  },
+
+  "flex-layout.row#header__phone--container": {
+    "title": "header layout phone container",
+    "children": [
+      "flex-layout.col#header__phone--colLeft",
+      "flex-layout.col#header__phone--colRight"
+    ],
+    "props": {
+      "blockClass": "header__phone"
+    }
+  },
+
+  "flex-layout.col#header__phone--colLeft": {
+    "title": "header phone col right",
+    "props": {
+      "blockClass": "header__phone--colLeft"
+    },
+
+    "children": [
+      "drawer#header__phone--drawer",
+      "logo#header__menu--phone"
+    ]
+  },
+
+  "flex-layout.col#header__phone--colRight": {
+    "title": "header phone col right",
+    "children": [
+      "image#fav__icon",
+      "minicart.v2"
+    ]
+  },
+
+  "logo#header__menu--phone": {
+    "title": "logo phone",
+    "props": {
+      "blockClass": "logo__phone",
+      "url": "assets/img/logo-venex/header_logo.png"
+    }
+  },
+
+  "drawer#header__phone--drawer": {
+    "children": []
+  }
+}

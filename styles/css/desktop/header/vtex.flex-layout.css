@@ -1,0 +1,24 @@
+/* Example desktop:
+.flexRow--home__section-2 {
+    margin: 50px auto;
+    max-width: 1200px;
+} */
+.flexRowContent--header__orderOptions {
+    background-color: var(--primary-color);
+    height: 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+.flexColChild, .flexColChild---header__container--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--header__container--rightContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}

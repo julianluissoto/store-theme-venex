@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#header__orderOptions": {
+    "title": "order options after buy",
+    "props": {
+      "blockClass": "header__orderOptions",
+
+      "colJustify": "around"
+    },
+    "children": [
+      "flex-layout.col#header__container--left",
+      "flex-layout.col#header__container--right"
+    ]
+  },
+
+  "flex-layout.col#header__container--left": {
+    "title": "header flex left empty space"
+  },
+
+  "flex-layout.col#header__container--right": {
+    "title": "header flex col right",
+    "props": {
+      "blockClass": "header__container--right"
+    },
+    "children": [
+      "flex-layout.row#header__container--rightContainer"
+    ]
+  },
+
+  "flex-layout.row#header__container--rightContainer": {
+    "title": "header flex col container right",
+    "props": {
+      "blockClass": "header__container--rightContainer"
+    },
+
+    "children": [
+      "flex-layout.col#header__orderFollow--container",
+      "flex-layout.col#header__orderPickup--container",
+      "flex-layout.col#header__help--container"
+    ]
+  },
+
+  "flex-layout.col#header__orderFollow--container": {
+    "title": "order elements container",
+    "props": {
+      "verticalAlign": "center",
+      "blockClass": "flexCol__orderFollow--container"
+    },
+
+    "children": [
+      "flex-layout.row#header__FollowOrder--container"
+    ]
+  },
+
+  "flex-layout.row#header__FollowOrder--container": {
+    "title": "follow order container",
+    "props": {
+      "blockClass": "FollowOrder--container"
+    },
+    "children": [
+      "image#followOrder__icon",
+      "rich-text#follow__order--text"
+    ]
+  },
+  "rich-text#follow__order--text": {
+    "title": " follow order text",
+    "props": {
+      "text": "Follow your Order",
+      "blockClass": "home__orderOptions--text",
+      "font": "heading-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#followOrder__icon": {
+    "title": " follow order logo",
+    "props": {
+      "src": "assets/img/icons/follow-icon.png",
+      "blockClass": "orderOptions--Icon"
+    }
+  },
+
+  "flex-layout.col#header__orderPickup--container": {
+    "title": " pickupOrder container",
+    "children": [
+      "flex-layout.row#pickupOrder__orderOptions--container"
+    ],
+    "props": {
+      "blockClass": "home__navBar--options"
+    }
+  },
+
+  "flex-layout.row#pickupOrder__orderOptions--container": {
+    "title": " pick Up order container",
+    "children": [
+      "image#pickUpOrder__icon",
+      "rich-text#pickUp__order--text"
+    ]
+  },
+
+  "rich-text#pickUp__order--text": {
+    "title": " pick Up order Text",
+    "props": {
+      "text": "Pick Up your Order",
+      "blockClass": "home__orderOptions--text",
+      "font": "heading-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#pickUpOrder__icon": {
+    "title": " follow order logo",
+    "props": {
+      "src": "assets/img/icons/pickupPoint-logo.png",
+      "blockClass": "orderOptions--Icon"
+    }
+  },
+
+  "flex-layout.col#header__help--container": {
+    "title": " helpText container col",
+    "children": [
+      "flex-layout.row#help__Options--container"
+    ]
+  },
+  "flex-layout.row#help__Options--container": {
+    "title": "help options container row",
+    "children": [
+      "image#help__icon",
+      "rich-text#help__center--text"
+    ]
+  },
+
+  "rich-text#help__center--text": {
+    "title": " Help Center text",
+    "props": {
+      "text": "Help Center",
+      "blockClass": "home__orderOptions--text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#help__icon": {
+    "title": " help center icon",
+    "props": {
+      "src": "assets/img/icons/headSet-icon.png",
+      "blockClass": "orderOptions--Icon"
+    }
+  }
+}
