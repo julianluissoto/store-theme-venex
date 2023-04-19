@@ -7,9 +7,9 @@
 
 }
 
-
-
-
-.headerRowContainer {
-    background-color: rgb(31, 31, 34);
+.logoImage {
+    position: relative;
+    max-width: 15rem;
+    max-height: 10rem;
+    bottom: 15px;
 }

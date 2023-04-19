@@ -1,42 +1,39 @@
 {
-  "header-row#mobile__header1": {
-    "title": "title header mobile",
+  "header-layout#header__mobile--container": {
+    "children": [
+      "flex-layout.row#header__flex"
+    ]
+  },
+  "flex-layout.row#header__flex": {
     "props": {
-      "blockClass": "mobile__header"
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header__mobile--container"
     },
     "children": [
-      "flex-layout.row#header__phone--container"
+      "header-row#mobile__header--left",
+      "header-row#mobile__header--right"
     ]
   },
 
-  "flex-layout.row#header__phone--container": {
-    "title": "header layout phone container",
-    "children": [
-      "flex-layout.col#header__phone--colLeft",
-      "flex-layout.col#header__phone--colRight"
-    ],
+  "header-row#mobile__header--left": {
+    "title": "title header mobile",
     "props": {
-      "blockClass": "header__phone"
-    }
-  },
-
-  "flex-layout.col#header__phone--colLeft": {
-    "title": "header phone col right",
-    "props": {
-      "blockClass": "header__phone--colLeft"
+      "blockClass": "mobile__header--left"
     },
-
     "children": [
       "drawer#header__phone--drawer",
       "logo#header__menu--phone"
     ]
   },
-
-  "flex-layout.col#header__phone--colRight": {
-    "title": "header phone col right",
+  "header-row#mobile__header--right": {
+    "title": "title header mobile",
+    "props": {
+      "blockClass": "mobile__header--right"
+    },
     "children": [
       "image#fav__icon",
-      "minicart.v2"
+      "minicart.v2",
+      "login"
     ]
   },
 
@@ -49,6 +46,57 @@
   },
 
   "drawer#header__phone--drawer": {
-    "children": []
+    "children": [
+      "menu#header__menu"
+    ]
+  },
+  "menu#header__menu": {
+    "title": "menu header",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#login",
+      "menu-item#pcComponents",
+      "menu-item#pc&servers"
+    ]
+  },
+
+  "menu-item#login": {
+    "children": [
+      "flex-layout.row#header__FollowOrder--container",
+      "flex-layout.col#header__orderPickup--container",
+      "flex-layout.col#header__help--container"
+    ]
+  },
+
+  "menu-item#pcComponents": {
+    "props": {
+      "id": "pcComponents",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/componentes-de-pc",
+        "noFollow": true,
+        "tagTitle": "pcComponents",
+        "text": "PCs & Components"
+      }
+    }
+  },
+
+  "menu-item#pc&servers": {
+    "props": {
+      "id": "pc&servers",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.venex.com.ar/computadoras-y-servidores",
+        "noFollow": true,
+        "tagTitle": "PCs & Servers",
+        "text": "PCs & Servers"
+      }
+    }
   }
 }

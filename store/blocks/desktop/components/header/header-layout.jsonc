@@ -1,4 +1,10 @@
 {
+  "header-layout.desktop#desktop__header": {
+    "children": [
+      "flex-layout.row#header__orderOptions"
+    ]
+  },
+
   "flex-layout.row#header__orderOptions": {
     "title": "order options after buy",
     "props": {

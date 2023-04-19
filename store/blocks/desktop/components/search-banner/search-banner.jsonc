@@ -34,9 +34,19 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "optionsTitle": "Login / sign in",
-      "iconLabel": "Login / Sign In"
+      "iconLabel": "Login / Sign In",
+      "showIconProfile": true
     }
   },
+
+  /*  "rich-text#login": {
+    "title": "login optiones text",
+    "props": {
+      "text": "Welcome User",
+      "font": "heading-2",
+      "blockClass": "home__orderOptions--text"
+    }
+  }, */
 
   "header-row#menu__search": {
     "children": [
@@ -65,8 +75,7 @@
   "logo#header__menu": {
     "title": "logo",
     "props": {
-      "url": "assets/img/logo-venex/header_logo.png",
-      "blockClass": "desktop__logo"
+      "url": "assets/img/logo-venex/header_logo.png"
     }
   },
 

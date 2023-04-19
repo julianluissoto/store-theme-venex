@@ -1,8 +1,11 @@
 {
   "header-layout.mobile#mobile__header": {
     "title": "header",
+    "props": {
+      "blockClass": "mobile__header--container"
+    },
     "children": [
-      "header-row#mobile__header1"
+      "header-layout#header__mobile--container"
     ]
   }
 }

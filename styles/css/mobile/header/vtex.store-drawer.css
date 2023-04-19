@@ -1,0 +1,7 @@
+.menuIcon {
+    color: var(--icon-color)
+}
+
+.opened {
+    background-color: #37373F;
+}
