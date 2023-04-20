@@ -22,3 +22,14 @@
     gap: 20px;
 
 }
+
+.flexRowContent--menu__desktop--container {
+    background-color: #EEEEEE;
+
+    max-height: 50rem;
+
+}
+
+.flexCol {
+    justify-content: space-around;
+}

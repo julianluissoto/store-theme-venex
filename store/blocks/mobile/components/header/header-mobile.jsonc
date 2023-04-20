@@ -21,7 +21,7 @@
       "blockClass": "mobile__header--left"
     },
     "children": [
-      "drawer#header__phone--drawer",
+      "flex-layout.row#1-mobile",
       "logo#header__menu--phone"
     ]
   },
@@ -42,61 +42,6 @@
     "props": {
       "blockClass": "logo__phone",
       "url": "assets/img/logo-venex/header_logo.png"
-    }
-  },
-
-  "drawer#header__phone--drawer": {
-    "children": [
-      "menu#header__menu"
-    ]
-  },
-  "menu#header__menu": {
-    "title": "menu header",
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#login",
-      "menu-item#pcComponents",
-      "menu-item#pc&servers"
-    ]
-  },
-
-  "menu-item#login": {
-    "children": [
-      "flex-layout.row#header__FollowOrder--container",
-      "flex-layout.col#header__orderPickup--container",
-      "flex-layout.col#header__help--container"
-    ]
-  },
-
-  "menu-item#pcComponents": {
-    "props": {
-      "id": "pcComponents",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/componentes-de-pc",
-        "noFollow": true,
-        "tagTitle": "pcComponents",
-        "text": "PCs & Components"
-      }
-    }
-  },
-
-  "menu-item#pc&servers": {
-    "props": {
-      "id": "pc&servers",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "https://www.venex.com.ar/computadoras-y-servidores",
-        "noFollow": true,
-        "tagTitle": "PCs & Servers",
-        "text": "PCs & Servers"
-      }
     }
   }
 }
