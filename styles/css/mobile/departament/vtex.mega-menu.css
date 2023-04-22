@@ -1,0 +1,14 @@
+.styledLinkText {
+    color: rgb(221, 226, 216);
+}
+
+.departmentsTitle {
+    display: none;
+
+
+}
+
+.goBackButtonText {
+    color: rgb(221, 226, 216);
+    font-weight: 600;
+}

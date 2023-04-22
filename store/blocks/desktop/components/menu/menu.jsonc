@@ -2,22 +2,16 @@
   "flex-layout.row#menu__links": {
     "title": "header menu area",
     "props": {
-      "blockClass": "menu__desktop--container",
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "blockClass": "menu__desktop--container"
     },
     "children": [
-      "flex-layout.col#menu",
-      "flex-layout.col#header__links"
-    ]
-  },
-  "flex-layout.col#menu": {
-    "title": "header menu area",
-    "props": {
-      "blockClass": "menu__categories--container"
-    },
-    "children": [
-      "flex-layout.row#header__menu--container"
+      "flex-layout.col#header__links",
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see"
     ]
   },
 
@@ -28,18 +22,7 @@
     },
 
     "children": [
-      "link#desktops",
-      "link#Laptops",
-      "link#Gpu",
-      "link#Monitors",
-      "link#Micros",
-      "link#Must-see"
-    ]
-  },
-  "flex-layout.row#header__menu--container": {
-    "title": "header phone layout",
-    "children": [
-      "vtex.menu@2.x:menu#header__menu"
+      "menu#header__menu"
     ]
   },
 
@@ -83,19 +66,19 @@
   "link#Must-see": {
     "title": "link to desktop",
     "props": {
-      "label": "Must-see",
+      "label": "Must-see!",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
   },
 
   // MENU ITEM LIST
-  "vtex.menu@2.x:menu#header__menu": {
+  "menu#header__menu": {
     "title": "menu header",
     "props": {
       "orientation": "horizontal"
     },
     "children": [
-      "menu-item#department__ALL"
+      "menu-item#department__pcComponents"
     ]
   },
   "menu-item#department__ALL": {
@@ -111,6 +94,7 @@
   "menu-item#department__pcComponents": {
     "title": "department pc components",
     "props": {
+      "blockClass": "department__pcComponents",
       "id": " department pcComponents",
       "type": "custom",
       "highlight": false,
@@ -123,11 +107,11 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__pcComponents"
+      "submenu#department__pcComponents"
     ]
   },
 
-  "submenu.accordion#department__pcComponents": {
+  "submenu#department__pcComponents": {
     "title": "pc components submenu accordion",
     "children": [
       "menu#department__pcComponents"

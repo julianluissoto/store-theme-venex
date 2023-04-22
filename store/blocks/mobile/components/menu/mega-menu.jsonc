@@ -17,13 +17,13 @@
 
   "drawer": {
     "children": [
-      "mega-menu#mobile"
+      "vtex.mega-menu@2.x:mega-menu#mobile"
     ],
     "blocks": [
       "drawer-header#my-drawer"
     ]
   },
-  "mega-menu#mobile": {
+  "vtex.mega-menu@2.x:mega-menu#mobile": {
     "props": {
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
