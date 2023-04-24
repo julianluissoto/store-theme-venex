@@ -93,10 +93,5 @@
     "blocks": [
       "product-summary"
     ]
-  },
-  "minicart.v2": {
-    "props": {
-      "variation": "drawer"
-    }
   }
 }
