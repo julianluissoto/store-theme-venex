@@ -7,7 +7,8 @@
     "children": [
       "header-row#menu__search",
       "modal-trigger#home__modal-bestSeller",
-      "modal-trigger#home__modal--welcome"
+      /* "modal-trigger#home__modal--welcome", */
+      "flex-layout.row#menu__links"
     ]
   }
 }

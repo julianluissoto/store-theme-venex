@@ -1,0 +1,274 @@
+{
+  "flex-layout.row#menu__links": {
+    "title": "header menu area",
+    "props": {
+      "blockClass": "menu__desktop--container"
+    },
+    "children": [
+      "flex-layout.col#header__links",
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see"
+    ]
+  },
+
+  "flex-layout.col#header__links": {
+    "title": "header phone layout",
+    "props": {
+      "blockClass": "links__container"
+    },
+
+    "children": [
+      "menu#header__menu"
+    ]
+  },
+
+  "link#desktops": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Desktop",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Laptops": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Laptops",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Gpu": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Gpu",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Monitors": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Monitors",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  "link#Micros": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Micros",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  "link#Must-see": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Must-see!",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  // MENU ITEM LIST
+  "menu#header__menu": {
+    "title": "menu header",
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#department__pcComponents"
+    ]
+  },
+  "menu-item#department__ALL": {
+    "title": "menu header",
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#department__pcComponents"
+    ]
+  },
+
+  "menu-item#department__pcComponents": {
+    "title": "department pc components",
+    "props": {
+      "blockClass": "department__pcComponents",
+      "id": " department pcComponents",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/componentes-de-pc",
+        "noFollow": true,
+        "tagTitle": "pcComponents",
+        "text": "PCs & Components"
+      }
+    },
+    "blocks": [
+      "submenu#department__pcComponents"
+    ]
+  },
+
+  "submenu#department__pcComponents": {
+    "title": "pc components submenu accordion",
+    "children": [
+      "menu#department__pcComponents"
+    ]
+  },
+
+  "menu#department__pcComponents": {
+    "title": "category all",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__all",
+      "menu-item#category__hardDriveDiscs",
+      "menu-item#category__solidStateDiscs",
+      "menu-item#category__ramMemories",
+      "menu-item#category__microProcesors",
+      "menu-item#category__motherboards",
+      "menu-item#category__gpu",
+      "menu-item#category__cabinet",
+      "menu-item#category__powerSupply"
+    ]
+  },
+  "menu-item#category__all": {
+    "title": "category all",
+    "props": {
+      "id": " all",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "categort all ",
+        "text": " ALL CATEGORIES"
+      }
+    }
+  },
+
+  "menu-item#category__hardDriveDiscs": {
+    "title": "category hardDrive Discs",
+    "props": {
+      "id": "hardDriveDiscs",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "categort all ",
+        "text": " HARD DRIVE DISCS"
+      }
+    }
+  },
+  "menu-item#category__solidStateDiscs": {
+    "title": "category solid state discs",
+    "props": {
+      "id": "solid state discs",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "categort all ",
+        "text": " SOLID STATE DISCS"
+      }
+    }
+  },
+  "menu-item#category__ramMemories": {
+    "title": "category ram memories",
+    "props": {
+      "id": "ram memories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "ram memories",
+        "text": "RAM MEMORIES"
+      }
+    }
+  },
+  "menu-item#category__microProcesors": {
+    "title": "category micro procesors",
+    "props": {
+      "id": "category micro procesors",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "microprocesor ",
+        "text": " MICROPROCESORS"
+      }
+    }
+  },
+  "menu-item#category__motherboards": {
+    "title": "category motherboars",
+    "props": {
+      "id": "motherboards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "motherboards",
+        "text": " MOTHERBOARDS"
+      }
+    }
+  },
+  "menu-item#category__gpu": {
+    "title": "category gpu",
+    "props": {
+      "id": "gpu",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/componentes-de-pc/placas-de-video",
+        "noFollow": true,
+        "tagTitle": "gpu",
+        "text": "GPU"
+      }
+    }
+  },
+  "menu-item#category__cabinet": {
+    "title": "category cabinet",
+    "props": {
+      "id": "cabinet",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/",
+        "noFollow": true,
+        "tagTitle": "cabinet",
+        "text": " CABINETS"
+      }
+    }
+  },
+  "menu-item#category__powerSupply": {
+    "title": "category powerSupply ",
+    "props": {
+      "id": "category powerSupply",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.venex.com.ar/componentes-de-pc/fuentes",
+        "noFollow": true,
+        "tagTitle": "category powerSupply ",
+        "text": "POWER SUPPLY"
+      }
+    }
+  }
+}

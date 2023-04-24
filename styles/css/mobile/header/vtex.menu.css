@@ -1,0 +1,20 @@
+.styledLinkContent {
+    color: var(--primary-color);
+    font-family: Montserrat;
+
+
+}
+
+.styledLinkContent--department__pcComponents {
+
+    font-weight: 600;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+
+}
+
+.submenuWrapper--isOpen {
+    background-color: #EEEEEE;
+    font-size: 14px;
+
+}

@@ -1,42 +1,46 @@
 {
-  "header-row#mobile__header1": {
-    "title": "title header mobile",
+  "header-layout#header__mobile--container": {
+    "children": [
+      "flex-layout.row#header__flex",
+      "header-row#mobile__header--middle"
+    ]
+  },
+  "flex-layout.row#header__flex": {
     "props": {
-      "blockClass": "mobile__header"
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header__mobile--container"
     },
     "children": [
-      "flex-layout.row#header__phone--container"
+      "header-row#mobile__header--left",
+
+      "header-row#mobile__header--right"
+    ]
+  },
+  "header-row#mobile__header--middle": {
+    "children": [
+      "search-bar"
     ]
   },
 
-  "flex-layout.row#header__phone--container": {
-    "title": "header layout phone container",
-    "children": [
-      "flex-layout.col#header__phone--colLeft",
-      "flex-layout.col#header__phone--colRight"
-    ],
+  "header-row#mobile__header--left": {
+    "title": "title header mobile",
     "props": {
-      "blockClass": "header__phone"
-    }
-  },
-
-  "flex-layout.col#header__phone--colLeft": {
-    "title": "header phone col right",
-    "props": {
-      "blockClass": "header__phone--colLeft"
+      "blockClass": "mobile__header--left"
     },
-
     "children": [
-      "drawer#header__phone--drawer",
+      "flex-layout.row#1-mobile",
       "logo#header__menu--phone"
     ]
   },
-
-  "flex-layout.col#header__phone--colRight": {
-    "title": "header phone col right",
+  "header-row#mobile__header--right": {
+    "title": "title header mobile",
+    "props": {
+      "blockClass": "mobile__header--right"
+    },
     "children": [
       "image#fav__icon",
-      "minicart.v2"
+      "minicart.v2",
+      "login"
     ]
   },
 
@@ -46,9 +50,5 @@
       "blockClass": "logo__phone",
       "url": "assets/img/logo-venex/header_logo.png"
     }
-  },
-
-  "drawer#header__phone--drawer": {
-    "children": []
   }
 }

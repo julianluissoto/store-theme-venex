@@ -1,4 +1,9 @@
-/* Example desktop:
 .styledLinkContainer {
     margin: 0 12px;
-} */
+
+}
+
+.styledLinkContent--department__pcComponents ::after {
+    content: "|";
+
+}

@@ -1,0 +1,11 @@
+.menuIcon {
+    color: var(--icon-color)
+}
+
+.opened {
+    background-color: #37373F;
+}
+
+.closeIcon {
+    color: rgb(248, 245, 239)
+}
