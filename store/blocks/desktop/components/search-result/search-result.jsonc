@@ -1,5 +1,6 @@
 {
   "search-result-layout.customQuery#home": {
+    "title": "search result customquery container",
     "props": {
       "querySchema": {
         "skuFilter": "ALL",
@@ -13,16 +14,19 @@
   },
 
   "search-result-layout.desktop": {
+    "title": "search result layout desktop",
     "children": [
       "rich-text#test__text"
     ]
   },
   "search-result-layout.mobile": {
+    "title": "search result layout mobile",
     "children": [
       "flex-layout.row#search__result"
     ]
   },
   "flex-layout.row#search__result": {
+    "title": "flex layout search ",
     "children": [
       "flex-layout.col#search__result"
     ]

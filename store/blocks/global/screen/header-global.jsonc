@@ -1,5 +1,8 @@
 {
   "header.full": {
+    "props": {
+      "blockClass": "header--full"
+    },
     "title": "hearder layout desktop main container",
     "blocks": [
       "header-layout.desktop#desktop__header",

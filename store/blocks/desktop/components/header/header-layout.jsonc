@@ -1,5 +1,9 @@
 {
   "header-layout.desktop#desktop__header": {
+    "title": "dektop header",
+    "props": {
+      "blockClass": "desktop__header"
+    },
     "children": [
       "flex-layout.row#header__orderOptions"
     ]
@@ -8,12 +12,11 @@
   "flex-layout.row#header__orderOptions": {
     "title": "order options after buy",
     "props": {
-      "blockClass": "header__orderOptions",
-
-      "colJustify": "around"
+      "blockClass": "header__orderOptions"
     },
     "children": [
       "flex-layout.col#header__container--left",
+
       "flex-layout.col#header__container--right"
     ]
   },

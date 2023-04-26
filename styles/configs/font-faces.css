@@ -8,6 +8,12 @@
     src: url(assets/fonts/Montserrat-Regular.ttf);
 }
 
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(assets/fonts/Montserrat-Light.ttf);
+}
+
 @font-face {
     font-family: "Rubik";
     src: url(assets/fonts/Rubik-Medium.ttf);

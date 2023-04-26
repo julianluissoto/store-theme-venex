@@ -3,7 +3,14 @@
 
 }
 
-.styledLinkContent--department__pcComponents ::after {
-    content: "|";
+.styledLinkContainer--all__categories {
+    border-right: 2px solid grey;
+
+
+}
+
+.styledLinkContent--all__categories {
+    padding-right: 5px;
+
 
 }

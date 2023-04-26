@@ -1,18 +1,21 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.stretchChildrenWidth {
+    width: 50%;
 
-.flexRowContent {
-    padding-top: 2px;
+}
+
+.flexRow--desktop__searchBar--container {
+    background-color: #37373F;
 }
 
 .flexRowContent--header__orderOptions {
     background-color: var(--primary-color);
-    height: 2rem;
-    width: 100%;
+    height: 35px
+}
 
+.flexRow--header__orderOptions {
+
+    width: auto;
+    background-color: var(--primary-color);
 }
 
 .flexColChild---header__container--right {
@@ -24,12 +27,12 @@
 .flexRowContent--header__container--rightContainer {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 15px;
 
 }
 
 .flexRowContent--menu__desktop--container {
-
+    padding: 5px;
     background-color: #EEEEEE;
     max-width: 100vw;
     max-height: 50rem;
@@ -41,4 +44,8 @@
     align-content: center;
 
 
+}
+
+.flexRow--menu__desktop--container {
+    background-color: #EEEEEE;
 }

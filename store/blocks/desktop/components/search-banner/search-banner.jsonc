@@ -1,15 +1,21 @@
 {
-  "flex-layout.row#searchBar__container": {
+  "flex-layout.row#desktop__searchBar--container": {
     "title": "search bar container",
     "props": {
-      "horizontalAlign": "around"
+      "blockClass": "desktop__searchBar--container"
     },
     "children": [
-      "flex-layout.col#searchBar__container--col",
-      "flex-layout.col#login__container--col"
+      "header-row#searchBar__container--col"
     ]
   },
-  "flex-layout.col#searchBar__container--col": {
+  "header-row#searchBar__container--col": {
+    "title": "search bar container column",
+    "props": {
+      "horizontalAlign": "around",
+      "verticalAlign": "center",
+
+      "blockClass": "searchBar__container--col"
+    },
     "children": [
       "header-row#menu__search"
     ]
@@ -38,15 +44,6 @@
       "showIconProfile": true
     }
   },
-
-  /*  "rich-text#login": {
-    "title": "login optiones text",
-    "props": {
-      "text": "Welcome User",
-      "font": "heading-2",
-      "blockClass": "home__orderOptions--text"
-    }
-  }, */
 
   "header-row#menu__search": {
     "children": [
@@ -85,7 +82,8 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "search"
+      "placeholder": "search",
+      "blockClass": "searchBar__input--container"
     }
   },
 

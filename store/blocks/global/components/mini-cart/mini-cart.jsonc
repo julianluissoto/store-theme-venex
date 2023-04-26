@@ -73,7 +73,7 @@
   },
   "flex-layout.col#empty-state": {
     "children": [
-      "icon-cart#minicart-empty-state",
+      "icon#minicart-empty-state",
       "rich-text#minicart-default-empty-state"
     ],
     "props": {
@@ -82,15 +82,18 @@
       "rowGap": 5
     }
   },
-  "icon-cart#minicart-empty-state": {
+
+  "icon#minicart-empty-state": {
     "props": {
-      "size": 64,
-      "blockClass": "minicart-empty-state"
+      "id": "cart-sad",
+      "size": 80
     }
   },
+
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Nothing on your cart, Go for it!"
+      "text": "Nothing on your cart, Make me Happy!",
+      "blockClass": "empy__cart--text"
     }
   }
 }

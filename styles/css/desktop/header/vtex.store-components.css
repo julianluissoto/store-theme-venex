@@ -1,0 +1,10 @@
+.logoContainer {
+    max-width: 280px;
+    max-height: 125px;
+    min-width: 128px;
+}
+
+.searchBarContainer {
+    width: 40rem;
+
+}
