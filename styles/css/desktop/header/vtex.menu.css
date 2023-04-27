@@ -9,8 +9,30 @@
 
 }
 
-.styledLinkContent--all__categories {
-    padding-right: 5px;
+
+.subMenuContainer {
+    background-color: beige;
+}
+
+.submenu--desktop__pcComponents {
+    width: 150px;
+}
+
+.submenuWrapper--desktop__pcComponents {
+    width: 25rem;
+    background-color: #fffefe;
+    border: 2px solid #f3eded;
+}
+
+.submenuWrapper--desktop__subcategory--hardDriveDiscs--isOpen {
+    background-color: #fffefe;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 25rem;
+    margin-top: -2rem;
+    width: 10rem;
+    border: 2px solid #bdbaba;
+    padding: 0;
 
 
 }
