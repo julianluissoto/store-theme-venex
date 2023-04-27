@@ -128,19 +128,31 @@
     ]
   },
   "flex-layout.row#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container row ",
+    "props": {
+      "blockClass": "desktop__submenuRow--container"
+    },
     "children": [
       "flex-layout.col#desktop__submenu--container"
     ]
   },
   "flex-layout.col#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container col",
+    "props": {
+      "blockClass": "desktop__submenuCol--container"
+    },
     "children": [
       "vtex.menu@2.x:menu#desktop__pcComponents"
     ]
   },
+
   "vtex.menu@2.x:menu#desktop__pcComponents": {
+    "title": "desktop  menu pc components",
     "props": {
+      "blockClass": "desktop__submenuCol--container",
       "orientation": "vertical"
     },
+
     "children": [
       "flex-layout.col#desktop_pcComponents",
       "flex-layout.col#desktop_pc&servers",
@@ -152,24 +164,49 @@
       "flex-layout.col#desktop_peripheral"
     ]
   },
+
   "flex-layout.col#desktop_pcComponents": {
+    "props": {
+      "blockClass": "category__container"
+    },
     "children": [
-      "menu-item#desktop__pcComponents"
+      "menu-item#desktop__pcComponents",
+      "icon#moreCategories"
     ]
   },
+
+  "icon#moreCategories": {
+    "props": {
+      "id": "arrow-down",
+      "size": 16
+    }
+  },
+
   "flex-layout.col#desktop_pc&servers": {
+    "props": {
+      "blockClass": "category__container"
+    },
     "children": [
-      "menu-item#desktop__pc&servers"
+      "menu-item#desktop__pc&servers",
+      "icon#moreCategories"
     ]
   },
   "flex-layout.col#desktop_notebooks": {
+    "props": {
+      "blockClass": "category__container"
+    },
     "children": [
-      "menu-item#desktop__notebooks"
+      "menu-item#desktop__notebooks",
+      "icon#moreCategories"
     ]
   },
   "flex-layout.col#desktop_peripheral": {
+    "props": {
+      "blockClass": "category__container"
+    },
     "children": [
-      "menu-item#desktop__peripheral"
+      "menu-item#desktop__peripheral",
+      "icon#moreCategories"
     ]
   },
   "menu-item#desktop__pcComponents": {
@@ -185,7 +222,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "plus_size",
-        "text": "PC COMPONENTS"
+        "text": "Pc Components"
       }
     },
     "blocks": [
@@ -195,7 +232,7 @@
   "menu-item#desktop__pc&servers": {
     "title": "Desktop pc components menu item",
     "props": {
-      "id": "desktop__pc&servers",
+      "id": "desktop__pcyservers",
       "type": "custom",
       "iconId": null,
       "highlight": false,

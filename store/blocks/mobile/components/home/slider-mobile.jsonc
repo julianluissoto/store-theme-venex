@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#mobile__slider": {
+    "title": "slider mobile",
+    "props": {
+      "blockClass": "mobile__slider"
+    },
+    "children": [
+      "slider-layout#home__slider--children"
+    ]
+  }
+}

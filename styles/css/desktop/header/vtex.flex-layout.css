@@ -9,7 +9,8 @@
 
 .flexRowContent--header__orderOptions {
     background-color: var(--primary-color);
-    height: 35px
+    height: 35px;
+    padding-top: 5px;
 }
 
 .flexRow--header__orderOptions {
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 5px;
 }
 
 .flexRowContent--header__container--rightContainer {
@@ -50,3 +52,16 @@
 .flexRow--menu__desktop--container {
     background-color: #EEEEEE;
 }
+
+.flexCol--category__container {
+
+    justify-content: space-between;
+}
+
+.flexColChild--category__container {
+    width: 230px;
+}
+
+/* .flexCol--esktop__subcategory--hardDriveDiscs {
+    justify-content: flex-start;
+} */

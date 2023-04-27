@@ -12,8 +12,7 @@
   "flex-layout.col#desktop__subcategory--hardDriveDiscs": {
     "title": "hardDriveDiscs subcategory container",
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "blockClass": "desktop__subcategory--hardDriveDiscs"
     },
     "children": [
       "flex-layout.row#submenu__container--hardDriveDiscs"

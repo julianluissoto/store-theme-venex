@@ -4,12 +4,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 1,
-        "tablet": 1,
+        "tablet": 2,
         "mobile": 1
       },
       "fullWidth": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "desktopOnly",
+      "showPaginationDots": "always",
       "infinite": true,
       "blockClass": "home__slider",
       "autoplay": {

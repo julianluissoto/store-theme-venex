@@ -8,7 +8,7 @@
       }
     },
     "blocks": [
-      //"search-result-layout.desktop",
+      "search-result-layout.desktop",
       "search-result-layout.mobile"
     ]
   },
@@ -16,9 +16,10 @@
   "search-result-layout.desktop": {
     "title": "search result layout desktop",
     "children": [
-      "rich-text#test__text"
+      "flex-layout.row#search__result"
     ]
   },
+
   "search-result-layout.mobile": {
     "title": "search result layout mobile",
     "children": [
@@ -55,10 +56,14 @@
 
   "gallery": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#desktop__shelf"
     ]
   },
-  "product-summary.shelf": {
+  "product-summary.shelf#desktop__shelf": {
+    "props": {
+      "blockClass": "desktop__shelf"
+    },
+    "title": "summary shelf",
     "children": [
       "product-summary-image",
       "product-summary-name",

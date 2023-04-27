@@ -28,11 +28,23 @@
     background-color: #fffefe;
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 25rem;
+    margin-left: 24.5rem;
     margin-top: -2rem;
-    width: 10rem;
+    width: 20rem;
     border: 2px solid #bdbaba;
     padding: 0;
 
+}
 
+.submenu--desktop__pcComponents {
+    width: 190px;
+    margin-left: 150px;
+}
+
+.styledLinkContent {
+    font-family: Montserrat-Regular;
+}
+
+.styledLinkContainer :hover {
+    background-color: #EEEEEE;
 }
