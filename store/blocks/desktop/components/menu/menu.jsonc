@@ -2,6 +2,7 @@
   "link#desktops": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Desktop",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -16,6 +17,7 @@
   "link#Gpu": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Gpu",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -23,6 +25,7 @@
   "link#Monitors": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Monitors",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -31,6 +34,7 @@
   "link#Micros": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Micros",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -39,6 +43,7 @@
   "link#Must-see": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Must-see!",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }

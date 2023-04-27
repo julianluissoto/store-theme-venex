@@ -6,7 +6,8 @@
       "responsive-layout.tablet#home__tablet--venex",
       "responsive-layout.phone#home__phone--venex",
       "responsive-layout.mobile#phone__and__tablet",
-      "search-result-layout.customQuery#home"
+      "search-result-layout.customQuery#home",
+      "slider-layout#home__slider--children"
     ]
   }
 }
