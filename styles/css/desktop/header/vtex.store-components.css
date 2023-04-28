@@ -1,0 +1,13 @@
+.logoContainer {
+    max-width: 280px;
+    max-height: 125px;
+    min-width: 128px;
+}
+
+
+
+.imageElement--home__slider--image {
+    width: 100%;
+    padding-top: 0;
+    margin-top: -5px;
+}

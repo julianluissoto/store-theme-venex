@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 300;
+    line-height: 21px;
+    font-family: Montserrat-Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

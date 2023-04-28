@@ -1,0 +1,30 @@
+.paginationDot {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #FFFFFF;
+    border: 0.5px solid #a09999
+}
+
+.paginationDot--isActive {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #c2b9b9;
+    border: 0.5px solid;
+}
+
+.paginationDotsContainer--home__slider {
+    transform: translateY(-12px);
+
+}
+
+.slideChildrenContainer--home__slider {
+    width: 100%;
+}
+
+.sliderLeftArrow {
+    fill: azure;
+}
+
+.sliderRightArrow {
+    fill: azure;
+}

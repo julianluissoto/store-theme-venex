@@ -1,0 +1,292 @@
+{
+  "link#desktops": {
+    "title": "link to desktop",
+    "props": {
+      "blockClass": "menu__links",
+      "label": "Desktop",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Laptops": {
+    "title": "link to desktop",
+    "props": {
+      "label": "Laptops",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Gpu": {
+    "title": "link to desktop",
+    "props": {
+      "blockClass": "menu__links",
+      "label": "Gpu",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "link#Monitors": {
+    "title": "link to desktop",
+    "props": {
+      "blockClass": "menu__links",
+      "label": "Monitors",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  "link#Micros": {
+    "title": "link to desktop",
+    "props": {
+      "blockClass": "menu__links",
+      "label": "Micros",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  "link#Must-see": {
+    "title": "link to desktop",
+    "props": {
+      "blockClass": "menu__links",
+      "label": "Must-see!",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+  "flex-layout.row#menu__links": {
+    "title": "header menu area",
+    "props": {
+      "blockClass": "menu__desktop--container"
+    },
+    "children": [
+      "flex-layout.col#header__menu",
+
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see"
+    ]
+  },
+
+  "flex-layout.col#header__menu": {
+    "title": "header phone layout",
+    "props": {
+      "blockClass": ""
+    },
+
+    "children": [
+      "vtex.menu@2.x:menu#desktop__menu--header"
+    ]
+  },
+
+  // MENU ITEM LIST
+  "vtex.menu@2.x:menu#desktop__menu--header": {
+    "title": "menu header main section Desktop",
+    "props": {
+      "blockClass": "desktop__menu--header"
+    },
+    "children": [
+      "menu-item#allCategories"
+    ]
+  },
+
+  //all categories menu
+  "menu-item#allCategories": {
+    "title": "all Categories",
+
+    "props": {
+      "blockClass": "all__categories",
+      "id": " all-categories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "categories",
+        "text": "CATEGORIES",
+        "font": "t-heading-2",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "arrow-down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__category--pcComponents"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop__category--pcComponents": {
+    "title": "desktop category pcComponents",
+    "props": {
+      "blockClass": "desktop__pcComponents"
+    },
+
+    "children": [
+      "flex-layout.row#desktop__submenu--container"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container row ",
+    "props": {
+      "blockClass": "desktop__submenuRow--container"
+    },
+    "children": [
+      "flex-layout.col#desktop__submenu--container"
+    ]
+  },
+  "flex-layout.col#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container col",
+    "props": {
+      "blockClass": "desktop__submenuCol--container"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop__pcComponents"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__pcComponents": {
+    "title": "desktop  menu pc components",
+    "props": {
+      "blockClass": "desktop__submenuCol--container",
+      "orientation": "vertical"
+    },
+
+    "children": [
+      "flex-layout.col#desktop_pcComponents",
+      "flex-layout.col#desktop_pc&servers",
+      "flex-layout.col#desktop_notebooks",
+      "flex-layout.col#desktop_peripheral",
+      "flex-layout.col#desktop_pcComponents",
+      "flex-layout.col#desktop_pc&servers",
+      "flex-layout.col#desktop_notebooks",
+      "flex-layout.col#desktop_peripheral"
+    ]
+  },
+
+  "flex-layout.col#desktop_pcComponents": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__pcComponents",
+      "icon#moreCategories"
+    ]
+  },
+
+  "icon#moreCategories": {
+    "props": {
+      "id": "arrow-down",
+      "size": 16
+    }
+  },
+
+  "flex-layout.col#desktop_pc&servers": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__pc&servers",
+      "icon#moreCategories"
+    ]
+  },
+  "flex-layout.col#desktop_notebooks": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__notebooks",
+      "icon#moreCategories"
+    ]
+  },
+  "flex-layout.col#desktop_peripheral": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__peripheral",
+      "icon#moreCategories"
+    ]
+  },
+  "menu-item#desktop__pcComponents": {
+    "title": "Desktop pc components menu item",
+    "props": {
+      "id": "menu-item-pc-components",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "desktop__pcComponents",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "plus_size",
+        "text": "Pc Components"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
+  },
+  "menu-item#desktop__pc&servers": {
+    "title": "Desktop pc components menu item",
+    "props": {
+      "id": "desktop__pcyservers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "desktop__pc&servers",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Pc & Servers",
+        "text": "Pc & Servers"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
+  },
+  "menu-item#desktop__notebooks": {
+    "title": "Desktop notebooks menu item",
+    "props": {
+      "id": "notebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "notebooks",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "notebooks",
+        "text": "Notebooks"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
+  },
+  "menu-item#desktop__peripheral": {
+    "title": "Desktop peripheral menu item",
+    "props": {
+      "id": "peripheral",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "peripheral",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "peripheral",
+        "text": "Peripheral"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "modal-trigger#home__modal-bestSeller": {
+    "title": "best seller product",
+    "children": [
+      "modal-layout#home__modal--layout-autoLoad"
+    ],
+    "props": {
+      "trigger": "event",
+      "customPixelEventName": "pageView"
+    }
+  },
+  "modal-layout#home__modal--layout-autoLoad": {
+    "title": "modal layout container",
+
+    "children": [
+      "modal-header#modal__header--text--autoLoad",
+      "modal-content#modal__content--text-autoLoad"
+    ]
+  },
+
+  "modal-header#modal__header--text--autoLoad": {
+    "title": "modal header ",
+    "children": [
+      "rich-text#modal-content-autoload"
+    ]
+  },
+  "rich-text#modal-content-autoload": {
+    "title": "modal header text",
+    "props": {
+      "text": "Hello, welcome to Venex Hardware, this is our Best seller"
+    }
+  },
+  "modal-content#modal__content--text-autoLoad": {
+    "title": "modal head er content",
+    "children": [
+      "image#modal__content--image-autoload",
+      "link#link__modal--buy-autoload"
+    ]
+  },
+
+  "image#modal__content--image-autoload": {
+    "props": {
+      "src": "assets/img/modal-img/best seller.jpg",
+      "maxHeight": 300
+    }
+  },
+  "link#link__modal--buy-autoload": {
+    "title": "modal link text",
+    "props": {
+      "label": "i want it",
+      "href": "https://www.venex.com.ar/componentes-de-pc/discos-solidos-ssd/disco-duro-ssd-240gb-kingston-a400-sata-iii-25.html"
+    }
+  }
+}

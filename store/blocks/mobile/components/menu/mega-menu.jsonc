@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#megamenu__mobile": {
+    "title": "mega menu container",
+    "children": [
+      "flex-layout.col#megamenu"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#megamenu": {
+    "children": [
+      "drawer"
+    ]
+  },
+
+  "drawer": {
+    "children": [
+      "login",
+      "flex-layout.row#header__FollowOrder--container",
+      "flex-layout.row#help__Options--container",
+      "flex-layout.row#pickupOrder__orderOptions--container",
+      "rich-text#buildYourPc",
+      "vtex.mega-menu@2.x:mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+
+  "rich-text#buildYourPc": {
+    "title": "build your pc menu text",
+    "props": {
+      "blockClass": "buildPc__text",
+      "text": "Build Your PC",
+      "font": "heading-2",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
+  "vtex.mega-menu@2.x:mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.row#drawer-header"
+    ]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}

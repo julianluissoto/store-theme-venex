@@ -1,0 +1,22 @@
+.headerStickyRow--searchBar__container {
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+.headerRowContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.headerRowBackground {
+    background-color: #37373F;
+}
+
+.headerRowContainer--searchBar__container {
+
+    background-color: #37373F;
+
+    height: 84px;
+    display: flex;
+    justify-content: center;
+}

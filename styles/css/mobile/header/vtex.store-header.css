@@ -1,0 +1,18 @@
+/* .container {
+    height: 20rem;
+}
+ */
+.headerRowContentContainer {
+    background-color: #37373F;
+
+}
+
+.headerRowContainer--mobile__header--right {
+
+    justify-content: flex-end;
+}
+
+.headerRowContainer--mobile__header--left {
+    max-height: 4rem;
+    justify-content: flex-start;
+}

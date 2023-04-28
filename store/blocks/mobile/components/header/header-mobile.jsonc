@@ -1,0 +1,69 @@
+{
+  "header-layout#header__mobile--container": {
+    "children": [
+      "flex-layout.row#header__flex"
+    ]
+  },
+  "flex-layout.row#header__flex": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header__mobile--container"
+    },
+    "children": [
+      "header-row#mobile__header--left",
+
+      "header-row#mobile__header--right"
+    ]
+  },
+  "search-bar#searchBar__mobile": {},
+
+  "drawer#search-bar": {
+    "children": [
+      "search-bar"
+    ],
+    "blocks": [
+      "drawer-trigger"
+    ]
+  },
+  "drawer-trigger": {
+    "children": [
+      "icon#open-drawer"
+    ]
+  },
+  "icon#open-drawer": {
+    "props": {
+      "id": "search",
+      "size": 24
+    }
+  },
+
+  "header-row#mobile__header--left": {
+    "title": "title header mobile",
+    "props": {
+      "blockClass": "mobile__header--left"
+    },
+    "children": [
+      "flex-layout.row#megamenu__mobile",
+      "logo#header__menu--phone"
+    ]
+  },
+  "header-row#mobile__header--right": {
+    "title": "title header mobile",
+    "props": {
+      "blockClass": "mobile__header--right"
+    },
+    "children": [
+      "drawer#search-bar",
+      "image#fav__icon",
+      "minicart.v2"
+    ]
+  },
+
+  "logo#header__menu--phone": {
+    "title": "logo phone",
+    "props": {
+      "blockClass": "logo__phone",
+      "url": "assets/img/logo-venex/header_logo.png"
+    }
+  }
+}

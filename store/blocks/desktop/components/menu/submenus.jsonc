@@ -1,0 +1,76 @@
+{
+  "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs": {
+    "title": "hardDriveDiscs subcategory",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__subcategory--hardDriveDiscs"
+    },
+    "children": [
+      "flex-layout.col#desktop__subcategory--hardDriveDiscs"
+    ]
+  },
+  "flex-layout.col#desktop__subcategory--hardDriveDiscs": {
+    "title": "hardDriveDiscs subcategory container",
+    "props": {
+      "blockClass": "desktop__subcategory--hardDriveDiscs"
+    },
+    "children": [
+      "flex-layout.row#submenu__container--hardDriveDiscs"
+    ]
+  },
+  "flex-layout.row#submenu__container--hardDriveDiscs": {
+    "title": "Vertical menu container hardDriveDiscs",
+    "children": [
+      "vtex.menu@2.x:menu#desktop__department--hdd-subcategory"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop__department--hdd-subcategory": {
+    "title": "Subcategory departments section women",
+    "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "blockClass": "desktop__department--pcComponents-subcategories"
+    },
+    "children": [
+      "menu-item#desktop__subcategory--ssd",
+      "menu-item#desktop__subcategory--hdd",
+      "menu-item#desktop__subcategory--ssd",
+      "menu-item#desktop__subcategory--hdd",
+      "menu-item#desktop__subcategory--ssd",
+      "menu-item#desktop__subcategory--hdd"
+    ]
+  },
+  "menu-item#desktop__subcategory--hdd": {
+    "title": "Desktop dresses subcategory",
+    "props": {
+      "id": "menu-item-dresses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__menu--subcategory-hdd",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "hdd",
+        "text": "Hard Drive Discs"
+      }
+    }
+  },
+  "menu-item#desktop__subcategory--ssd": {
+    "title": "Desktop ssd subcategory",
+    "props": {
+      "id": "menu-item-ssd",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "header__menu--subcategory-ssd",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ssd",
+        "text": "Solid State Discs"
+      }
+    }
+  }
+}

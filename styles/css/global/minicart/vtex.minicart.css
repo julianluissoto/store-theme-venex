@@ -1,0 +1,23 @@
+/* Example desktop:
+.minicartTitle {
+    display: none;
+} */
+.minicartContentContainer {
+    background-color: rgb(185, 189, 186);
+}
+
+.minicartQuantityBadgeDefault {
+    background-color: #D4D512;
+    border-radius: 1rem;
+    height: 0.5rem;
+
+}
+
+.minicartTitle {
+    text-align: center;
+    color: rgb(78, 74, 74);
+}
+
+.closeIcon {
+    color: rgb(185, 14, 14);
+}

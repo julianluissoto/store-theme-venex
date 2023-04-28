@@ -1,0 +1,18 @@
+.styledLinkContent--all__categories {
+    color: var(--primary-color);
+    font-family: Montserrat;
+
+
+}
+
+.styledLinkContent--department__pcComponents {
+
+    font-weight: 600;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+
+}
+
+.menuContainer--desktop__submenuCol--container {
+    justify-content: center;
+}
