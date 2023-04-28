@@ -1,3 +1,8 @@
-.paragraph{
+.paragraph {
     margin: 0px;
+}
+
+.paragraph--empy__cart--text {
+    font-weight: 600;
+    font-family: Montserrat;
 }

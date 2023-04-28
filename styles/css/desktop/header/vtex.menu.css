@@ -3,7 +3,48 @@
 
 }
 
-.styledLinkContent--department__pcComponents ::after {
-    content: "|";
+.styledLinkContainer--all__categories {
+    border-right: 2px solid grey;
 
+
+}
+
+
+.subMenuContainer {
+    background-color: beige;
+}
+
+.submenu--desktop__pcComponents {
+    width: 150px;
+}
+
+.submenuWrapper--desktop__pcComponents {
+    width: 25rem;
+    background-color: #fffefe;
+    border: 2px solid #f3eded;
+}
+
+.submenuWrapper--desktop__subcategory--hardDriveDiscs--isOpen {
+    background-color: #fffefe;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 24.5rem;
+    margin-top: -2rem;
+    width: 20rem;
+    border: 2px solid #bdbaba;
+    padding: 0;
+
+}
+
+.submenu--desktop__pcComponents {
+    width: 190px;
+    margin-left: 150px;
+}
+
+.styledLinkContent {
+    font-family: Montserrat-Regular;
+}
+
+.styledLinkContainer :hover {
+    background-color: #EEEEEE;
 }

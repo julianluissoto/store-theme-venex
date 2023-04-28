@@ -1,4 +1,4 @@
-.styledLinkContent {
+.styledLinkContent--all__categories {
     color: var(--primary-color);
     font-family: Montserrat;
 
@@ -13,8 +13,6 @@
 
 }
 
-.submenuWrapper--isOpen {
-    background-color: #EEEEEE;
-    font-size: 14px;
-
+.menuContainer--desktop__submenuCol--container {
+    justify-content: center;
 }

@@ -1,34 +1,8 @@
 {
-  "flex-layout.row#menu__links": {
-    "title": "header menu area",
-    "props": {
-      "blockClass": "menu__desktop--container"
-    },
-    "children": [
-      "flex-layout.col#header__links",
-      "link#desktops",
-      "link#Laptops",
-      "link#Gpu",
-      "link#Monitors",
-      "link#Micros",
-      "link#Must-see"
-    ]
-  },
-
-  "flex-layout.col#header__links": {
-    "title": "header phone layout",
-    "props": {
-      "blockClass": "links__container"
-    },
-
-    "children": [
-      "menu#header__menu"
-    ]
-  },
-
   "link#desktops": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Desktop",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -43,6 +17,7 @@
   "link#Gpu": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Gpu",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -50,6 +25,7 @@
   "link#Monitors": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Monitors",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -58,6 +34,7 @@
   "link#Micros": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Micros",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
@@ -66,209 +43,250 @@
   "link#Must-see": {
     "title": "link to desktop",
     "props": {
+      "blockClass": "menu__links",
       "label": "Must-see!",
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
   },
+  "flex-layout.row#menu__links": {
+    "title": "header menu area",
+    "props": {
+      "blockClass": "menu__desktop--container"
+    },
+    "children": [
+      "flex-layout.col#header__menu",
+
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see"
+    ]
+  },
+
+  "flex-layout.col#header__menu": {
+    "title": "header phone layout",
+    "props": {
+      "blockClass": ""
+    },
+
+    "children": [
+      "vtex.menu@2.x:menu#desktop__menu--header"
+    ]
+  },
 
   // MENU ITEM LIST
-  "menu#header__menu": {
-    "title": "menu header",
+  "vtex.menu@2.x:menu#desktop__menu--header": {
+    "title": "menu header main section Desktop",
     "props": {
-      "orientation": "horizontal"
+      "blockClass": "desktop__menu--header"
     },
     "children": [
-      "menu-item#department__pcComponents"
-    ]
-  },
-  "menu-item#department__ALL": {
-    "title": "menu header",
-    "props": {
-      "orientation": "horizontal"
-    },
-    "children": [
-      "menu-item#department__pcComponents"
+      "menu-item#allCategories"
     ]
   },
 
-  "menu-item#department__pcComponents": {
-    "title": "department pc components",
+  //all categories menu
+  "menu-item#allCategories": {
+    "title": "all Categories",
+
     "props": {
-      "blockClass": "department__pcComponents",
-      "id": " department pcComponents",
+      "blockClass": "all__categories",
+      "id": " all-categories",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://www.venex.com.ar/componentes-de-pc",
         "noFollow": true,
-        "tagTitle": "pcComponents",
-        "text": "PCs & Components"
+        "tagTitle": "categories",
+        "text": "CATEGORIES",
+        "font": "t-heading-2",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "arrow-down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__category--pcComponents"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop__category--pcComponents": {
+    "title": "desktop category pcComponents",
+    "props": {
+      "blockClass": "desktop__pcComponents"
+    },
+
+    "children": [
+      "flex-layout.row#desktop__submenu--container"
+    ]
+  },
+  "flex-layout.row#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container row ",
+    "props": {
+      "blockClass": "desktop__submenuRow--container"
+    },
+    "children": [
+      "flex-layout.col#desktop__submenu--container"
+    ]
+  },
+  "flex-layout.col#desktop__submenu--container": {
+    "title": "desktop pc components  submenu container col",
+    "props": {
+      "blockClass": "desktop__submenuCol--container"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop__pcComponents"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#desktop__pcComponents": {
+    "title": "desktop  menu pc components",
+    "props": {
+      "blockClass": "desktop__submenuCol--container",
+      "orientation": "vertical"
+    },
+
+    "children": [
+      "flex-layout.col#desktop_pcComponents",
+      "flex-layout.col#desktop_pc&servers",
+      "flex-layout.col#desktop_notebooks",
+      "flex-layout.col#desktop_peripheral",
+      "flex-layout.col#desktop_pcComponents",
+      "flex-layout.col#desktop_pc&servers",
+      "flex-layout.col#desktop_notebooks",
+      "flex-layout.col#desktop_peripheral"
+    ]
+  },
+
+  "flex-layout.col#desktop_pcComponents": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__pcComponents",
+      "icon#moreCategories"
+    ]
+  },
+
+  "icon#moreCategories": {
+    "props": {
+      "id": "arrow-down",
+      "size": 16
+    }
+  },
+
+  "flex-layout.col#desktop_pc&servers": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__pc&servers",
+      "icon#moreCategories"
+    ]
+  },
+  "flex-layout.col#desktop_notebooks": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__notebooks",
+      "icon#moreCategories"
+    ]
+  },
+  "flex-layout.col#desktop_peripheral": {
+    "props": {
+      "blockClass": "category__container"
+    },
+    "children": [
+      "menu-item#desktop__peripheral",
+      "icon#moreCategories"
+    ]
+  },
+  "menu-item#desktop__pcComponents": {
+    "title": "Desktop pc components menu item",
+    "props": {
+      "id": "menu-item-pc-components",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "desktop__pcComponents",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "plus_size",
+        "text": "Pc Components"
       }
     },
     "blocks": [
-      "submenu#department__pcComponents"
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
     ]
   },
-
-  "submenu#department__pcComponents": {
-    "title": "pc components submenu accordion",
-    "children": [
-      "menu#department__pcComponents"
-    ]
-  },
-
-  "menu#department__pcComponents": {
-    "title": "category all",
+  "menu-item#desktop__pc&servers": {
+    "title": "Desktop pc components menu item",
     "props": {
-      "orientation": "vertical"
+      "id": "desktop__pcyservers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "desktop__pc&servers",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Pc & Servers",
+        "text": "Pc & Servers"
+      }
     },
-    "children": [
-      "menu-item#category__all",
-      "menu-item#category__hardDriveDiscs",
-      "menu-item#category__solidStateDiscs",
-      "menu-item#category__ramMemories",
-      "menu-item#category__microProcesors",
-      "menu-item#category__motherboards",
-      "menu-item#category__gpu",
-      "menu-item#category__cabinet",
-      "menu-item#category__powerSupply"
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
     ]
   },
-  "menu-item#category__all": {
-    "title": "category all",
+  "menu-item#desktop__notebooks": {
+    "title": "Desktop notebooks menu item",
     "props": {
-      "id": " all",
+      "id": "notebooks",
       "type": "custom",
+      "iconId": null,
       "highlight": false,
+      "blockClass": "notebooks",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
+        "type": "internal",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "categort all ",
-        "text": " ALL CATEGORIES"
+        "tagTitle": "notebooks",
+        "text": "Notebooks"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
   },
-
-  "menu-item#category__hardDriveDiscs": {
-    "title": "category hardDrive Discs",
+  "menu-item#desktop__peripheral": {
+    "title": "Desktop peripheral menu item",
     "props": {
-      "id": "hardDriveDiscs",
+      "id": "peripheral",
       "type": "custom",
+      "iconId": null,
       "highlight": false,
+      "blockClass": "peripheral",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
+        "type": "internal",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "categort all ",
-        "text": " HARD DRIVE DISCS"
+        "tagTitle": "peripheral",
+        "text": "Peripheral"
       }
-    }
-  },
-  "menu-item#category__solidStateDiscs": {
-    "title": "category solid state discs",
-    "props": {
-      "id": "solid state discs",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
-        "noFollow": true,
-        "tagTitle": "categort all ",
-        "text": " SOLID STATE DISCS"
-      }
-    }
-  },
-  "menu-item#category__ramMemories": {
-    "title": "category ram memories",
-    "props": {
-      "id": "ram memories",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
-        "noFollow": true,
-        "tagTitle": "ram memories",
-        "text": "RAM MEMORIES"
-      }
-    }
-  },
-  "menu-item#category__microProcesors": {
-    "title": "category micro procesors",
-    "props": {
-      "id": "category micro procesors",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
-        "noFollow": true,
-        "tagTitle": "microprocesor ",
-        "text": " MICROPROCESORS"
-      }
-    }
-  },
-  "menu-item#category__motherboards": {
-    "title": "category motherboars",
-    "props": {
-      "id": "motherboards",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
-        "noFollow": true,
-        "tagTitle": "motherboards",
-        "text": " MOTHERBOARDS"
-      }
-    }
-  },
-  "menu-item#category__gpu": {
-    "title": "category gpu",
-    "props": {
-      "id": "gpu",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/componentes-de-pc/placas-de-video",
-        "noFollow": true,
-        "tagTitle": "gpu",
-        "text": "GPU"
-      }
-    }
-  },
-  "menu-item#category__cabinet": {
-    "title": "category cabinet",
-    "props": {
-      "id": "cabinet",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/",
-        "noFollow": true,
-        "tagTitle": "cabinet",
-        "text": " CABINETS"
-      }
-    }
-  },
-  "menu-item#category__powerSupply": {
-    "title": "category powerSupply ",
-    "props": {
-      "id": "category powerSupply",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.venex.com.ar/componentes-de-pc/fuentes",
-        "noFollow": true,
-        "tagTitle": "category powerSupply ",
-        "text": "POWER SUPPLY"
-      }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__subcategory--hardDriveDiscs"
+    ]
   }
 }

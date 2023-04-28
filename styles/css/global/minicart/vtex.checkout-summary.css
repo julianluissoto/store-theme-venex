@@ -1,0 +1,15 @@
+.summaryItemContainer {
+    flex-direction: column;
+}
+
+.summaryItemLabel {
+    font-weight: 600;
+    color: black;
+    font-family: Montserrat;
+}
+
+.price {
+    font-weight: 600;
+    color: black;
+    font-family: monospace;
+}

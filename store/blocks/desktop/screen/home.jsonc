@@ -5,10 +5,13 @@
       "blockClass": "home container"
     },
     "children": [
-      "header-row#menu__search",
-      "modal-trigger#home__modal-bestSeller",
+      "flex-layout.row#desktop__searchBar--container",
+      "flex-layout.row#menu__links",
+      "slider-layout#home__slider--children",
+      "search-result-layout.customQuery#home",
+      //"modal-trigger#home__modal-bestSeller",
       /* "modal-trigger#home__modal--welcome", */
-      "flex-layout.row#menu__links"
+      "footer#desktop"
     ]
   }
 }

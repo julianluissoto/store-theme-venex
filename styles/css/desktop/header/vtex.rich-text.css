@@ -2,5 +2,9 @@
      color: azure;
      font-family: Montserrat-Regular;
      width: 11rem;
-     text-align: center;
+     /* text-align: center; */
+ }
+
+ .paragraph--buildPc__text {
+     margin-left: 2rem;
  }

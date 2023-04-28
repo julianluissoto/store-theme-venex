@@ -1,15 +1,12 @@
 {
-  // ...
-  "flex-layout.row#1-mobile": {
+  "flex-layout.row#megamenu__mobile": {
+    "title": "mega menu container",
     "children": [
-      "flex-layout.col#1-mobile"
-      // ...
+      "flex-layout.col#megamenu"
     ],
-    "props": {
-      // ...
-    }
+    "props": {}
   },
-  "flex-layout.col#1-mobile": {
+  "flex-layout.col#megamenu": {
     "children": [
       "drawer"
     ]
@@ -17,12 +14,28 @@
 
   "drawer": {
     "children": [
+      "login",
+      "flex-layout.row#header__FollowOrder--container",
+      "flex-layout.row#help__Options--container",
+      "flex-layout.row#pickupOrder__orderOptions--container",
+      "rich-text#buildYourPc",
       "vtex.mega-menu@2.x:mega-menu#mobile"
     ],
     "blocks": [
       "drawer-header#my-drawer"
     ]
   },
+
+  "rich-text#buildYourPc": {
+    "title": "build your pc menu text",
+    "props": {
+      "blockClass": "buildPc__text",
+      "text": "Build Your PC",
+      "font": "heading-2",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
   "vtex.mega-menu@2.x:mega-menu#mobile": {
     "props": {
       "defaultDepartmentActive": "...",

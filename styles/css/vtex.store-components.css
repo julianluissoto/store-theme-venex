@@ -3,13 +3,6 @@
 }
 
 .searchBarContainer {
-    width: 30rem;
+    width: 40rem;
 
-}
-
-.logoImage {
-    position: relative;
-    max-width: 15rem;
-    max-height: 10rem;
-    bottom: 15px;
 }
