@@ -25,10 +25,22 @@
 }
 
 .productName {
-    color: white;
+    color: rgb(65, 62, 62);
 }
 
-.removeButton {
-    background-color: cornsilk;
-    border-radius: 2px;
+
+.removeButtonContainer {
+    text-align: center;
+}
+
+.productListUnavailableItemsMessage {
+    color: gray
+}
+
+.deleteIcon {
+    color: red;
+}
+
+.price--minicart__price {
+    text-align: center;
 }

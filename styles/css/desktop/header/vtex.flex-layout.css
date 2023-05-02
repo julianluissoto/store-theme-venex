@@ -40,6 +40,8 @@
     max-height: 50rem;
     justify-content: center;
     padding: 0;
+    height: 55px;
+
 }
 
 .flexCol--links__container {
@@ -61,6 +63,14 @@
 .flexColChild--category__container {
     width: 230px;
 }
+
+.flexRowContent--footer__desktop--container {
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+
 
 /* .flexCol--esktop__subcategory--hardDriveDiscs {
     justify-content: flex-start;

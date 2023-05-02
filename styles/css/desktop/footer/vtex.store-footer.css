@@ -2,3 +2,16 @@
 .flexCol--footer__main--column2{
     padding-bottom: 80px;
 } */
+.footerLayout {
+    background-color: #2D2D33;
+
+}
+
+.poweredBy {
+    display: none;
+}
+
+.socialNetworkImage {
+    height: 30px;
+
+}

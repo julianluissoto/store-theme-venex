@@ -1,0 +1,89 @@
+{
+  "product-list#global": {
+    "props": {
+      "blockClass": "productList__global"
+    },
+    "blocks": [
+      "product-list-content-desktop#global"
+    ]
+  },
+
+  //////--------------///////////
+
+  "product-list-content-desktop#global": {
+    "props": {
+      "blockClass": "productlist__container-global"
+    },
+    "title": "product list global main container",
+    "children": [
+      "flex-layout.row#productlist__mainContainer-global"
+    ]
+  },
+  "flex-layout.row#productlist__mainContainer-global": {
+    "title": "flex left row product List Container global",
+    "children": [
+      "flex-layout.col#miniCartimage--container",
+      //"flex-layout.col#productInfo--container",
+      "flex-layout.col#product__quantity--descriptionRemove"
+    ],
+    "props": {
+      "blockClass": "productlist__mainContainer-global"
+    }
+  },
+  "flex-layout.col#miniCartimage--container": {
+    "title": "mini cart image container",
+    "props": {
+      "blockClass": "miniCartimage--container-global"
+    },
+    "children": [
+      "product-list-image",
+      "price#minicart--price"
+    ]
+  },
+  "price#minicart--price": {
+    "title": "mini cart item unit price",
+    "props": {
+      "blockClass": "minicart__price",
+      "textAlign": "left"
+    }
+  },
+
+  "flex-layout.col#product__quantity--descriptionRemove": {
+    "title": "product quantity container",
+    "props": {
+      "blockClass": "product__quantity--descriptionRemove"
+    },
+    "children": [
+      "flex-layout.row#product__quanty-remove",
+      "flex-layout.row#product__description"
+    ]
+  },
+
+  "flex-layout.row#product__quanty-remove": {
+    "title": "quantity and remove container",
+    "props": {
+      "blockClass": "product__quanty-remove"
+    },
+    "children": [
+      "quantity-selector#global",
+      "remove-button"
+    ]
+  },
+  "flex-layout.row#product__description": {
+    "title": "product description",
+    "props": {
+      "blockClass": "product__description"
+    },
+    "children": [
+      "vtex.product-list:product-name"
+    ]
+  },
+
+  "quantity-selector#global": {
+    "title": "quantity selector",
+
+    "props": {
+      "mode": "default"
+    }
+  }
+}

@@ -48,6 +48,17 @@
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
   },
+  "link#builsYourPc": {
+    "title": "link to Build Your pc",
+    "props": {
+      "blockClass": [
+        "menu__links",
+        "builsYourPc"
+      ],
+      "label": "Build Your PC",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
   "flex-layout.row#menu__links": {
     "title": "header menu area",
     "props": {
@@ -61,7 +72,8 @@
       "link#Gpu",
       "link#Monitors",
       "link#Micros",
-      "link#Must-see"
+      "link#Must-see",
+      "link#builsYourPc"
     ]
   },
 

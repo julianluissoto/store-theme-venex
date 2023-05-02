@@ -5,7 +5,7 @@
 
 .styledLinkContainer--all__categories {
     border-right: 2px solid grey;
-
+    padding-right: 1rem;
 
 }
 
@@ -35,6 +35,7 @@
     padding: 0;
 
 }
+
 
 .submenu--desktop__pcComponents {
     width: 190px;

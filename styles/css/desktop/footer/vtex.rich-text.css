@@ -1,0 +1,71 @@
+.paragraph--customerServices__text {
+    color: #91c612;
+    font-weight: 400;
+    font-family: Montserrat;
+
+}
+
+.paragraph--customerService__title-1 {
+    color: #91C616;
+    font-weight: 600;
+    font-family: Montserrat-Regular;
+    font-size: 0.9rem;
+}
+
+.paragraph--customerService__title-2 {
+    color: #fff;
+    font-weight: 600;
+    font-family: Montserrat-Regular;
+    font-size: 0.9rem;
+
+}
+
+.paragraph--customerService__title-3 {
+    font-family: Montserrat-Medium;
+    color: #fff;
+    font-size: 0.9rem;
+
+
+}
+
+.container--contactInfo__text {
+    justify-content: flex-start;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Montserrat-Regular;
+    text-align: left;
+
+}
+
+.container--customerService__title-1 {
+    justify-content: flex-start;
+    padding-left: 18px;
+}
+
+.paragraph--customerService__PickUpPoint {
+    width: max-content;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.container--customerService__title-2 {
+    justify-content: flex-start;
+    padding-left: 18px;
+}
+
+.container--customerService__title-3 {
+    justify-content: flex-start;
+    padding-left: 18px;
+}
+
+.paragraph--contactInfo__text {
+    width: max-content;
+    font-size: 0.9rem;
+}
+
+.paragraph--suscribe__title {
+    color: #fff;
+    font-family: Montserrat-Regular;
+}

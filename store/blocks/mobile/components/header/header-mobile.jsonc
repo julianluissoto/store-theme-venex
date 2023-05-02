@@ -55,7 +55,7 @@
     "children": [
       "drawer#search-bar",
       "image#fav__icon",
-      "minicart.v2"
+      "minicart.v2#global"
     ]
   },
 

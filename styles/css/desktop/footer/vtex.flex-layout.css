@@ -1,0 +1,52 @@
+.flexRowContent--footer__desktop--container {
+    height: 70px;
+}
+
+.flexRow--footer__desktop--info {
+    background-color: #37373F;
+    min-height: 247px;
+}
+
+.flexCol--newsLetter {
+    background-color: #37373F;
+    min-height: 247px;
+    flex-direction: column;
+}
+
+.flexCol--CopyRight {
+    background-color: #37373F;
+    min-height: 247px;
+}
+
+.flexRowContent--customerServices__container {
+    flex-direction: column;
+    background-color: #37373F;
+
+}
+
+.flexCol--customerServices__container {
+    flex-direction: column;
+}
+
+.flexRowContent--footer__desktop {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--footer__desktop--titles {
+    background-color: #37373F;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.flexRow--footer__desktop--titles {
+    background-color: #37373F;
+}
+
+
+
+.flexColChild--newsLetter {
+    height: 30px;
+
+
+}

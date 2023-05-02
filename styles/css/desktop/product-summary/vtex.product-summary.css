@@ -1,3 +1,8 @@
 .imageWrapper {
     min-height: 250px;
 }
+
+.image {
+    min-width: 200px;
+    min-height: 200px;
+}
