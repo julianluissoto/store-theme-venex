@@ -20,7 +20,7 @@
       "header-row#menu__search"
     ]
   },
-  "flex-layout.col#login__container--col": {
+  /* "flex-layout.col#login__container--col": {
     "children": [
       "login",
       "login-content#login__content"
@@ -30,7 +30,7 @@
     "props": {
       "optionsTitle": "sign in"
     }
-  },
+  }, */
 
   "login": {
     "props": {

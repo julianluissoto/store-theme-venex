@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#desktop__productShelf--container": {
+    "title": "product shelf",
+    "props": {
+      "blockClass": "desktop__productShelf--container",
+      "width": "80%"
+    },
+    "children": [
+      "flex-layout.col#shelf_leftColumn",
+      "flex-layout.col#shelf_rightColumn"
+    ]
+  },
+  "flex-layout.col#shelf_leftColumn": {
+    "title": "product shelf left column",
+    "props": {
+      "blockClass": "shelf_leftColumn",
+      "width": "30%"
+    },
+    "children": [
+      "image#notebook__girl"
+    ]
+  },
+
+  "flex-layout.col#shelf_rightColumn": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "shelf_rightColumn",
+      "width": "70"
+    },
+    "children": [
+      "list-context.product-list#shelf__container"
+    ]
+  },
+
+  "image#notebook__girl": {
+    "title": "notebook girl image",
+    "props": {
+      "src": "assets/img/product-shelf/notebook-girl.png",
+      "blockClass": "notebook__girl"
+    }
+  },
+
+  "product-summary.shelf#desktop__shelf--container": {
+    "props": {
+      "blockClass": "desktop__shelf--container"
+    },
+    "title": "summary shelf",
+    "children": [
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-name"
+    ]
+  },
+  "list-context.product-list#shelf__container": {
+    "title": "list context",
+    "props": {
+      "blockClass": "shelf__container",
+      "maxItems": 5
+    },
+
+    "blocks": [
+      "product-summary.shelf#desktop__shelf--container"
+    ],
+    "children": [
+      "slider-layout#product__shelf--container"
+    ]
+  },
+  "slider-layout#product__shelf--container": {
+    "title": "slider with declared children",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "porduct__shelf--slider",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": []
+  }
+}

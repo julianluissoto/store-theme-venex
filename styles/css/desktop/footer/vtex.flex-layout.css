@@ -1,3 +1,10 @@
+.flexCol--newsLetter {
+    flex-direction: column;
+    background-color: #37373F;
+    min-height: 247px;
+
+}
+
 .flexRowContent--footer__desktop--container {
     height: 70px;
 }
@@ -7,11 +14,6 @@
     min-height: 247px;
 }
 
-.flexCol--newsLetter {
-    background-color: #37373F;
-    min-height: 247px;
-    flex-direction: column;
-}
 
 .flexCol--CopyRight {
     background-color: #37373F;

@@ -12,3 +12,9 @@
     padding-top: 0;
     margin-top: -5px;
 }
+
+.logoContainer--logo__phone-mobile {
+    position: relative;
+    left: 10px;
+    width: 200px;
+}

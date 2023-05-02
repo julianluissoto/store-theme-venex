@@ -4,9 +4,15 @@
     "children": [
       "flex-layout.col#megamenu"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "megamenu__mobile--container"
+    }
   },
   "flex-layout.col#megamenu": {
+    "title": "megamenu col",
+    "props": {
+      "blockClass": "#megamenu"
+    },
     "children": [
       "drawer"
     ]
@@ -14,7 +20,7 @@
 
   "drawer": {
     "children": [
-      "login",
+      "flex-layout.row#login__container--col",
       "flex-layout.row#header__FollowOrder--container",
       "flex-layout.row#help__Options--container",
       "flex-layout.row#pickupOrder__orderOptions--container",
@@ -24,6 +30,35 @@
     "blocks": [
       "drawer-header#my-drawer"
     ]
+  },
+
+  "flex-layout.row#login__container--col": {
+    "title": "login layout drawer",
+    "props": {
+      "blockClass": "login__container--col"
+    },
+
+    "children": [
+      "login#megamenu"
+    ]
+  },
+  "login-content#login__content--megamenu": {
+    "props": {
+      "optionsTitle": "sign in"
+    }
+  },
+
+  "login#megamenu": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "Login / sign in",
+      "iconLabel": "Login / Sign In",
+      "showIconProfile": true
+    }
   },
 
   "rich-text#buildYourPc": {

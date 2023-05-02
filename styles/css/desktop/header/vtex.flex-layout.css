@@ -1,8 +1,8 @@
-.stretchChildrenWidth {
+/* .stretchChildrenWidth {
     width: 50%;
 
 }
-
+ */
 .flexRow--desktop__searchBar--container {
     background-color: #37373F;
 }
@@ -33,15 +33,18 @@
 
 }
 
-.flexRowContent--menu__desktop--container {
-    padding: 5px;
-    background-color: #EEEEEE;
-    max-width: 100vw;
-    max-height: 50rem;
-    justify-content: center;
-    padding: 0;
-    height: 55px;
 
+
+.flexColChild--category__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.flexRowContent--menu__desktop--container {
+    min-width: 1280px;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 .flexCol--links__container {
@@ -51,8 +54,11 @@
 
 }
 
+
 .flexRow--menu__desktop--container {
     background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
 }
 
 .flexCol--category__container {

@@ -1,10 +1,21 @@
 {
+  "flex-layout.row#global__searchresult--container": {
+    "title": "search result container",
+    "props": {
+      "blockClass": "global__searchresult--container"
+    },
+    "children": [
+      "search-result-layout.customQuery#home"
+    ]
+  },
+
   "search-result-layout.customQuery#home": {
     "title": "search result customquery container",
     "props": {
       "querySchema": {
         "skuFilter": "ALL",
-        "simulatorBehavior": "skip"
+        "simulatorBehavior": "skip",
+        "maxItemsPerPage": 3
       }
     },
     "blocks": [
@@ -67,8 +78,6 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
     ]

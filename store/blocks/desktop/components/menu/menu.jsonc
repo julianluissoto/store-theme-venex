@@ -189,7 +189,7 @@
 
   "icon#moreCategories": {
     "props": {
-      "id": "arrow-down",
+      "id": "arrow-right",
       "size": 16
     }
   },
@@ -248,7 +248,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "desktop__pc&servers",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -268,7 +268,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "notebooks",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -288,7 +288,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "peripheral",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",

@@ -1,8 +1,8 @@
 {
   "footer#desktop": {
     "blocks": [
-      "footer-layout.desktop#desktop__footer--mainContainer"
-      //"footer-layout.mobile"
+      "footer-layout.desktop#desktop__footer--mainContainer",
+      "footer-layout.mobile#mobile__footer--mainContainer"
     ]
   },
   "footer-layout.desktop#desktop__footer--mainContainer": {
@@ -213,7 +213,7 @@
       "blockClass": "newsletter",
       "hideLabel": true,
       "placeholder": "Enter your E-Mail",
-      "submit": "Send"
+      "submit": ">"
     }
   },
   "flex-layout.col#CopyRight": {
@@ -222,12 +222,6 @@
       "blockClass": "CopyRight"
     },
     "children": []
-  },
-
-  "footer-layout.mobile": {
-    "children": [
-      // "flex-layout.row#footer__mobile"
-    ]
   },
   "flex-layout.row#footer__desktop--linksContainer": {
     "title": "footer links container",

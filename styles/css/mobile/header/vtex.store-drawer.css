@@ -3,7 +3,9 @@
 }
 
 .opened {
-    background-color: #37373F;
+    background-color: #424143;
+    margin-top: 47px;
+    max-width: 300px;
 
 }
 

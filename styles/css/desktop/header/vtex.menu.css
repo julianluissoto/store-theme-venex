@@ -4,8 +4,15 @@
 }
 
 .styledLinkContainer--all__categories {
-    border-right: 2px solid grey;
+    border-right: 2px solid #C8C8C8;
     padding-right: 1rem;
+
+}
+
+.styledLinkContent--all__categories {
+    color: var(--primary-color);
+    font-family: Montserrat-semibold;
+
 
 }
 
@@ -31,9 +38,23 @@
     margin-left: 24.5rem;
     margin-top: -2rem;
     width: 20rem;
-    border: 2px solid #bdbaba;
+
     padding: 0;
 
+}
+
+.styledLinkContainer--desktop__pcComponents {
+    position: relative;
+    left: 3rem;
+
+    justify-content: center;
+
+    width: 20rem;
+
+}
+
+.submenuWrapper--isOpen {
+    border: 2px solid #bdbaba;
 }
 
 
@@ -42,10 +63,15 @@
     margin-left: 150px;
 }
 
-.styledLinkContent {
-    font-family: Montserrat-Regular;
-}
 
 .styledLinkContainer :hover {
     background-color: #EEEEEE;
+}
+
+.submenu--desktop__subcategory--hardDriveDiscs {
+    background-color: #fff;
+    min-width: 1000px;
+    position: relative;
+    left: 42.5rem;
+    border: 1px solid #EEEEEE;
 }

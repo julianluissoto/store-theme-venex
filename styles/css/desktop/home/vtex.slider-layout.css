@@ -28,3 +28,11 @@
 .sliderRightArrow {
     fill: azure;
 }
+
+.sliderLayoutContainer--porduct__shelf--slider {
+    height: 370px;
+}
+
+.slideChildrenContainer--porduct__shelf--slider {
+    height: 370px;
+}
