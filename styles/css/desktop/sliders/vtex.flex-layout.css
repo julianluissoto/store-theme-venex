@@ -1,0 +1,22 @@
+.flexCol--sliderBrands__container {
+    flex-direction: column;
+    align-items: center;
+    min-height: 298px !important;
+
+}
+
+.flexRowContent--desktop__sliderBrands--container {
+    background-color: #EEEEEE;
+}
+
+.flexColChild--sliderBrands__container {
+    background-color: #fff;
+}
+
+.flexColChild--sliderBrands__container {
+    width: 230px;
+}
+
+.flexCol--desktop__sliderBrands--container {
+    justify-content: center;
+}

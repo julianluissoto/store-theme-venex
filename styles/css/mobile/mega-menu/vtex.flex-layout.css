@@ -1,0 +1,20 @@
+.flexRowContent--megaMenu__options--container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexColChild--megaMenu__options--container {
+    margin-left: 1rem;
+}
+
+.flexRowContent--login__container--col {
+    display: flex;
+}
+
+.flexRowContent--login__container--col {
+    white-space: nowrap;
+}
+
+.flexRow--login__container--col {
+    margin-left: 1.5rem;
+}

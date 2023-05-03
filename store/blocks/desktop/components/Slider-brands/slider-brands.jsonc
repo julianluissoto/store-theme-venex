@@ -1,0 +1,145 @@
+{
+  "flex-layout.row#desktop__sliderBrands": {
+    "title": "desktop sliderBrands Main container",
+    "props": {
+      "blockClass": "desktop__sliderBrands"
+    },
+    "children": [
+      "flex-layout.col#desktop__sliderBrands"
+    ]
+  },
+
+  "flex-layout.col#desktop__sliderBrands": {
+    "title": "desktop slider brands  ",
+    "props": {
+      "blockClass": "desktop__sliderBrands--container"
+    },
+    "children": [
+      "slider-layout#desktop__slider--brands"
+    ]
+  },
+
+  "slider-layout#desktop__slider--brands": {
+    "title": "slider with declared children",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "desktop__slider--brands",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#brand-1",
+      "flex-layout.col#brand-2",
+      "flex-layout.col#brand-3",
+      "flex-layout.col#brand-1",
+      "flex-layout.col#brand-2",
+      "flex-layout.col#brand-3"
+    ]
+  },
+  "flex-layout.col#brand-1": {
+    "title": "desktop slider brand-1  ",
+    "props": {
+      "blockClass": "sliderBrands__container"
+    },
+    "children": [
+      "image#slider__brand--1",
+      "image#slider__brand--1-logo",
+      "rich-text#slider__brand--1-text"
+    ]
+  },
+  "image#slider__brand--1": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-1.jpg",
+      "blockClass": "slider__brand--image"
+    }
+  },
+  "image#slider__brand--1-logo": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-1-logo.jpg",
+      "blockClass": "slider__brand--image-logo"
+    }
+  },
+  "rich-text#slider__brand--1-text": {
+    "title": "slider brand text",
+    "props": {
+      "text": "WESTERN",
+      "blockClass": "slider__brand--image-text"
+    }
+  },
+  "flex-layout.col#brand-2": {
+    "title": "desktop slider brand-1  ",
+    "props": {
+      "blockClass": "sliderBrands__container"
+    },
+    "children": [
+      "image#slider__brand--2",
+      "image#slider__brand--2-logo",
+      "rich-text#slider__brand--2-text"
+    ]
+  },
+  "image#slider__brand--2": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-2.jpg",
+      "blockClass": "slider__brand--image"
+    }
+  },
+  "image#slider__brand--2-logo": {
+    "title": "slider brand 2",
+    "props": {
+      "src": "assets/img/slider/brand-2-logo.jpg",
+      "blockClass": "slider__brand--image-logo"
+    }
+  },
+  "rich-text#slider__brand--2-text": {
+    "title": "slider brand text",
+    "props": {
+      "text": "AORUS",
+      "blockClass": "slider__brand--image-text"
+    }
+  },
+  "flex-layout.col#brand-3": {
+    "title": "desktop slider brand-3  ",
+    "props": {
+      "blockClass": "sliderBrands__container"
+    },
+    "children": [
+      "image#slider__brand--3",
+      "image#slider__brand--3-logo",
+      "rich-text#slider__brand--3-text"
+    ]
+  },
+  "image#slider__brand--3": {
+    "title": "slider brand 3",
+    "props": {
+      "src": "assets/img/slider/brand-3.jpg",
+      "blockClass": "slider__brand--image"
+    }
+  },
+  "image#slider__brand--3-logo": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-3-logo.jpg",
+      "blockClass": "slider__brand--image-logo"
+    }
+  },
+  "rich-text#slider__brand--3-text": {
+    "title": "slider brand text",
+    "props": {
+      "text": "HYPER X",
+      "blockClass": "slider__brand--image-text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.submenuContainerVertical--megaMenu__mobile {
+    background-color: #424143;
+}
+
+.collapsibleHeaderText--megaMenu__mobile {
+    color: #fff;
+    text-transform: uppercase
+}
+
+.submenuContainerTitle--megaMenu__mobile {
+    color: #fff;
+    text-transform: uppercase
+}
+
+.styledLinkText--megaMenu__mobile {
+    text-transform: uppercase;
+    color: #fff;
+}

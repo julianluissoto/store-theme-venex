@@ -1,0 +1,67 @@
+.imageWrapper {
+    max-height: 200px;
+    max-width: 200px;
+
+}
+
+.image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.imageStackContainer {
+    max-width: 200px;
+
+}
+
+.imageNormal {
+    min-height: 200px;
+}
+
+.priceContainer {
+    background-color: #fff;
+}
+
+.clearLink--desktop__shelf--container {
+    background-color: #fff;
+    height: 350px;
+    height: 252px;
+
+}
+
+.element--desktop__shelf--container {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+}
+
+.element {
+    height: 350px;
+}
+
+.nameContainer {
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.containerNormal--desktop__shelf--container {
+    height: 330px;
+}
+
+.currencyCode {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+}
+
+.currencyLiteral {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+}
+
+.currencyInteger {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+
+}

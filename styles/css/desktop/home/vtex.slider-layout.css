@@ -30,9 +30,14 @@
 }
 
 .sliderLayoutContainer--porduct__shelf--slider {
-    height: 370px;
+    min-height: 380px;
 }
 
 .slideChildrenContainer--porduct__shelf--slider {
-    height: 370px;
+    min-height: 380px;
+    max-width: 227px;
+}
+
+.slide--porduct__shelf--slider {
+    justify-content: center;
 }

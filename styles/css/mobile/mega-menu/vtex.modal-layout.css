@@ -1,0 +1,17 @@
+.paperScrollContent {
+    background-color: #727784;
+
+    animation: modalAnimation 1s ease-in-out;
+}
+
+@keyframes modalAnimation {
+    0% {
+        top: -500px;
+
+    }
+
+
+    100% {
+        top: 0
+    }
+}

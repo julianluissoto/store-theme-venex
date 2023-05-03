@@ -8,9 +8,13 @@
       "flex-layout.row#desktop__searchBar--container",
       "flex-layout.row#menu__links",
       "slider-layout#home__slider--children",
+      "flex-layout.row#desktop__title",
+      "flex-layout.row#desktop__sliderBrands",
+      "flex-layout.row#desktop__title",
 
       //"flex-layout.row#global__searchresult--container",
       "flex-layout.row#desktop__productShelf--container",
+
       //"modal-trigger#home__modal-bestSeller",
       /* "modal-trigger#home__modal--welcome", */
       "footer#desktop"

@@ -19,13 +19,17 @@
   },
 
   "drawer": {
+    "title": "megaMenu__drawer--container",
+    "props": {
+      "blockClass": "megaMenu__drawer"
+    },
     "children": [
       "flex-layout.row#login__container--col",
-      "flex-layout.row#header__FollowOrder--container",
-      "flex-layout.row#help__Options--container",
-      "flex-layout.row#pickupOrder__orderOptions--container",
+      "flex-layout.col#megamenu__FollowOrder--container",
+      "flex-layout.col#megaMenu__help--Options",
+      "flex-layout.col#megamenu__orderPickup--container",
       "rich-text#buildYourPc",
-      "vtex.mega-menu@2.x:mega-menu#mobile"
+      "mega-menu#mobile"
     ],
     "blocks": [
       "drawer-header#my-drawer"
@@ -39,17 +43,66 @@
     },
 
     "children": [
-      "login#megamenu"
+      "icon#megaMenu__login",
+      "modal-trigger#home__modal--welcome"
     ]
   },
   "login-content#login__content--megamenu": {
     "props": {
+      "blockClass": "login__content--megamenu",
+      "optionsTitle": "sign in"
+    }
+  },
+
+  "modal-trigger#home__modal--welcome": {
+    "children": [
+      "rich-text#login__modal--triger",
+      "modal-layout#login__mobile--modal"
+    ],
+    "props": {
+      "blockClass": "modal__trigger--container"
+    }
+  },
+
+  "modal-layout#login__mobile--modal": {
+    "title": "modal layout container",
+    "props": {
+      "blockClass": "login__mobile--modal",
+      "fullScreen": false
+    },
+    "children": [
+      "login#megamenu",
+      "login-content#login__content"
+    ]
+  },
+  "icon#megaMenu__login": {
+    "props": {
+      "blockClass": "login__icon",
+      "id": "login",
+      "size": 16
+    }
+  },
+
+  "rich-text#login__modal--triger": {
+    "title": "build your pc menu text",
+    "props": {
+      "blockClass": "buildPc__text",
+      "text": "LOGIN WITH MY USER",
+      "font": "heading-2",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
+  "login-content#login__content": {
+    "props": {
+      "blockClass": "login__content--mobile-modal",
       "optionsTitle": "sign in"
     }
   },
 
   "login#megamenu": {
     "props": {
+      "blockClass": "login__container",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
@@ -59,6 +112,63 @@
       "iconLabel": "Login / Sign In",
       "showIconProfile": true
     }
+  },
+
+  "flex-layout.col#megamenu__FollowOrder--container": {
+    "title": "follow order container",
+    "props": {
+      "blockClass": "megaMenu__options--container"
+    },
+    "children": [
+      "image#followOrder__icon",
+      "rich-text#megaMenufollow__order"
+    ]
+  },
+
+  "rich-text#megaMenufollow__order": {
+    "title": " Help Center text",
+    "props": {
+      "text": "Follow Your Order",
+      "blockClass": "megaMenu__orderOptions",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#megaMenu__pickUp__order": {
+    "title": " Help Center text",
+    "props": {
+      "text": "Pick Up yor Order",
+      "blockClass": "megaMenu__orderOptions",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#megaMenu__help__center": {
+    "title": " Help Center text",
+    "props": {
+      "text": "Help Center",
+      "blockClass": "megaMenu__orderOptions",
+      "font": "heading-2"
+    }
+  },
+
+  "flex-layout.col#megamenu__orderPickup--container": {
+    "title": " pickupOrder container",
+    "children": [
+      "image#pickUpOrder__icon",
+      "rich-text#megaMenu__pickUp__order"
+    ],
+    "props": {
+      "blockClass": "megaMenu__options--container"
+    }
+  },
+  "flex-layout.col#megaMenu__help--Options": {
+    "title": "help options container row",
+    "props": {
+      "blockClass": "megaMenu__options--container"
+    },
+    "children": [
+      "image#help__icon",
+      "rich-text#megaMenu__help__center"
+    ]
   },
 
   "rich-text#buildYourPc": {
@@ -71,8 +181,9 @@
     }
   },
 
-  "vtex.mega-menu@2.x:mega-menu#mobile": {
+  "mega-menu#mobile": {
     "props": {
+      "blockClass": "megaMenu__mobile",
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
       "openOnly": "vertical"
