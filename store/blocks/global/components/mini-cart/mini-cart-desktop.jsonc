@@ -1,5 +1,5 @@
 {
-  "minicart.v2#global": {
+  "minicart.v2#desktop": {
     "title": "Mini Cart",
     "props": {
       "blockClass": "miniCart__container",
@@ -81,10 +81,14 @@
   "minicart-product-list#productList": {
     "title": "mini cart product list main container",
     "blocks": [
-      "product-list#global"
+      "product-list#desktop"
     ]
   },
   "flex-layout.row#minicart__summary": {
+    "title": "mini cart summary container",
+    "props": {
+      "blockClass": "minicart__summary"
+    },
     "children": [
       "minicart-summary#global__summary"
     ]

@@ -1,20 +1,23 @@
 {
-  "product-list#global": {
+  "product-list#desktop": {
+    "title": "product list main",
     "props": {
       "blockClass": "productList__global"
     },
     "blocks": [
-      "product-list-content-desktop#global"
+      "product-list-content-desktop#desktop"
+      //"product-list-content-mobile#mobile"
     ]
   },
 
   //////--------------///////////
 
-  "product-list-content-desktop#global": {
+  "product-list-content-desktop#desktop": {
+    "title": "product list global main container desktop",
     "props": {
       "blockClass": "productlist__container-global"
     },
-    "title": "product list global main container",
+
     "children": [
       "flex-layout.row#productlist__mainContainer-global"
     ]

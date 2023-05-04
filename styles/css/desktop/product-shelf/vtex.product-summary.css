@@ -30,6 +30,7 @@
 }
 
 .element--desktop__shelf--container {
+    flex-direction: column;
     border-radius: 20px;
     background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
 }

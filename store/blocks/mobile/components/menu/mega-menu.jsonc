@@ -11,7 +11,7 @@
   "flex-layout.col#megamenu": {
     "title": "megamenu col",
     "props": {
-      "blockClass": "#megamenu"
+      "blockClass": "megamenu"
     },
     "children": [
       "drawer"
@@ -29,6 +29,8 @@
       "flex-layout.col#megaMenu__help--Options",
       "flex-layout.col#megamenu__orderPickup--container",
       "rich-text#buildYourPc",
+      "rich-text#categories",
+
       "mega-menu#mobile"
     ],
     "blocks": [
@@ -44,7 +46,7 @@
 
     "children": [
       "icon#megaMenu__login",
-      "modal-trigger#home__modal--welcome"
+      "modal-trigger#login__megamenu--mobile"
     ]
   },
   "login-content#login__content--megamenu": {
@@ -54,7 +56,8 @@
     }
   },
 
-  "modal-trigger#home__modal--welcome": {
+  "modal-trigger#login__megamenu--mobile": {
+    "title": "modal trigger mega menu",
     "children": [
       "rich-text#login__modal--triger",
       "modal-layout#login__mobile--modal"
@@ -76,6 +79,7 @@
     ]
   },
   "icon#megaMenu__login": {
+    "title": " icon login mega menu",
     "props": {
       "blockClass": "login__icon",
       "id": "login",
@@ -83,10 +87,19 @@
     }
   },
 
+  "rich-text#categories": {
+    "title": "categories mega menu text",
+    "props": {
+      "blockClass": "categories__text--small",
+      "text": "CATEGORIES",
+      "font": "heading-2",
+      "textColor": "c-on-emphasis"
+    }
+  },
   "rich-text#login__modal--triger": {
     "title": "build your pc menu text",
     "props": {
-      "blockClass": "buildPc__text",
+      "blockClass": "login__user",
       "text": "LOGIN WITH MY USER",
       "font": "heading-2",
       "textColor": "c-on-emphasis"
@@ -94,6 +107,7 @@
   },
 
   "login-content#login__content": {
+    "title": "login content",
     "props": {
       "blockClass": "login__content--mobile-modal",
       "optionsTitle": "sign in"
@@ -101,6 +115,7 @@
   },
 
   "login#megamenu": {
+    "title": "login on megamenu",
     "props": {
       "blockClass": "login__container",
       "emailAndPasswordTitle": "LOG-IN",
@@ -136,7 +151,7 @@
   "rich-text#megaMenu__pickUp__order": {
     "title": " Help Center text",
     "props": {
-      "text": "Pick Up yor Order",
+      "text": "PICK UP ORDER",
       "blockClass": "megaMenu__orderOptions",
       "font": "heading-2"
     }
@@ -144,7 +159,7 @@
   "rich-text#megaMenu__help__center": {
     "title": " Help Center text",
     "props": {
-      "text": "Help Center",
+      "text": "HELP CENTER",
       "blockClass": "megaMenu__orderOptions",
       "font": "heading-2"
     }
@@ -160,6 +175,7 @@
       "blockClass": "megaMenu__options--container"
     }
   },
+
   "flex-layout.col#megaMenu__help--Options": {
     "title": "help options container row",
     "props": {
@@ -175,7 +191,7 @@
     "title": "build your pc menu text",
     "props": {
       "blockClass": "buildPc__text",
-      "text": "Build Your PC",
+      "text": "BUILD YOUR PC",
       "font": "heading-2",
       "textColor": "c-on-emphasis"
     }

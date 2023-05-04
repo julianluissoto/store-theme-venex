@@ -39,7 +39,7 @@
     "children": [
       "drawer#search-bar",
       "image#fav__icon",
-      "minicart.v2#global"
+      "minicart.v2#desktop"
     ]
   },
 

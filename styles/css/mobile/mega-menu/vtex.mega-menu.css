@@ -16,3 +16,29 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+
+.styledLinkIcon--megaMenu__mobile {
+    display: none;
+}
+
+.menuItemVertical--megaMenu__mobile {
+    border: none;
+}
+
+
+
+.styledLinkText--megaMenu__mobile {
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.caretIcon--megaMenu__mobile {
+    color: var(--icon-color);
+}
+
+.opened--megaMenu__drawer {
+    overflow: hidden;
+    max-width: 750px;
+}

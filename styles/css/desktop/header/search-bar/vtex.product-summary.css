@@ -1,0 +1,7 @@
+.clearLink {
+    flex-direction: row;
+}
+
+.buyButtonContainer {
+    display: none !important;
+}

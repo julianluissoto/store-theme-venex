@@ -13,7 +13,9 @@
       "flex-layout.row#desktop__title",
 
       //"flex-layout.row#global__searchresult--container",
-      "flex-layout.row#desktop__productShelf--container",
+      "flex-layout.row#desktop__productShelf--container-1",
+      "flex-layout.row#desktop__title",
+      "flex-layout.row#desktop__productShelf--container-2",
 
       //"modal-trigger#home__modal-bestSeller",
       /* "modal-trigger#home__modal--welcome", */

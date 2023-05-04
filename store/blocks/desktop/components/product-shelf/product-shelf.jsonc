@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#desktop__productShelf--container": {
+  "flex-layout.row#desktop__productShelf--container-1": {
     "title": "product shelf",
     "props": {
       "blockClass": "desktop__productShelf--container",
@@ -11,6 +11,19 @@
       "flex-layout.col#shelf_rightColumn"
     ]
   },
+
+  "flex-layout.row#desktop__productShelf--container-2": {
+    "title": "product shelf",
+    "props": {
+      "blockClass": "desktop__productShelf--container",
+      "width": "80%"
+    },
+    "children": [
+      "flex-layout.col#shelf_leftColumn-2",
+      "flex-layout.col#shelf_rightColumn"
+    ]
+  },
+
   "flex-layout.col#shelf_leftColumn": {
     "title": "product shelf left column",
     "props": {
@@ -19,6 +32,16 @@
     },
     "children": [
       "image#notebook__girl--image"
+    ]
+  },
+  "flex-layout.col#shelf_leftColumn-2": {
+    "title": "product shelf left column",
+    "props": {
+      "blockClass": "shelf_leftColumn",
+      "width": "25%"
+    },
+    "children": [
+      "image#pc__boy--image"
     ]
   },
 
@@ -48,6 +71,13 @@
     "props": {
       "blockClass": "notebook__girl--image",
       "src": "assets/img/product-shelf/notebook-girl.png"
+    }
+  },
+  "image#pc__boy--image": {
+    "title": "pc boy image",
+    "props": {
+      "blockClass": "notebook__girl--image",
+      "src": "assets/img/product-shelf/pc-boy.png"
     }
   },
 
@@ -87,13 +117,13 @@
       "fullWidth": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "never",
-      "infinite": true,
+      "infinite": false,
 
-      "blockClass": "porduct__shelf--slider",
-      "autoplay": {
+      "blockClass": "porduct__shelf--slider"
+      /* "autoplay": {
         "timeout": 1000,
         "stopOnHover": true
-      }
+      } */
     },
     "children": []
   }

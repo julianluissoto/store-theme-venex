@@ -21,3 +21,13 @@
     position: relative;
     top: 8px;
 }
+
+.autoCompleteOuterContainer {
+    border: 4px solid #fff;
+    border-radius: 5px;
+
+}
+
+.searchBarContainer .input-prefix__group {
+    border: none !important;
+}

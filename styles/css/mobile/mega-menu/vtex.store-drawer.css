@@ -1,0 +1,7 @@
+.closeIconButton {
+    transform: translateY(11rem);
+}
+
+.closeIcon {
+    display: none;
+}

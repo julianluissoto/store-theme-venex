@@ -1,0 +1,16 @@
+.biggy-autocomplete {
+    position: relative;
+    width: 66.8%;
+    flex-direction: row;
+    left: 33%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.history-and-top-wrapper {
+    flex-direction: column !important;
+}
+
+.tileListList {
+    flex-direction: column !important;
+}

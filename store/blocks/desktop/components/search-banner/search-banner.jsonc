@@ -20,17 +20,6 @@
       "header-row#menu__search"
     ]
   },
-  /* "flex-layout.col#login__container--col": {
-    "children": [
-      "login",
-      "login-content#login__content"
-    ]
-  },
-  "login-content#login__content": {
-    "props": {
-      "optionsTitle": "sign in"
-    }
-  }, */
 
   "login": {
     "props": {
@@ -51,7 +40,7 @@
       "search-bar",
       "login",
       "image#fav__icon",
-      "minicart.v2#global"
+      "minicart.v2#desktop"
     ],
     "props": {
       "fullWidth": true,
@@ -82,12 +71,16 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "search",
+      "placeholder": "every you want is here!",
       "blockClass": "searchBar__input--container"
     }
   },
 
   "autocomplete-result-list.v2": {
+    "props": {
+      "blockClass": "search__result--autoComplete",
+      "isOpen": true
+    },
     "blocks": [
       "product-summary"
     ]
