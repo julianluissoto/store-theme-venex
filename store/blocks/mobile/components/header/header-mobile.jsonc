@@ -1,10 +1,15 @@
 {
   "header-layout#header__mobile--container": {
+    "title": "header mobile container",
+    "props": {
+      "blockClass": "header__mobile--container"
+    },
     "children": [
       "flex-layout.row#header__flex"
     ]
   },
   "flex-layout.row#header__flex": {
+    "title": "header row 1",
     "props": {
       "preserveLayoutOnMobile": true,
       "blockClass": "header__mobile--container"
@@ -14,27 +19,6 @@
 
       "header-row#mobile__header--right"
     ]
-  },
-  "search-bar#searchBar__mobile": {},
-
-  "drawer#search-bar": {
-    "children": [
-      "search-bar"
-    ],
-    "blocks": [
-      "drawer-trigger"
-    ]
-  },
-  "drawer-trigger": {
-    "children": [
-      "icon#open-drawer"
-    ]
-  },
-  "icon#open-drawer": {
-    "props": {
-      "id": "search",
-      "size": 24
-    }
   },
 
   "header-row#mobile__header--left": {
@@ -55,15 +39,78 @@
     "children": [
       "drawer#search-bar",
       "image#fav__icon",
-      "minicart.v2"
+      "minicart.v2#desktop"
     ]
   },
 
   "logo#header__menu--phone": {
     "title": "logo phone",
     "props": {
-      "blockClass": "logo__phone",
+      "blockClass": "logo__phone-mobile",
       "url": "assets/img/logo-venex/header_logo.png"
+    }
+  },
+  "drawer#search-bar": {
+    "title": "drawer search bar mobile",
+    "props": {
+      "blockClass": "search-bar__mobile"
+    },
+    "children": [
+      "search-bar#mobile"
+    ],
+    "blocks": [
+      "drawer-trigger"
+    ]
+  },
+
+  "search-bar#mobile": {
+    "blocks": [
+      "autocomplete-result-list.v2#mobile"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "every you want is here!",
+      "blockClass": "searchBar__input--container-mobile"
+    }
+  },
+
+  "autocomplete-result-list.v2#mobile": {
+    "props": {
+      "blockClass": "search__result--autoComplete-mobile",
+      "isOpen": true
+    },
+    "blocks": [
+      "product-summary.shelf#desktop__shelf--container-mobile"
+    ]
+  },
+
+  "drawer-trigger": {
+    "children": [
+      "icon#open-drawer"
+    ]
+  },
+  "icon#open-drawer": {
+    "props": {
+      "id": "search",
+      "size": 24
+    }
+  },
+
+  "product-summary.shelf#desktop__shelf--container-mobile": {
+    "props": {
+      "blockClass": "desktop__shelf--container-mobile"
+    },
+    "title": "summary shelf",
+    "children": [
+      "product-summary-image#shelf__image",
+      "product-summary-price#shelf__price",
+      "product-summary-name#shelf__name"
+    ]
+  },
+  "add-to-cart-button#search-mobile": {
+    "title": "add to cart btn mobile",
+    "props": {
+      "blockClass": "add-to-cart__button"
     }
   }
 }

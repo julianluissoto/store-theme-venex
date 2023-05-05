@@ -1,0 +1,6 @@
+@media screen and (max-width:640px) {
+    .flexRowContent--productlist__mainContainer-global {
+        display: flex;
+        flex-direction: row;
+    }
+}

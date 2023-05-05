@@ -1,0 +1,21 @@
+.sliderArrows--porduct__shelf--slider {
+    height: 50px;
+    background: #3b3842;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.sliderArrows--porduct__shelf--slider :hover {
+    height: 55px;
+    background: #29282b;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.caretIcon--porduct__shelf--slider {
+    color: white
+}
+
+.sliderTrack--porduct__shelf--slider {
+    gap: 1.5rem;
+}

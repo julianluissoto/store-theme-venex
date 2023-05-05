@@ -20,17 +20,6 @@
       "header-row#menu__search"
     ]
   },
-  "flex-layout.col#login__container--col": {
-    "children": [
-      "login",
-      "login-content#login__content"
-    ]
-  },
-  "login-content#login__content": {
-    "props": {
-      "optionsTitle": "sign in"
-    }
-  },
 
   "login": {
     "props": {
@@ -48,10 +37,10 @@
   "header-row#menu__search": {
     "children": [
       "logo#header__menu",
-      "search-bar",
+      "search-bar#desktop",
       "login",
       "image#fav__icon",
-      "minicart.v2#global"
+      "minicart.v2#desktop"
     ],
     "props": {
       "fullWidth": true,
@@ -76,20 +65,63 @@
     }
   },
 
-  "search-bar": {
+  "search-bar#desktop": {
     "blocks": [
-      "autocomplete-result-list.v2"
+      "autocomplete-result-list.v2#desktop"
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "search",
+      "placeholder": "every you want is here!",
       "blockClass": "searchBar__input--container"
     }
   },
 
-  "autocomplete-result-list.v2": {
+  "autocomplete-result-list.v2#desktop": {
+    "props": {
+      "blockClass": "search__result--autoComplete-desktop"
+    },
     "blocks": [
-      "product-summary"
+      "product-summary.shelf#desktop__shelf--container-desktop"
     ]
+  },
+  "product-summary.shelf#desktop__shelf--container-desktop": {
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop"
+    },
+    "title": "summary shelf",
+    "children": [
+      "flex-layout.row#sumary__container"
+      //"product-summary-image#shelf__desktop--image",
+      // "product-summary-price#shelf__desktop--price",
+      // "product-summary-name#shelf__desktop--name"
+    ]
+  },
+  "flex-layout.row#sumary__container": {
+    "props": {
+      "blockClass": "sumary__container__desktop"
+    },
+    "children": [
+      "product-summary-image#shelf__desktop--image",
+      "product-summary-name#shelf__desktop--name"
+    ]
+  },
+
+  "product-summary-image#shelf__desktop--image": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-image"
+    }
+  },
+  "product-summary-price#shelf__desktop--price": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-price"
+    }
+  },
+  "product-summary-name#shelf__desktop--name": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-name"
+    }
   }
 }

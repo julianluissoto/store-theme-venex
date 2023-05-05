@@ -1,0 +1,37 @@
+.biggy-autocomplete-wrapper {
+    margin: 0 auto;
+    width: 26rem;
+}
+
+@media screen and (min-width:950px) {
+    .biggy-autocomplete-wrapper {
+
+        position: relative;
+        width: 59rem;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+    .biggy-autocomplete-wrapper {
+
+        position: relative;
+        width: 26rem;
+        right: 21.5rem;
+
+
+    }
+
+    .buyButtonContainer {
+        display: contents !important;
+    }
+}
+
+@media screen and (min-width:1260px) {
+    .biggy-autocomplete-wrapper {
+
+        position: relative;
+
+        width: 59rem;
+    }
+}

@@ -1,0 +1,15 @@
+.paragraph--desktop__body--title {
+    color: black;
+    font-family: Montserrat-Regular;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 26px;
+}
+
+.container--desktop__body--title {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+
+    max-width: 1280px;
+}

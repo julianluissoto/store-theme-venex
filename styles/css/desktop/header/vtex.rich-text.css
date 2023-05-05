@@ -2,9 +2,19 @@
      color: azure;
      font-family: Montserrat-Regular;
      width: 11rem;
-     /* text-align: center; */
+     font-size: 15px;
  }
 
  .paragraph--buildPc__text {
      margin-left: 2rem;
+ }
+
+ .paragraph--categorie__dot {
+     color: var(--icon-color);
+     font-size: 2rem;
+ }
+
+ .wrapper--categorie__dot {
+     position: relative;
+     bottom: 20px;
  }

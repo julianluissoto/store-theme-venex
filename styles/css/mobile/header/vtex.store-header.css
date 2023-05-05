@@ -8,11 +8,19 @@
 }
 
 .headerRowContainer--mobile__header--right {
-
+    max-height: 3rem;
     justify-content: flex-end;
 }
 
 .headerRowContainer--mobile__header--left {
-    max-height: 4rem;
+    max-height: 3rem;
     justify-content: flex-start;
+}
+
+.headerStickyRow--mobile__header--right {
+    height: 47px;
+}
+
+.headerStickyRow--mobile__header--left {
+    height: 47px;
 }

@@ -1,0 +1,39 @@
+/* .clearLink {
+    flex-direction: row;
+}
+ */
+.buyButtonContainer {
+    display: none !important;
+}
+
+.imageNormal {
+
+    height: 3rem;
+}
+
+.element {
+    flex-direction: row;
+}
+
+.imageWrapper--desktop__shelf--container-desktop-image {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .brandName--desktop__shelf--container-desktop-name {
+    white-space: nowrap;
+} */
+
+.element--desktop__shelf--container-desktop {
+    padding: 0;
+}
+
+.containerNormal--desktop__shelf--container :hover {
+    background-color: rgb(172, 167, 167);
+}
+
+.containerNormal--desktop__shelf--container-desktop {
+    width: 250px !important;
+
+}

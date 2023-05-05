@@ -28,3 +28,16 @@
 .sliderRightArrow {
     fill: azure;
 }
+
+.sliderLayoutContainer--porduct__shelf--slider {
+    min-height: 380px;
+}
+
+.slideChildrenContainer--porduct__shelf--slider {
+    min-height: 380px;
+    max-width: 227px;
+}
+
+.slide--porduct__shelf--slider {
+    justify-content: center;
+}

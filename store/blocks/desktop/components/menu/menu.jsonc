@@ -48,6 +48,25 @@
       "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
     }
   },
+  "link#builsYourPc": {
+    "title": "link to Build Your pc",
+    "props": {
+      "blockClass": [
+        "menu__links",
+        "builsYourPc"
+      ],
+      "label": "Build Your PC",
+      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+    }
+  },
+
+  "image#venexCorporate": {
+    "title": "venex corporate logo",
+    "props": {
+      "src": "assets/img/logo-venex/logo menu.png",
+      "blockClass": "venexCorporate"
+    }
+  },
   "flex-layout.row#menu__links": {
     "title": "header menu area",
     "props": {
@@ -55,13 +74,14 @@
     },
     "children": [
       "flex-layout.col#header__menu",
-
       "link#desktops",
       "link#Laptops",
       "link#Gpu",
       "link#Monitors",
       "link#Micros",
-      "link#Must-see"
+      "link#Must-see",
+      "link#builsYourPc",
+      "image#venexCorporate"
     ]
   },
 
@@ -170,15 +190,31 @@
       "blockClass": "category__container"
     },
     "children": [
+      "rich-text#categorie__dot",
       "menu-item#desktop__pcComponents",
+      "flex-layout.row#iconMoreCategories__container"
+    ]
+  },
+  "flex-layout.row#iconMoreCategories__container": {
+    "title": "icon more categories container",
+    "props": {
+      "blockClass": "iconMoreCategories__container"
+    },
+    "children": [
       "icon#moreCategories"
     ]
   },
-
   "icon#moreCategories": {
     "props": {
-      "id": "arrow-down",
+      "blockClass": "icon__moreCategories",
+      "id": "arrow-right",
       "size": 16
+    }
+  },
+  "rich-text#categorie__dot": {
+    "props": {
+      "blockClass": "categorie__dot",
+      "text": "."
     }
   },
 
@@ -187,8 +223,9 @@
       "blockClass": "category__container"
     },
     "children": [
+      "rich-text#categorie__dot",
       "menu-item#desktop__pc&servers",
-      "icon#moreCategories"
+      "flex-layout.row#iconMoreCategories__container"
     ]
   },
   "flex-layout.col#desktop_notebooks": {
@@ -196,8 +233,9 @@
       "blockClass": "category__container"
     },
     "children": [
+      "rich-text#categorie__dot",
       "menu-item#desktop__notebooks",
-      "icon#moreCategories"
+      "flex-layout.row#iconMoreCategories__container"
     ]
   },
   "flex-layout.col#desktop_peripheral": {
@@ -205,8 +243,9 @@
       "blockClass": "category__container"
     },
     "children": [
+      "rich-text#categorie__dot",
       "menu-item#desktop__peripheral",
-      "icon#moreCategories"
+      "flex-layout.row#iconMoreCategories__container"
     ]
   },
   "menu-item#desktop__pcComponents": {
@@ -236,7 +275,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "desktop__pc&servers",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -256,7 +295,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "notebooks",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -276,7 +315,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "peripheral",
+      "blockClass": "desktop__pcComponents",
       "itemProps": {
         "type": "internal",
         "href": "#",
