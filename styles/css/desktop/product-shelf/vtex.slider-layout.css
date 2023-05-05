@@ -15,3 +15,7 @@
 .caretIcon--porduct__shelf--slider {
     color: white
 }
+
+.sliderTrack--porduct__shelf--slider {
+    gap: 1.5rem;
+}

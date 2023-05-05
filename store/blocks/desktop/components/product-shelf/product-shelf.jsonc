@@ -87,11 +87,29 @@
     },
     "title": "summary shelf",
     "children": [
-      "product-summary-image",
-      "product-summary-price",
-      "product-summary-name"
+      "product-summary-image#shelf__image",
+      "product-summary-price#shelf__price",
+      "product-summary-name#shelf__name"
     ]
   },
+
+  "product-summary-image#shelf__image": {
+    "props": {
+      "blockClass": "product-summary__Shelf--image"
+    }
+  },
+
+  "product-summary-price#shelf__price": {
+    "props": {
+      "blockClass": "product-summary__Shelf--price"
+    }
+  },
+  "product-summary-name#shelf__name": {
+    "props": {
+      "blockClass": "product-summary__Shelf--name"
+    }
+  },
+
   "list-context.product-list#shelf__container": {
     "title": "list context",
     "props": {

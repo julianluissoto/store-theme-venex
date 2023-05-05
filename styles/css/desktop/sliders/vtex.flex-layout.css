@@ -7,16 +7,36 @@
 
 .flexRowContent--desktop__sliderBrands--container {
     background-color: #EEEEEE;
+
 }
 
 .flexColChild--sliderBrands__container {
-    background-color: #fff;
+
+    width: 219px;
+    border-radius: 20px 20px;
+
 }
 
-.flexColChild--sliderBrands__container {
-    width: 230px;
+.flexRowContent--desktop__sliderBrands {
+
+    background-color: #EEEEEE;
+    padding: 20px;
+    width: 84%;
+    position: relative;
+    left: 8rem;
+
+
 }
+
+
 
 .flexCol--desktop__sliderBrands--container {
     justify-content: center;
+}
+
+.flexRow--sliderBrandsRow__container {
+    background-color: #fff;
+    height: 295px;
+    border-radius: 20px;
+    width: 219px;
 }

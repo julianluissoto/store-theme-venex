@@ -19,3 +19,15 @@
 .closeIcon {
     color: rgb(248, 245, 239)
 }
+
+.opened--search-bar__mobile {
+    max-width: 300px !important;
+}
+
+.autoCompleteOuterContainer--searchBar__input--container-mobile {
+    max-width: 290px;
+}
+
+.drawerContent--search-bar__mobile {
+    overflow: hidden !important;
+}
