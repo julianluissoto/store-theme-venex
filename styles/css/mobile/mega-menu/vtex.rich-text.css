@@ -1,0 +1,33 @@
+.paragraph--megaMenu__orderOptions {
+    color: #fff;
+    font-family: Montserrat-Regular;
+    font-weight: 300;
+}
+
+.paragraph--login__user {
+    margin-left: 1rem;
+}
+
+.paragraph--buildPc__text {
+    margin-left: 56px;
+}
+
+.paragraph--categories__text--small {
+    margin-left: 1rem;
+    color: rgb(125, 123, 123);
+    font-family: Montserrat-Medium;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rich-text-0-x-container--categories__text--small {
+    border: 2px solid gray;
+}
+
+.container--categories__text--small {
+
+    padding-top: 20px;
+    width: 800px;
+    /* background-color: azure; */
+    border-top: solid 2px gray;
+}

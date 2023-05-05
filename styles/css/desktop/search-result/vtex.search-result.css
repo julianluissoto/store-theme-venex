@@ -1,0 +1,11 @@
+.gallery {
+    max-width: 1200px;
+
+    justify-content: center;
+}
+
+.galleryItem--normal {
+    background-color: rgb(156, 150, 150);
+    border-radius: 20px;
+    margin: 10px 5px
+}

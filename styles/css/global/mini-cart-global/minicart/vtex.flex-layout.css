@@ -1,0 +1,42 @@
+.flexCol--productInfo--container {
+
+    row-gap: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(160, 148, 148);
+    width: max-content;
+}
+
+
+.flexCol--miniCartimage--container-global {
+
+    flex-direction: column;
+
+}
+
+.flexRowContent--productlist__mainContainer-global {
+    justify-content: space-between;
+}
+
+.flexRow--productlist__mainContainer {
+    margin-top: 2rem;
+}
+
+.flexCol--minicart__footer {
+    flex-direction: column;
+}
+
+.flexCol--product__quantity--descriptionRemove {
+    flex-direction: column;
+}
+
+.flexRow--productlist__mainContainer-global {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flexColChild--miniCartimage--container-global {
+    max-width: 50px;
+}

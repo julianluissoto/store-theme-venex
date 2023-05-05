@@ -1,3 +1,15 @@
-/* .flexRowContent--FollowOrder--container {
+.flexRowContent--header__mobile--container {
+    height: 47px;
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--header__mobile--container {
+    height: 47px;
+    width: 100%;
+}
+
+.flexRow--megamenu__mobile--container {
+    z-index: 50;
+}

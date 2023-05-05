@@ -1,0 +1,6 @@
+@media screen and (max-width:640px) {
+    .productPrice--minicart__price {
+        position: relative;
+        left: 20px;
+    }
+}

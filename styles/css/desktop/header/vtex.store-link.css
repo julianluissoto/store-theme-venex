@@ -8,3 +8,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.label--footer__links {
+    color: #fff;
+    font-family: Montserrat-Regular;
+}
+
+.label--builsYourPc {
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    padding: 0 5px;
+}

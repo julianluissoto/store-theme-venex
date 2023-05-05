@@ -1,0 +1,84 @@
+.imageWrapper--product-summary__Shelf--image {
+    max-height: 190px;
+    max-width: 190px;
+
+    padding-top: 5px;
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+
+
+.imageStackContainer {
+    max-width: 200px;
+
+}
+
+.image--product-summary__shelf-container {
+    height: 150px !important;
+
+}
+
+.priceContainer {
+    background-color: #fff;
+}
+
+.clearLink--desktop__shelf--container {
+
+    min-height: 350px;
+    max-width: 252px;
+    flex-direction: column;
+
+
+}
+
+.element--desktop__shelf--container {
+    height: 350px;
+    flex-direction: column !important;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+}
+
+
+
+
+/* .containerNormal--desktop__shelf--container {
+    height: 330px;
+} */
+
+.currencyCode {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+}
+
+.currencyLiteral {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+}
+
+.currencyInteger {
+    font-family: Montserrat-Regular;
+    color: #333333;
+    font-weight: 700;
+
+}
+
+.image--product-summary__Shelf--image {
+    height: 12rem !important;
+}
+
+.priceContainer--product-summary__Shelf--price {
+    min-height: 4rem;
+}
+
+.nameContainer--product-summary__Shelf--name {
+
+    min-height: 6rem;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+
+}
