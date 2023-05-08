@@ -5,8 +5,7 @@
     "children": [
       "header-layout#header__mobile--container",
       "flex-layout.row#mobile__slider"
-
-      //"search-result-layout.customQuery#home",
+      //"flex-layout.row#mobile__searchresult--container"
     ]
   }
 }

@@ -1,0 +1,107 @@
+.flexRowContent--desktop__section--image-container {
+    margin-bottom: 45px;
+}
+
+.flexRowContent--desktop__section--image-container-2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+
+.flexRow--desktop__buyingOptions--Maincontainer {
+    height: 150px;
+    ;
+    background-color: #E8E8ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol--creditCard__container {
+
+    margin-right: 20px;
+}
+
+.flexCol--desktop__buyingOptions--container-col {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexCol--card__txt-container {
+    flex-direction: column;
+}
+
+.flexColChild--creditCard__container {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.flexRow--creditCard__container {
+    height: 110px;
+    width: 110px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexRow--card__txt-container {
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--desktop__buyingOptions--container {
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+
+.flexRowContent--card__txt-container {
+    display: flex;
+    align-content: center;
+}
+
+.flexCol--desktop__buyingOptions--container-col {
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:992px) {
+    .flexCol--desktop__buyingOptions--container-col {
+        width: 955px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+.flexColChild--shipingImage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol--desktop__logoAndtitle--col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--desktop__titleAndLogo {
+    margin: 55px auto;
+}
+
+.flexRowContent--partners_main--container {
+    width: 1280px;
+    margin: 2rem auto;
+}
+
+.flexCol--partners_container {
+
+    justify-content: space-evenly;
+}

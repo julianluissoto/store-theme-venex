@@ -1,4 +1,7 @@
 .imageElement--notebook__girl--image {
-    margin-right: 0;
-    min-height: 370px;
+
+    position: relative;
+    left: -17px;
+
+    top: 3px;
 }

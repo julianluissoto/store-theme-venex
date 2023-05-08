@@ -1,0 +1,15 @@
+.flexColChild--menu__desktop--container {
+    display: flex;
+    width: 8rem;
+    justify-content: center;
+}
+
+.flexCol--menu__desktop--container {
+    flex-wrap: wrap;
+    min-height: 55px;
+}
+
+.flexRowContent--menu__desktop--Maincontainer {
+    min-height: 55px;
+
+}

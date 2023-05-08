@@ -1,12 +1,14 @@
 .sliderArrows--porduct__shelf--slider {
+    width: 30px;
     height: 50px;
-    background: #3b3842;
+    background: #7e7c83 !important;
     opacity: 0.9;
     border-radius: 5px;
 }
 
 .sliderArrows--porduct__shelf--slider :hover {
-    height: 55px;
+    height: 50px;
+    width: 30px;
     background: #29282b;
     opacity: 0.5;
     border-radius: 5px;
@@ -18,4 +20,18 @@
 
 .sliderTrack--porduct__shelf--slider {
     gap: 1.5rem;
+    position: relative;
+    top: 0.5rem
+}
+
+.sliderLeftArrow--porduct__shelf--slider {
+    margin-right: 3rem !important;
+}
+
+.sliderTrackContainer--porduct__shelf--slider {
+
+    height: 347px;
+    position: relative;
+    bottom: 0.5rem;
+
 }

@@ -15,3 +15,12 @@
     position: relative;
     left: 5rem;
 }
+
+.container--label_promo--text {
+    background-color: #91C612;
+    position: relative;
+    left: 7px;
+    bottom: 36px;
+    width: 5rem;
+    border-radius: 4px;
+}

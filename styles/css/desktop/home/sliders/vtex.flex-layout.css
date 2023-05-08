@@ -20,8 +20,8 @@
 .flexRowContent--desktop__sliderBrands {
 
     background-color: #EEEEEE;
-    padding: 20px;
-    width: 84%;
+    padding: 20px 0 20px 0;
+    max-width: 1280px;
     position: relative;
     left: 8rem;
 

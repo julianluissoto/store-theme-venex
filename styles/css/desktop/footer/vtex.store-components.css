@@ -5,3 +5,28 @@
 .inputGroup--newsletter {
     width: 350px;
 }
+
+.buttonContainer--newsletter :global(.vtex-button) {
+    background-color: #91C612;
+    width: 52px;
+    height: 43px;
+    border: none;
+    border-radius: 0;
+}
+
+.buttonContainer--newsletter {
+    padding-left: 0 !important;
+}
+
+.inputGroup--newsletter :global(.vtex-input-prefix__group) {
+    border-radius: 0;
+    height: 43px;
+    border-style: none;
+
+    border-radius: 0 !important;
+}
+
+.inputGroup--newsletter :global(.vtex-styleguide-9-x-hideDecorators) {
+
+    border-radius: 0 !important;
+}

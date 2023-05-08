@@ -1,0 +1,23 @@
+.slideChildrenContainer--desktop__slider--brandsMini {
+    min-height: 145px;
+}
+
+.sliderLayoutContainer--desktop__slider--brandsMini {
+    background-color: #37373F;
+}
+
+.sliderLeftArrow--desktop__slider--brandsMini {
+    width: 30px;
+    height: 55px;
+    background: #7e7c83 !important;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.sliderRightArrow--desktop__slider--brandsMini {
+    width: 30px;
+    height: 55px;
+    background: #7e7c83 !important;
+    opacity: 0.9;
+    border-radius: 5px;
+}

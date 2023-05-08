@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#partners": {
+    "title": " partners main container",
+    "props": {
+      "blockClass": "partners_main--container"
+    },
+    "children": [
+      "flex-layout.col#partners"
+    ]
+  },
+
+  "flex-layout.col#partners": {
+    "title": "partnerscontainer",
+    "props": {
+      "blockClass": "partners_container"
+    },
+    "children": [
+      "image#partner-1",
+      "image#partner-2",
+      "image#partner-3",
+      "image#partner-4",
+      "image#partner-1",
+      "image#partner-2",
+      "image#partner-3",
+      "image#partner-4",
+      "image#partner-3",
+      "image#partner-4"
+    ]
+  },
+
+  "image#partner-1": {
+    "title": "image partner 1",
+    "props": {
+      "src": "assets/img/partners-brands/partner_1.png",
+      "blockClass": "partner__image"
+    }
+  },
+  "image#partner-2": {
+    "title": "image partner 2",
+    "props": {
+      "src": "assets/img/partners-brands/partner_2.png",
+      "blockClass": "partner__image"
+    }
+  },
+  "image#partner-3": {
+    "title": "image partner 3",
+    "props": {
+      "src": "assets/img/partners-brands/partner_3.png",
+      "blockClass": "partner__image"
+    }
+  },
+  "image#partner-4": {
+    "title": "image partner 4",
+    "props": {
+      "src": "assets/img/partners-brands/partner_4.png",
+      "blockClass": "partner__image"
+    }
+  }
+}

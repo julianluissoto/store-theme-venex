@@ -33,8 +33,6 @@
 
  }
 
-
-
  .flexColChild--category__container {
      display: flex;
      justify-content: center;
@@ -42,27 +40,26 @@
 
 
  .flexRowContent--menu__desktop--container {
-     min-width: 1280px;
-     padding: 5px;
-     flex-wrap: wrap;
      display: flex;
-     justify-content: space-between;
+
+     padding: 5px;
+
+
+     margin: 0 auto;
  }
 
  .flexCol--links__container {
      justify-content: space-around;
      align-content: center;
 
-
  }
-
 
  .flexRow--menu__desktop--container {
      background-color: #EEEEEE;
-     display: flex;
-     justify-content: center;
-     max-height: 55px;
-     align-items: center;
+
+     min-height: 55px;
+
+
  }
 
  .flexCol--category__container {

@@ -31,6 +31,7 @@
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "never",
       "infinite": false,
+      "arrowSize": "30",
       "blockClass": "desktop__slider--brands",
       "autoplay": {
         "timeout": 2000,

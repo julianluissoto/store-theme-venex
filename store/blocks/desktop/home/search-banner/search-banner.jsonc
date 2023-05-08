@@ -23,10 +23,10 @@
 
   "login": {
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
+      "emailAndPasswordTitle": "Pleas Log In",
+      "accessCodeTitle": "Pleas Log-in",
+      "emailPlaceholder": "Please enter your email",
+      "passwordPlaceholder": "please enter your password",
       "showPasswordVerificationIntoTooltip": true,
       "optionsTitle": "Login / sign in",
       "iconLabel": "Login / Sign In",
@@ -59,8 +59,12 @@
   },
 
   "logo#header__menu": {
-    "title": "logo",
+    "title": "logo dektop",
+
     "props": {
+      "blockClass": "logo-desktop",
+      "height": 30,
+      "width": 300,
       "url": "assets/img/logo-venex/header_logo.png"
     }
   },

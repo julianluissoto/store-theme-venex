@@ -1,6 +1,6 @@
 .flexRow--desktop__productShelf--container {
     display: flex;
-    max-height: 371px;
+    height: 391px;
 
     margin-bottom: 2rem;
     flex-basis: content;
@@ -14,9 +14,9 @@
 
 .flexColChild--shelf_rightColumn {
     overflow: hidden;
-}
-
-.flexColChild--shelf_rightColumn {
     background-color: #E7EAEC;
     max-height: 370px;
+    position: relative;
+    right: 2rem;
+    margin-right: -1rem;
 }

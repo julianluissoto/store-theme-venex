@@ -1,0 +1,11 @@
+.flexRowContent--desktop__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.flexCol--desktop__title--col {
+    width: 84% !important;
+}

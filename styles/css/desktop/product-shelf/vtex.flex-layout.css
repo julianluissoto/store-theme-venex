@@ -6,8 +6,11 @@
 .flexRowContent--desktop__productShelf--container {
     background-color: #E7EAEC;
     justify-content: space-around;
-    max-width: 1280px;
+    width: 1280px;
+    max-height: 390px;
 }
+
+
 
 .flexRow--desktop__sliderBrands--container {
     margin-bottom: 20px;
