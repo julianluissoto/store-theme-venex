@@ -7,7 +7,12 @@
 
 .flexRowContent--footer__desktop--container {
     height: 70px;
+
 }
+
+/* .flexRowContent--footer__desktop--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 13% !important;
+} */
 
 .flexRow--footer__desktop--info {
     background-color: #37373F;

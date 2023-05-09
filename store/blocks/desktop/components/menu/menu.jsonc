@@ -2,9 +2,9 @@
   "flex-layout.row#menu__links--container": {
     "title": "header menu area container",
     "props": {
-      /*  "blockClass": "menu__desktop--container", */
+      "blockClass": "menu__desktop--container",
       "colSizing": "auto",
-      "horizontalAlign": "center",
+      // "horizontalAlign": "center",
       "borderColor": "red"
     },
     "children": [

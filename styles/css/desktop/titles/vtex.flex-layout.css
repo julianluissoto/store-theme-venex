@@ -9,3 +9,12 @@
 .flexCol--desktop__title--col {
     width: 84% !important;
 }
+
+@media screen and (max-width:640px) {
+    .flexRowContent--desktop__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

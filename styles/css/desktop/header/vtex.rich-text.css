@@ -18,3 +18,14 @@
      position: relative;
      bottom: 20px;
  }
+
+ .paragraph--login__text--trigger {
+     color: #fff;
+     font-family: Montserrat-Regular;
+     font-weight: 400;
+ }
+
+ .wrapper--login__text--trigger {
+     margin-left: 2rem;
+     margin-right: 2rem;
+ }

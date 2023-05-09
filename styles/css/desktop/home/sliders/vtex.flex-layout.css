@@ -10,6 +10,8 @@
 
 }
 
+
+
 .flexColChild--sliderBrands__container {
 
     width: 219px;
@@ -28,8 +30,6 @@
 
 }
 
-
-
 .flexCol--desktop__sliderBrands--container {
     justify-content: center;
 }
@@ -39,4 +39,36 @@
     height: 295px;
     border-radius: 20px;
     width: 219px;
+}
+
+@media screen and (max-width:640px) {
+    .flexRowContent--desktop__sliderBrands {
+        background-color: #EEEEEE;
+
+    }
+
+    .flexCol--sliderBrands__container {
+        flex-direction: column;
+        align-items: center;
+        min-height: 214px !important;
+
+    }
+
+
+    .flexRow--desktop__title {
+        background-color: #EEEEEE;
+    }
+
+    .flexRow--desktop__sliderBrands {
+        background-color: #EEEEEE
+    }
+
+    .flexRow--sliderBrandsRow__container {
+        background-color: #fff;
+        height: 214px;
+        border-radius: 20px;
+        width: 219px;
+    }
+
+
 }

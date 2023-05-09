@@ -8,3 +8,9 @@
     top: 28px;
 
 }
+
+@media screen and (max-width:640px) {
+    .label--desktop__body--title-link {
+        display: none;
+    }
+}

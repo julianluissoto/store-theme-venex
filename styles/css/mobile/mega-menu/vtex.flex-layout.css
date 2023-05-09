@@ -19,7 +19,3 @@
     margin-left: 1.5rem;
     transform: translateY(-10px);
 }
-
-.flexRowContent--drawer-header {
-    transform: translate(230px, 17px);
-}

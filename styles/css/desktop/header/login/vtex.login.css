@@ -1,0 +1,57 @@
+.contentAlwaysWithOptions {
+    flex-direction: column;
+}
+
+.optionsListItem {
+    display: none;
+}
+
+.formTitle {
+    display: flex;
+    font-family: Montserrat-Medium;
+    font-weight: 600;
+    color: #0071c9;
+    font-size: 17px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.formLinkContainer {
+    justify-content: flex-start;
+}
+
+.forgotPasswordLink {
+    color: gray;
+    font-family: Montserrat Regular;
+}
+
+.eyeIcon--invisible {
+    display: none;
+}
+
+.forgotPasswordLink {
+    color: rgb(154, 148, 148);
+    font-family: Montserrat Regular;
+}
+
+
+.sendButton :global(.vtex-button) {
+    background: #0071C9;
+    border: 2px solid black;
+}
+
+.formLinkContainer :global(.vtex-login-2-x-dontHaveAccount) {
+    background-color: #0071c9;
+    color: #fff;
+    background-color: #0071c9;
+    padding: 7px 64px;
+    border-radius: 4px;
+
+
+}
+
+.emailVerification :global(.vtex-login-2-x-formLinkContainer) {
+
+    justify-content: center;
+    margin-bottom: 20px;
+}

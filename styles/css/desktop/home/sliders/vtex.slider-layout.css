@@ -30,3 +30,20 @@
 .sliderTrackContainer--desktop__slider--brands {
     width: 1280px;
 }
+
+@media screen and (max-width:640px) {
+    .sliderTrackContainer--desktop__slider--brands {
+        max-height: 214px;
+        background-color: #EEEEEE;
+
+    }
+
+    .slide--desktop__slider--brands--hidden {
+        width: 10%;
+    }
+
+    .slideChildrenContainer--desktop__slider--brands {
+        height: 214px;
+
+    }
+}

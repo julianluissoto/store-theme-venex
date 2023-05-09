@@ -25,7 +25,7 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 2,
-        "mobile": 1
+        "mobile": 2
       },
       "fullWidth": true,
       "showNavigationArrows": "desktopOnly",
@@ -42,7 +42,6 @@
       "flex-layout.row#brand-1",
       "flex-layout.row#brand-2",
       "flex-layout.row#brand-3",
-
       "flex-layout.row#brand-1",
       "flex-layout.row#brand-2",
       "flex-layout.row#brand-3"

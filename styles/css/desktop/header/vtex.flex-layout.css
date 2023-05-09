@@ -1,8 +1,8 @@
- .stretchChildrenWidth {
+ /* .stretchChildrenWidth {
      width: 8%;
 
  }
-
+ */
  .flexRow--desktop__searchBar--container {
      background-color: #37373F;
  }
@@ -41,7 +41,7 @@
 
  .flexRowContent--menu__desktop--container {
      display: flex;
-
+     max-height: 55px;
      padding: 5px;
 
 

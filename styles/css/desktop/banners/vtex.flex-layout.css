@@ -18,7 +18,7 @@
 }
 
 .flexCol--creditCard__container {
-
+    flex-direction: row;
     margin-right: 20px;
 }
 
@@ -102,6 +102,6 @@
 }
 
 .flexCol--partners_container {
-
+    flex-direction: row;
     justify-content: space-evenly;
 }

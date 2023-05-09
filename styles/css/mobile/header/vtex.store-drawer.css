@@ -31,3 +31,7 @@
 .drawerContent--search-bar__mobile {
     overflow: hidden !important;
 }
+
+.drawerContent--megaMenu__drawer {
+    overflow: hidden !important;
+}

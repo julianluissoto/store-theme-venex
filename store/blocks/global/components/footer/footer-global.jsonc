@@ -226,7 +226,8 @@
   "flex-layout.row#footer__desktop--linksContainer": {
     "title": "footer links container",
     "props": {
-      "blockClass": "footer__desktop--container"
+      "blockClass": "footer__desktop--container",
+      "horizontalAlign": "center"
     },
     "children": [
       "link#AboutUs",

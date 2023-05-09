@@ -38,13 +38,67 @@
     "children": [
       "logo#header__menu",
       "search-bar#desktop",
-      "login",
+      //"login",
+      "modal-trigger#login__modal--trigger",
       "image#fav__icon",
       "minicart.v2#desktop"
     ],
     "props": {
       "fullWidth": true,
       "blockClass": "searchBar__container"
+    }
+  },
+  "modal-trigger#login__modal--trigger": {
+    "title": "login trigger",
+    "props": {
+      "blockClass": "login__modal--trigger"
+    },
+    "children": [
+      "rich-text#login__text--trigger",
+      "modal-layout#login"
+    ]
+  },
+  "rich-text#login__text--trigger": {
+    "title": "login text",
+    "props": {
+      "blockClass": "login__text--trigger",
+      "text": "Welcome User",
+      "font": "heading-2"
+    }
+  },
+  "modal-layout#login": {
+    "title": "login layout desktop",
+    "props": {
+      "blockClass": "login__content--desktop"
+    },
+    "children": [
+      "modal-header#desktop",
+      //"modal-actions.close",
+      "login-content#login__content--desktop"
+    ]
+  },
+  "modal-header#desktop": {
+    "props": {
+      "blockClass": "modal__header--desktop"
+    }
+  },
+
+  "login-content#login__content--desktop": {
+    "title": "login__content",
+    "props": {
+      "blockClass": "login__content--desktop",
+      "defaultOption": 1,
+      "optionsTitle": "I'm Client",
+      "emailAndPasswordTitle": "access with your E-mail and Password",
+      "emailPlaceholder": "Please enter your E-Mail",
+      "passwordPlaceholder": "Please enter your Password"
+    }
+  },
+
+  "login#login__desktop": {
+    "title": "login desktop",
+    "props": {
+      "blockClass": "login__desktop"
     }
   },
 
@@ -65,7 +119,8 @@
       "blockClass": "logo-desktop",
       "height": 30,
       "width": 300,
-      "url": "assets/img/logo-venex/header_logo.png"
+      "url": "assets/img/logo-venex/header_logo.png",
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
     }
   },
 
