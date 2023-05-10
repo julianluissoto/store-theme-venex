@@ -14,18 +14,23 @@
 
 .flexColChild--sliderBrands__container {
 
-    width: 219px;
+
+
+    width: auto;
     border-radius: 20px 20px;
 
 }
 
+
 .flexRowContent--desktop__sliderBrands {
+
 
     background-color: #EEEEEE;
     padding: 20px 0 20px 0;
-    max-width: 1280px;
+    max-width: 1170px;
     position: relative;
-    left: 8rem;
+    left: 180px;
+
 
 
 }
@@ -41,10 +46,14 @@
     width: 219px;
 }
 
-@media screen and (max-width:640px) {
+/* @media screen and (max-width:640px) {
     .flexRowContent--desktop__sliderBrands {
         background-color: #EEEEEE;
-
+        position: initial;
+        padding: 20px 0 20px 0;
+        max-width: 100vw;
+        left: 0;
+        padding: 0
     }
 
     .flexCol--sliderBrands__container {
@@ -70,5 +79,13 @@
         width: 219px;
     }
 
+
+} */
+
+.flexCol--desktop__sliderBrands--container {
+
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
 
 }

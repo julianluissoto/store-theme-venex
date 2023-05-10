@@ -13,7 +13,7 @@
     "props": {
       "blockClass": "desktop__section--image",
       "src": "assets/img/home-images/home-image-1.jpg",
-      "maxwidth": 1280
+      "maxwidth": 1170
     }
   },
   "flex-layout.row#desktop__section--image-2": {
@@ -30,7 +30,7 @@
     "props": {
       "blockClass": "desktop__section--image -2",
       "src": "assets/img/home-images/home-image-2.jpg",
-      "maxwidth": 1280
+      "maxwidth": 1170
     }
   }
 }

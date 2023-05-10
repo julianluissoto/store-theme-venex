@@ -10,7 +10,7 @@
  .flexRowContent--header__orderOptions {
      background-color: var(--primary-color);
      height: 35px;
-     padding-top: 5px;
+     /* padding-top: 5px; */
  }
 
  .flexRow--header__orderOptions {
@@ -63,7 +63,7 @@
  }
 
  .flexCol--category__container {
-
+     flex-direction: row;
      justify-content: space-between;
  }
 
@@ -86,6 +86,10 @@
      border: 2px solid #f3eded;
  }
 
+ .flexColChild--header__container--right {
+     display: flex;
+     align-items: center;
+ }
 
 
 

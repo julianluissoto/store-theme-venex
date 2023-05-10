@@ -1,7 +1,9 @@
-.flexColChild--menu__desktop--container {
+.flexRowContent--menu__desktop--containerMain {
     display: flex;
-    width: 8rem;
+
     justify-content: center;
+    max-height: 50px;
+    column-gap: 48px;
 }
 
 .flexCol--menu__desktop--container {

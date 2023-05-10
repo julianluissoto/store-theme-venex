@@ -25,6 +25,16 @@
 }
 
 @font-face {
+    font-family: "Montserrat-Bold";
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-BoldIalic";
+    src: url(assets/fonts/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
     font-family: "Rubik";
     src: url(assets/fonts/Rubik-Medium.ttf);
 }

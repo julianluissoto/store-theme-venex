@@ -24,7 +24,8 @@
   "header-row#mobile__header--left": {
     "title": "title header mobile",
     "props": {
-      "blockClass": "mobile__header--left"
+      "blockClass": "mobile__header--left",
+      "sticky": true
     },
     "children": [
       "flex-layout.row#megamenu__mobile",
@@ -34,7 +35,8 @@
   "header-row#mobile__header--right": {
     "title": "title header mobile",
     "props": {
-      "blockClass": "mobile__header--right"
+      "blockClass": "mobile__header--right",
+      "sticky": true
     },
     "children": [
       "drawer#search-bar",

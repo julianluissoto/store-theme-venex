@@ -1,0 +1,34 @@
+ .flexColChild--mobile__sliderBrands--container {
+     background-color: transparent;
+     width: auto !important;
+
+
+ }
+
+
+ .flexRow--mobile__sliderBrandsRow--logoContainer {
+     position: relative;
+     bottom: 47%;
+     height: 20px;
+ }
+
+ .flexCol--mobile__sliderBrands--container {
+     max-height: 100%;
+     border-radius: 20px;
+ }
+
+ .flexRowContent--mobile__sliderBrandsRow--rowContainer {
+     /*  border-radius: 20px; */
+     width: auto;
+     height: 140px;
+ }
+
+ .flexRow--mobile__sliderBrandsRow--rowContainer {
+     border-radius: 20px;
+ }
+
+ .flexRowContent--mobile__sliderBrandsRow--logoCont {
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     background-color: #fff;
+ }

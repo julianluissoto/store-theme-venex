@@ -2,13 +2,22 @@
   "flex-layout.row#menu__links--container": {
     "title": "header menu area container",
     "props": {
-      "blockClass": "menu__desktop--container",
+      "blockClass": "menu__desktop--containerMain",
       "colSizing": "auto",
-      // "horizontalAlign": "center",
+      "horizontalAlign": "center",
       "borderColor": "red"
     },
     "children": [
-      "flex-layout.col#menu__links"
+      /*  "flex-layout.col#menu__links" */
+      "flex-layout.row#header__menu--row",
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see",
+      "link#builsYourPc",
+      "image#venexCorporate"
     ]
   },
 

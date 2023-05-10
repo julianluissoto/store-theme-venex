@@ -1,0 +1,12 @@
+.galleryItem--mobile__gallery {
+    max-width: 50% !important;
+    flex-basis: 47% !important;
+    height: 249px;
+    padding: 0;
+
+
+}
+
+.galleryItem--mobile__gallery {
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6) !important;
+}

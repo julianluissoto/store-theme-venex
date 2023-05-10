@@ -1,0 +1,11 @@
+.flexRow--global__searchresult--container {
+    background-color: #e7eaec;
+    padding-top: 30px;
+    margin-top: 20px;
+
+}
+
+.flexCol--mobileShelf__column--prodcutSummary {
+    position: relative;
+    bottom: -1rem;
+}

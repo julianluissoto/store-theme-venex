@@ -1,0 +1,212 @@
+{
+  "flex-layout.row#mobile__sliderBrands": {
+    "title": "mobile sliderBrands Main container",
+    "props": {
+      "blockClass": "mobile__sliderBrands"
+    },
+    "children": [
+      "flex-layout.col#mobile__sliderBrands"
+    ]
+  },
+
+  "flex-layout.col#mobile__sliderBrands": {
+    "title": "mobile slider brands  ",
+    "props": {
+      "blockClass": "mobile__sliderBrands--container"
+    },
+    "children": [
+      "slider-layout#mobile__slider--brands"
+    ]
+  },
+
+  "slider-layout#mobile__slider--brands": {
+    "title": "slider with declared children",
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      //"arrowSize": "30",
+      "blockClass": "mobile__slider--brands",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-1"
+      /* "flex-layout.col#mobile__brand-2",
+      "flex-layout.col#mobile__brand-3",
+      "flex-layout.col#mobile__brand-1",
+      "flex-layout.col#mobile__brand-2",
+      "flex-layout.col#mobile__brand-3" */
+    ]
+  },
+  "flex-layout.row#mobilebrand-1": {
+    "title": "mobile slider brand col-1",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--container"
+    },
+    "children": [
+      "flex-layout.col#mobile__brand-1"
+    ]
+  },
+  "flex-layout.row#mobilebrand-2": {
+    "title": "mobile slider brand col-1",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--container"
+    },
+    "children": [
+      "flex-layout.col#mobile__brand-2"
+    ]
+  },
+  "flex-layout.row#mobilebrand-3": {
+    "title": "mobile slider brand col-1",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--container"
+    },
+    "children": [
+      "flex-layout.col#mobile__brand-3"
+    ]
+  },
+
+  "flex-layout.col#mobile__brand-1": {
+    "title": "mobile slider brand-1  ",
+    "props": {
+      "blockClass": "mobile__sliderBrands--container"
+    },
+    "children": [
+      "flex-layout.row#image__container",
+
+      "flex-layout.row#imageLogo__container"
+      //"flex-layout.row#imageLogoText__container"
+    ]
+  },
+  "flex-layout.row#image__container": {
+    "title": "mobile slider brand row",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--rowContainer",
+      "width": "60%"
+    },
+    "children": [
+      "image#mobileslider__brand--1"
+    ]
+  },
+
+  "flex-layout.row#imageLogo__container": {
+    "title": "mobile slider brand row",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--logoCont",
+      "width": "40%"
+    },
+    "children": [
+      "image#mobileslider__brand--1-logo",
+      "rich-text#mobileslider__brand--1-text"
+    ]
+  },
+  "flex-layout.row#imageLogoText__container": {
+    "title": "mobile slider brand row text container",
+    "props": {
+      "blockClass": "mobile__sliderBrandsRow--logoText-Container"
+    },
+    "children": [
+      "rich-text#mobileslider__brand--1-text"
+    ]
+  },
+
+  "image#mobileslider__brand--1": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-1.jpg",
+      "blockClass": "mobile__slider--brand-image"
+    }
+  },
+  "image#mobileslider__brand--1-logo": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-1-logo.jpg",
+      "blockClass": "mobile__slider--brand-image-logo"
+    }
+  },
+  "rich-text#mobileslider__brand--1-text": {
+    "title": "slider brand text",
+    "props": {
+      "text": "WESTERN",
+      "blockClass": "mobile__slider--brand-image-text"
+    }
+  },
+  "flex-layout.col#mobile__brand-2": {
+    "title": "mobile slider brand-2  ",
+    "props": {
+      "blockClass": "mobile__sliderBrands--container"
+    },
+    "children": [
+      "image#mobileslider__brand--2",
+      "image#mobileslider__brand--2-logo",
+      "rich-text#mobileslider__brand--2-text"
+    ]
+  },
+
+  "image#mobileslider__brand--2": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-2.jpg",
+      "blockClass": "mobile__slider--brand-image"
+    }
+  },
+  "image#mobileslider__brand--2-logo": {
+    "title": "slider brand 1",
+    "props": {
+      "src": "assets/img/slider/brand-2-logo.jpg",
+      "blockClass": "mobile__slider--brand-image-logo"
+    }
+  },
+  "rich-text#mobileslider__brand--2-text": {
+    "title": "slider brand text",
+    "props": {
+      "text": "WESTERN",
+      "blockClass": "mobile__slider--brand-image-text"
+    }
+  },
+  "flex-layout.col#mobile__brand-3": {
+    "title": "mobile slider brand-3 ",
+    "props": {
+      "blockClass": "mobile__sliderBrands--container"
+    },
+    "children": [
+      "image#mobileslider__brand--3",
+      "image#mobileslider__brand--3-logo",
+      "rich-text#mobileslider__brand--2-text"
+    ]
+  },
+
+  "image#mobileslider__brand--3": {
+    "title": "slider brand 3",
+    "props": {
+      "src": "assets/img/slider/brand-3.jpg",
+      "blockClass": "mobile__slider--brand-image"
+    }
+  },
+  "image#mobileslider__brand--3-logo": {
+    "title": "slider brand 3 logo",
+    "props": {
+      "src": "assets/img/slider/brand-3-logo.jpg",
+      "blockClass": "mobile__slider--brand-image-logo"
+    }
+  },
+  "rich-text#mobileslider__brand--3-text": {
+    "title": "slider brand 3 text",
+    "props": {
+      "text": "WESTERN",
+      "blockClass": "mobile__slider--brand-image-text"
+    }
+  }
+}

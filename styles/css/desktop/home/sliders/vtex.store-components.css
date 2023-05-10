@@ -1,37 +1,8 @@
-.imageElement--slider__brand--image-logo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    left: 3.5rem;
-    bottom: 70px;
-}
-
-
 .imageElement--slider__brand--image {
     border-radius: 20px 20px 0 0;
     padding: 0;
 }
 
-@media screen and (max-width:640px) {
-    .imageElement--slider__brand--image {
-        max-height: 135px;
-        width: 269px;
-
-
-    }
-
-    .imageElement--slider__brand--image-logo {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background-size: cover;
-        background-position: center center;
-        position: relative;
-        left: 4.5rem;
-        bottom: 35px;
-    }
-
+.imageElement--mobile__slider--brand-image {
+    border-radius: 20px;
 }

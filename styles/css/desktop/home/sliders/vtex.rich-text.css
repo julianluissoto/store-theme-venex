@@ -6,15 +6,7 @@
 
 }
 
-.paragraph--slider__brand--image-text {
-    color: #91C612;
-    font-size: 16px;
-    font-family: Montserrat-Regular;
-    line-height: 1.4px;
-    font-weight: 500;
-    position: relative;
-    left: 5rem;
-}
+
 
 .container--label_promo--text {
     background-color: #91C612;
@@ -23,4 +15,10 @@
     bottom: 36px;
     width: 5rem;
     border-radius: 4px;
+}
+
+.wrapper--mobile__slider--brand-image-text {
+    position: relative;
+    bottom: 20px;
+
 }

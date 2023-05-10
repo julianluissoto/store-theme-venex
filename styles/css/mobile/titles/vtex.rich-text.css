@@ -1,0 +1,19 @@
+.paragraph--mobile__body--title-2 {
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+    margin-right: 5px;
+}
+
+.paragraph--mobile__body--subTitle {
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+    font-weight: 600;
+}
+
+.paragraph--mobile__body--big-title {
+    font-family: Montserrat-Medium, "Roboto";
+
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}

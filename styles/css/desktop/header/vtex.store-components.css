@@ -1,6 +1,8 @@
 .logoImage--logo-desktop {
-    width: 13rem;
-    height: 2.5rem;
+
+    width: 11rem;
+    height: 34px;
+
 }
 
 
@@ -21,7 +23,7 @@
     max-height: 35px;
     position: relative;
     top: 10px;
-    margin-left: 20%;
+
 
 }
 
@@ -41,5 +43,19 @@
     max-width: 192px;
     max-height: 72px;
     min-width: 123px;
+
+}
+
+
+
+.imageElement--slider__brand--image-logo {
+
+
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: 46%;
+
 
 }

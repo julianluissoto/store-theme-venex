@@ -1,0 +1,8 @@
+.flexCol--mobile__title--col {
+    flex-direction: row;
+    padding-top: 20px;
+    background-color: #EEEEEE;
+    height: 65px;
+    padding-bottom: 20px;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.sliderTrackContainer--mobile__slider--brands {
+    background-color: #EEEEEE;
+}
+
+.slide--mobile__slider--brands {
+    height: 224px;
+}
+
+.slideChildrenContainer--mobile__slider--brands {
+    width: 100%;
+}
