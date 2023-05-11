@@ -1,8 +1,7 @@
 {
   "footer#desktop": {
     "blocks": [
-      "footer-layout.desktop#desktop__footer--mainContainer",
-      "footer-layout.mobile#mobile__footer--mainContainer"
+      "footer-layout.desktop#desktop__footer--mainContainer"
     ]
   },
   "footer-layout.desktop#desktop__footer--mainContainer": {
@@ -42,7 +41,8 @@
   "flex-layout.col#customerServices__container": {
     "title": "customer services",
     "props": {
-      "blockClass": "customerServices__container"
+      "blockClass": "customerServices__container",
+      "width": "30%"
     },
     "children": [
       "flex-layout.row#customerService__contactInfo"
@@ -171,12 +171,13 @@
   "flex-layout.col#newsLetter": {
     "title": "newsletter",
     "props": {
-      "blockClass": "newsLetter"
+      "blockClass": "newsLetter",
+      "width": "30%"
     },
     "children": [
       "rich-text#suscribe__title",
       "newsletter",
-      "social-networks"
+      "flex-layout.row#socialNetworks__container"
     ]
   },
   "rich-text#suscribe__title": {
@@ -187,8 +188,83 @@
       "font": "heading-2"
     }
   },
+  "flex-layout.row#socialNetworks__container": {
+    "title": "social network container",
+    "props": {
+      "blockClass": "social__container"
+    },
+    "children": [
+      "flex-layout.col#facebook",
+      "flex-layout.col#instagram",
+      "flex-layout.col#youtube"
+    ]
+  },
 
-  "social-networks": {
+  "flex-layout.col#facebook": {
+    "title": "facebook logo",
+    "props": {
+      "blockClass": "facebook__icon--container",
+      "width": "10%"
+    },
+    "children": [
+      "image#facebook"
+    ]
+  },
+  "flex-layout.col#instagram": {
+    "title": "instagram logo",
+    "props": {
+      "blockClass": "instagram__icon--container",
+      "width": "10%"
+    },
+    "children": [
+      "image#instagram"
+    ]
+  },
+  "flex-layout.col#youtube": {
+    "title": "youtube logo",
+    "props": {
+      "blockClass": "youtube__icon--container",
+      "width": "10%"
+    },
+    "children": [
+      "image#youtube"
+    ]
+  },
+
+  "image#facebook": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/facebook.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+
+  "image#instagram": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/instagram.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+
+  "image#youtube": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/youtube.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+
+  /* "social-networks": {
     "props": {
       "socialNetworks": [
         {
@@ -206,7 +282,7 @@
       ],
       "showInColor": true
     }
-  },
+  }, */
   "newsletter": {
     "title": "newsletter",
     "props": {
@@ -219,10 +295,31 @@
   "flex-layout.col#CopyRight": {
     "title": "CopyRight",
     "props": {
-      "blockClass": "CopyRight"
+      "blockClass": "CopyRight",
+      "width": "30%"
     },
-    "children": []
+    "children": [
+      "image#dataFiscal",
+      "image#cace"
+    ]
   },
+
+  "image#dataFiscal": {
+    "title": "data fsical image",
+    "props": {
+      "blockClass": "imagefiscal__image",
+      "src": "assets/img/miscellaneous-images/DATAWEB.jpg"
+    }
+  },
+  "image#cace": {
+    "title": "cace image",
+    "props": {
+      "blockClass": "cace__image",
+      "src": "assets/img/miscellaneous-images/sello-cace-venex.png",
+      "url": "#"
+    }
+  },
+
   "flex-layout.row#footer__desktop--linksContainer": {
     "title": "footer links container",
     "props": {
@@ -283,7 +380,7 @@
     }
   },
   "link#Promo": {
-    "title": "romo",
+    "title": "promo",
     "props": {
       "blockClass": "footer__links",
       "label": " Promos and raffle"

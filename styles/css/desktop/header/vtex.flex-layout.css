@@ -76,11 +76,7 @@
      right: 6rem;
  }
 
- .flexRowContent--footer__desktop--container {
-     padding: 10px;
-     justify-content: space-around;
 
- }
 
  .flexCol--desktop__subcategory--hardDriveDiscs {
      border: 2px solid #f3eded;

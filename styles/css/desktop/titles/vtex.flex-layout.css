@@ -7,7 +7,9 @@
 
 
 .flexCol--desktop__title--col {
-    width: 84% !important;
+    flex-direction: row;
+    width: 90% !important;
+    margin-left: 11%;
 }
 
 @media screen and (max-width:640px) {
@@ -15,6 +17,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #EEEEEE;
+    }
+
+    .flexCol--desktop__title--col {
+        justify-content: center;
     }
 
 }

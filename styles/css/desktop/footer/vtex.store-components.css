@@ -1,5 +1,5 @@
 .container--newsletter {
-    margin-top: -100px;
+    margin-top: -130px;
 }
 
 .inputGroup--newsletter {
@@ -29,4 +29,32 @@
 .inputGroup--newsletter :global(.vtex-styleguide-9-x-hideDecorators) {
 
     border-radius: 0 !important;
+}
+
+.imageElement--dataFiscal__img {
+
+    width: 22%;
+    height: 118%;
+
+
+}
+
+.imageElement--cace__img {
+
+    width: 36%;
+    height: 50px;
+    margin-left: -18px;
+    position: relative;
+    left: -143px;
+    top: 6px;
+
+}
+
+.imageElement--cace__image {
+    position: relative;
+    right: 70%
+}
+
+.imageElement--socialNetwork__image {
+    height: 42px;
 }

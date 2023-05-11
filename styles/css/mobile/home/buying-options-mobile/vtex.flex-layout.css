@@ -1,0 +1,7 @@
+.flexCol--mobile__creditCard--container {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3%;
+    width: 95% !important;
+    padding-bottom: 5%;
+}

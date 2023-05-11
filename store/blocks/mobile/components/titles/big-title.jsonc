@@ -14,7 +14,8 @@
       "text": "CHOOSE YOUR BEST LATOP,\n FOR GAMING OR WORK",
       "blockClass": "mobile__body--big-title",
       "textAlignment": "LEFT",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "font": "heading-3"
     }
   }
 }

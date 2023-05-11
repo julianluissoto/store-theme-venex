@@ -6,8 +6,9 @@
 .flexRowContent--desktop__productShelf--container {
     background-color: #E7EAEC;
     justify-content: space-around;
-    width: 1170px;
+    /* width: 1170px; */
     max-height: 390px;
+    margin: 0 auto;
 }
 
 

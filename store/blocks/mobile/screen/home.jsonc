@@ -10,7 +10,20 @@
       "flex-layout.row#mobile__title-2",
       "flex-layout.row#mobile__sliderLinks",
       "flex-layout.row#mobile__Big--title",
-      "flex-layout.row#mobile__productShelf--container"
+      "flex-layout.row#mobile__productShelf--container",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__section--image",
+      "flex-layout.row#mobile__productShelf--container-9",
+      "flex-layout.row#mobile__section--2",
+
+      "flex-layout.row#mobile__productShelf--container",
+
+      "flex-layout.row#mobile__logo--banner",
+
+      "footer#mobile"
     ]
   }
 }

@@ -5,6 +5,7 @@
 .flexRowContent--desktop__section--image-container-2 {
     margin-top: 45px;
     margin-bottom: 45px;
+    max-width: 1280px;
 }
 
 
@@ -88,6 +89,7 @@
 
 .flexCol--desktop__logoAndtitle--col {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }

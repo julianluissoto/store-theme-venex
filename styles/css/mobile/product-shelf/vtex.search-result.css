@@ -10,3 +10,8 @@
 .galleryItem--mobile__gallery {
     background: linear-gradient(to bottom, #FFFFFF, #D6D6D6) !important;
 }
+
+.gallery--mobile__gallery {
+    justify-content: flex-start;
+    padding-left: 7px;
+}

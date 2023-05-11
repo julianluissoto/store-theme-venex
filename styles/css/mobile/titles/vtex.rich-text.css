@@ -11,9 +11,19 @@
 }
 
 .paragraph--mobile__body--big-title {
-    font-family: Montserrat-Medium, "Roboto";
+
 
     font-style: italic;
     font-size: 20px;
     font-weight: 600;
+}
+
+.paragraph--mobile__body--big-title-dark {
+    font-family: Montserrat-Bold, "Roboto";
+
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    padding-bottom: 10px;
 }

@@ -38,3 +38,8 @@
     position: relative;
     right: 70%
 }
+
+.nameWrapper--product__summary-name {
+    position: relative;
+    bottom: 10px;
+}

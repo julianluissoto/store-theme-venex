@@ -1,0 +1,13 @@
+.flexCol--search__result--mobile {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:640px) {
+
+    .flexRowContent--dark {
+        background-color: #2d2d33;
+        padding-top: 20px;
+    }
+
+
+}

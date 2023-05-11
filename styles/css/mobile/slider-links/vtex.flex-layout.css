@@ -7,12 +7,16 @@
 }
 
 .flexRow--mobile__Big-title {
-    background-color: #EEEEEE;
+    background-color: #e7eaec;
     height: 55px;
 }
 
 .flexRowContent--mobile__Big-title {
-    background-color: #EEEEEE;
-    height: 55px;
-    padding: 10px;
+    background-color: #e7eaec;
+
+
+}
+
+.flexRowContent--mobile__slider {
+    position: relative top 45px;
 }
