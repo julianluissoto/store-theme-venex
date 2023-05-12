@@ -41,6 +41,8 @@
 .container--customerService__title-1 {
     justify-content: flex-start;
     padding-left: 18px;
+    position: relative;
+    left: 14%;
 }
 
 .paragraph--customerService__PickUpPoint {

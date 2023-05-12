@@ -4,5 +4,7 @@
 }
 
 .imageElement--mobile__slider--brand-image {
-    border-radius: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
 }

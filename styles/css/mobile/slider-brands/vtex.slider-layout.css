@@ -7,5 +7,5 @@
 }
 
 .slideChildrenContainer--mobile__slider--brands {
-    width: 100%;
+    max-width: 214px !important;
 }

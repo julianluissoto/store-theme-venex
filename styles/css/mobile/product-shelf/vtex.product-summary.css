@@ -43,3 +43,7 @@
     position: relative;
     bottom: 10px;
 }
+
+.container--mobile__shelf--customQuery {
+    max-width: 100% !important;
+}

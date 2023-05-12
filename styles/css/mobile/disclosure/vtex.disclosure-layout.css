@@ -1,0 +1,4 @@
+.trigger--disclosure-layout__trigger--container {
+    display: flex;
+    justify-content: space-between;
+}

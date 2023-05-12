@@ -71,7 +71,10 @@
 
   "gallery#mobilecustomquery": {
     "props": {
-      "blockClass": "mobile__gallery"
+      "blockClass": [
+        "dark-gallery",
+        "mobile__gallery"
+      ]
     },
     "blocks": [
       "product-summary.shelf#mobile__shelf--customQuery"

@@ -6,3 +6,9 @@
     padding-bottom: 20px;
     justify-content: center;
 }
+
+.flexRow--mobile__Big--title-dark {
+    background-color: #2d2d33;
+    padding-top: 25px;
+    margin-top: 5px;
+}

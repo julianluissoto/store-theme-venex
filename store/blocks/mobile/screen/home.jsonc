@@ -1,7 +1,9 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
-
+    "props": {
+      "blockClass": "layout__phoneandtablet"
+    },
     "children": [
       "header-layout#header__mobile--container",
       "flex-layout.row#mobile__slider",
@@ -16,14 +18,17 @@
       "flex-layout.row#mobile__Big--title",
       "flex-layout.row#mobile__productShelf--container-4",
       "flex-layout.row#mobile__section--image",
+      "flex-layout.row#mobile__Big--title-dark",
       "flex-layout.row#mobile__productShelf--container-9",
       "flex-layout.row#mobile__section--2",
+      "flex-layout.row#mobile__Big--title",
 
-      "flex-layout.row#mobile__productShelf--container",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__creditCard",
 
+      "footer#mobile",
       "flex-layout.row#mobile__logo--banner",
-
-      "footer#mobile"
+      "flex-layout.row#disclosure-layout__Maincontainer"
     ]
   }
 }

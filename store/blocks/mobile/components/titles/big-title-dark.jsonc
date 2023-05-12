@@ -11,7 +11,7 @@
   "rich-text#mobile__body--Big-title-dark": {
     "title": "home body title text",
     "props": {
-      "text": "CHOOSE YOUR BEST LATOP,\n FOR GAMING OR WORK",
+      "text": "TAKE YOUR GAMES TO THE NEXT LEVEL",
       "blockClass": "mobile__body--big-title-dark",
       "textAlignment": "LEFT",
       "textPosition": "CENTER"

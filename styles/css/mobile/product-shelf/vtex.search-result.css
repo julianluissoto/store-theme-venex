@@ -1,5 +1,5 @@
 .galleryItem--mobile__gallery {
-    max-width: 50% !important;
+    /* max-width: 50% !important; */
     flex-basis: 47% !important;
     height: 249px;
     padding: 0;
@@ -11,7 +11,12 @@
     background: linear-gradient(to bottom, #FFFFFF, #D6D6D6) !important;
 }
 
+
 .gallery--mobile__gallery {
-    justify-content: flex-start;
-    padding-left: 7px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    /*   padding-left: 7px; */
+    margin: 0 auto;
+
 }
