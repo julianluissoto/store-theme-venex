@@ -9,21 +9,21 @@
     color: #91C616;
     font-weight: 600;
     font-family: Montserrat-Regular;
-    font-size: 0.9rem;
+    font-size: 15px;
 }
 
 .paragraph--customerService__title-2 {
     color: #fff;
     font-weight: 600;
     font-family: Montserrat-Regular;
-    font-size: 0.9rem;
+    font-size: 15px;
 
 }
 
 .paragraph--customerService__title-3 {
     font-family: Montserrat-Medium;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 14px;
 
 
 }
@@ -41,6 +41,8 @@
 .container--customerService__title-1 {
     justify-content: flex-start;
     padding-left: 18px;
+    position: relative;
+    left: 14%;
 }
 
 .paragraph--customerService__PickUpPoint {
@@ -62,10 +64,15 @@
 
 .paragraph--contactInfo__text {
     width: max-content;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .paragraph--suscribe__title {
     color: #fff;
+    font-family: Montserrat-Regular;
+}
+
+.container--suscribe__title {
+    font-size: 14px;
     font-family: Montserrat-Regular;
 }

@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#titleAndLogo": {
+    "title": "home body title",
+    "props": {
+      "blockClass": "desktop__titleAndLogo"
+    },
+    "children": [
+      "flex-layout.col#desktop__logoandTitle"
+    ]
+  },
+  "flex-layout.col#desktop__logoandTitle": {
+    "title": "home body title",
+    "props": {
+      "blockClass": "desktop__logoAndtitle--col"
+    },
+    "children": [
+      "logo#footer__logo",
+      "rich-text#desktop__logo--footer"
+    ]
+  },
+
+  "logo#footer__logo": {
+    "title": "logo footer dektop",
+
+    "props": {
+      "blockClass": "logo-footer",
+      "height": 30,
+      "width": 187,
+      "url": "assets/img/logo-venex/small-logo.png"
+    }
+  },
+
+  "rich-text#desktop__logo--footer": {
+    "title": "home body title text",
+    "props": {
+      "text": "We are certified partners of the main technology brands.",
+      "blockClass": "desktop__logoAndTitle"
+    }
+  }
+}

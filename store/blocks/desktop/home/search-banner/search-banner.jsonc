@@ -1,0 +1,186 @@
+{
+  "flex-layout.row#desktop__searchBar--container": {
+    "title": "search bar container",
+    "props": {
+      "blockClass": "desktop__searchBar--container"
+    },
+    "children": [
+      "header-row#searchBar__container--col"
+    ]
+  },
+  "header-row#searchBar__container--col": {
+    "title": "search bar container column",
+    "props": {
+      "horizontalAlign": "around",
+      "verticalAlign": "center",
+
+      "blockClass": "searchBar__container--col"
+    },
+    "children": [
+      "header-row#menu__search"
+    ]
+  },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Pleas Log In",
+      "accessCodeTitle": "Pleas Log-in",
+      "emailPlaceholder": "Please enter your email",
+      "passwordPlaceholder": "please enter your password",
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "Login / sign in",
+      "iconLabel": "Login / Sign In",
+      "showIconProfile": true
+    }
+  },
+
+  "header-row#menu__search": {
+    "children": [
+      "logo#header__menu",
+      "search-bar#desktop",
+      //"login",
+      "modal-trigger#login__modal--trigger",
+      "image#fav__icon",
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "searchBar__container"
+    }
+  },
+  "modal-trigger#login__modal--trigger": {
+    "title": "login trigger",
+    "props": {
+      "blockClass": "login__modal--trigger"
+    },
+    "children": [
+      "rich-text#login__text--trigger",
+      "modal-layout#login"
+    ]
+  },
+  "rich-text#login__text--trigger": {
+    "title": "login text",
+    "props": {
+      "blockClass": "login__text--trigger",
+      "text": "Welcome User",
+      "font": "heading-2"
+    }
+  },
+  "modal-layout#login": {
+    "title": "login layout desktop",
+    "props": {
+      "blockClass": "login__content--desktop"
+    },
+    "children": [
+      "modal-header#desktop",
+      //"modal-actions.close",
+      "login-content#login__content--desktop"
+    ]
+  },
+  "modal-header#desktop": {
+    "props": {
+      "blockClass": "modal__header--desktop"
+    }
+  },
+
+  "login-content#login__content--desktop": {
+    "title": "login__content",
+    "props": {
+      "blockClass": "login__content--desktop",
+      "defaultOption": 1,
+      "optionsTitle": "I'm Client",
+      "emailAndPasswordTitle": "access with your E-mail and Password",
+      "emailPlaceholder": "Please enter your E-Mail",
+      "passwordPlaceholder": "Please enter your Password"
+    }
+  },
+
+  "login#login__desktop": {
+    "title": "login desktop",
+    "props": {
+      "blockClass": "login__desktop"
+    }
+  },
+
+  "image#fav__icon": {
+    "title": "fav icon",
+
+    "props": {
+      "src": "assets/img/icons/heart.svg",
+      "maxHeight": 20,
+      "blockClass": "Fav-icon"
+    }
+  },
+
+  "logo#header__menu": {
+    "title": "logo dektop",
+
+    "props": {
+      "blockClass": "logo-desktop",
+      "height": 30,
+      "width": 300,
+      "url": "assets/img/logo-venex/header_logo.png",
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
+    }
+  },
+
+  "search-bar#desktop": {
+    "blocks": [
+      "autocomplete-result-list.v2#desktop"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "every you want is here!",
+      "blockClass": "searchBar__input--container"
+    }
+  },
+
+  "autocomplete-result-list.v2#desktop": {
+    "props": {
+      "blockClass": "search__result--autoComplete-desktop"
+    },
+    "blocks": [
+      "product-summary.shelf#desktop__shelf--container-desktop"
+    ]
+  },
+  "product-summary.shelf#desktop__shelf--container-desktop": {
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop"
+    },
+    "title": "summary shelf",
+    "children": [
+      "flex-layout.row#sumary__container"
+      //"product-summary-image#shelf__desktop--image",
+      // "product-summary-price#shelf__desktop--price",
+      // "product-summary-name#shelf__desktop--name"
+    ]
+  },
+  "flex-layout.row#sumary__container": {
+    "props": {
+      "blockClass": "sumary__container__desktop"
+    },
+    "children": [
+      "product-summary-image#shelf__desktop--image",
+      "product-summary-name#shelf__desktop--name"
+    ]
+  },
+
+  "product-summary-image#shelf__desktop--image": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-image"
+    }
+  },
+  "product-summary-price#shelf__desktop--price": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-price"
+    }
+  },
+  "product-summary-name#shelf__desktop--name": {
+    "title": "product summary shelf image desktop",
+    "props": {
+      "blockClass": "desktop__shelf--container-desktop-name"
+    }
+  }
+}

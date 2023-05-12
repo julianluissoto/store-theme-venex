@@ -9,6 +9,5 @@
 }
 
 .goBackButtonText {
-    color: rgb(221, 226, 216);
-    font-weight: 600;
+    display: none;
 }

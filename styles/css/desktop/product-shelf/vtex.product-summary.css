@@ -1,6 +1,5 @@
 .imageWrapper--product-summary__Shelf--image {
-    max-height: 190px;
-    max-width: 190px;
+
 
     padding-top: 5px;
     background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
@@ -35,18 +34,16 @@
 }
 
 .element--desktop__shelf--container {
+
+    padding: 0;
     height: 350px;
     flex-direction: column !important;
     border-radius: 20px;
-    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+
+
 }
 
 
-
-
-/* .containerNormal--desktop__shelf--container {
-    height: 330px;
-} */
 
 .currencyCode {
     font-family: Montserrat-Regular;
@@ -73,12 +70,34 @@
 
 .priceContainer--product-summary__Shelf--price {
     min-height: 4rem;
+    position: relative;
+    bottom: 23px;
+    padding: 0;
 }
 
 .nameContainer--product-summary__Shelf--name {
-
-    min-height: 6rem;
+    padding: 0;
+    min-height: 3rem;
     background-color: #fff;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    bottom: 33px;
+}
 
+.imageContainer--product-summary__Shelf--image {
+    max-width: 186px;
+}
+
+.price_installmentContainer--product-summary__Shelf--price {
+    display: none;
+}
+
+.price_listPriceContainer--product-summary__Shelf--price {
+    display: none;
+}
+
+.brandName--product-summary__Shelf--name {
+    font-family: Montserrat-Light;
+    color: gray;
+    font-size: 12px;
 }

@@ -1,0 +1,14 @@
+.container--desktop__nexLevelGames--section-title {
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+.paragraph--desktop__nexLevelGames--section-title {
+
+    color: #fff;
+    font-family: Montserrat-Regular !important;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 26px;
+    line-height: 1.1
+}

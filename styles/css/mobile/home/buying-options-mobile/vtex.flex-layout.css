@@ -1,0 +1,15 @@
+.flexCol--mobile__creditCard--container {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3%;
+    width: 95% !important;
+    padding-bottom: 5%;
+}
+
+.flexRowContent--mobile__buyingOptions--container {
+    flex-direction: column;
+    column-gap: 10px;
+    background-color: #EEEEEE;
+    padding-top: 45px;
+
+}

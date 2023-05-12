@@ -1,0 +1,158 @@
+{
+  "flex-layout.row#desktop__productShelf--container-1": {
+    "title": "product shelf",
+    "props": {
+      "blockClass": "desktop__productShelf--container",
+      "width": "80%"
+    },
+    "children": [
+      "flex-layout.col#shelf_leftColumn",
+      //"image#notebook__girl--image",
+      "flex-layout.col#shelf_rightColumn"
+    ]
+  },
+
+  "flex-layout.row#desktop__productShelf--container-2": {
+    "title": "product shelf",
+    "props": {
+      "blockClass": [
+        "desktop__productShelf--container"
+      ],
+      "width": "80%"
+    },
+    "children": [
+      "flex-layout.col#shelf_leftColumn-2",
+      "flex-layout.col#shelf_rightColumn"
+    ]
+  },
+
+  "flex-layout.col#shelf_leftColumn": {
+    "title": "product shelf left column",
+    "props": {
+      "blockClass": "shelf_leftColumn",
+      "width": "25%"
+    },
+    "children": [
+      "image#notebook__girl--image"
+    ]
+  },
+  "flex-layout.col#shelf_leftColumn-2": {
+    "title": "product shelf left column",
+    "props": {
+      "blockClass": "shelf_leftColumn",
+      "width": "25%"
+    },
+    "children": [
+      "image#pc__boy--image"
+    ]
+  },
+
+  "flex-layout.col#shelf_rightColumn": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "shelf_rightColumn"
+    },
+    "children": [
+      "flex-layout.row#shelf_rightColumn"
+    ]
+  },
+  "flex-layout.row#shelf_rightColumn": {
+    "title": "product shelf right row",
+    "props": {
+      "blockClass": "shelf_rightColumn--row"
+    },
+    "children": [
+      "list-context.product-list#shelf__container"
+    ]
+  },
+
+  "image#notebook__girl--image": {
+    "title": "notebook girl image",
+    "props": {
+      "blockClass": "notebook__girl--image",
+      "src": "assets/img/product-shelf/notebook-girl.png"
+    }
+  },
+  "image#pc__boy--image": {
+    "title": "pc boy image",
+    "props": {
+      "blockClass": "notebook__girl--image",
+      "src": "assets/img/product-shelf/pc-boy.png"
+    }
+  },
+
+  "product-summary.shelf#desktop__shelf--container": {
+    "props": {
+      "blockClass": "desktop__shelf--container"
+    },
+    "title": "summary shelf",
+    "children": [
+      "product-summary-image#shelf__image",
+      "rich-text#label_promo--text",
+      "product-summary-price#shelf__price",
+      "product-summary-name#shelf__name"
+    ]
+  },
+
+  "product-summary-image#shelf__image": {
+    "props": {
+      "blockClass": "product-summary__Shelf--image"
+    }
+  },
+  "rich-text#label_promo--text": {
+    "title": "promo text",
+    "props": {
+      "text": "15% OFF",
+      "blockClass": "label_promo--text",
+      "font": "heading-2"
+    }
+  },
+
+  "product-summary-price#shelf__price": {
+    "props": {
+      "blockClass": "product-summary__Shelf--price"
+    }
+  },
+  "product-summary-name#shelf__name": {
+    "props": {
+      "blockClass": "product-summary__Shelf--name"
+    }
+  },
+
+  "list-context.product-list#shelf__container": {
+    "title": "list context",
+    "props": {
+      "blockClass": "shelf__container",
+      "maxItems": 10
+    },
+
+    "blocks": [
+      "product-summary.shelf#desktop__shelf--container"
+    ],
+    "children": [
+      "slider-layout#product__shelf--container"
+    ]
+  },
+  "slider-layout#product__shelf--container": {
+    "title": "slider with declared children",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "arrowSize": "30",
+
+      "blockClass": "porduct__shelf--slider"
+      /* "autoplay": {
+        "timeout": 1000,
+        "stopOnHover": true
+      } */
+    },
+    "children": []
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "flex-layout.row#desktop__nexLevelGames--section": {
+    "title": " next level games section main container",
+    "props": {
+      "blockClass": "desktop__nexLevelGames--section-container",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#desktop__nexLevelGames--section-container"
+    ]
+  },
+  "flex-layout.col#desktop__nexLevelGames--section-container": {
+    "title": " next level games section  container",
+    "props": {
+      "blockClass": "desktop__nexLevelGames--section"
+    },
+    "children": [
+      "rich-text#takeYourGamesUp__text",
+      "flex-layout.row#gpu__imageLinks--container",
+      "flex-layout.row#product__summary--oustanding",
+      "slider-layout#desktop__slider--brands-mini"
+    ]
+  },
+
+  "rich-text#takeYourGamesUp__text": {
+    "title": " next level games section title",
+    "props": {
+      "blockClass": "desktop__nexLevelGames--section-title",
+      "text": "Take your games to the next level!",
+      "font": "t-heading-4"
+    }
+  },
+
+  "flex-layout.row#gpu__imageLinks--container": {
+    "title": "product summary oustanding",
+    "props": {
+      "blockClass": "gpu__imageLinks--container"
+    },
+    "children": [
+      "flex-layout.col#gpu",
+      "flex-layout.col#peripheral",
+      "flex-layout.col#motherboards"
+    ]
+  },
+  "flex-layout.col#gpu": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image",
+      "width": "25%"
+    },
+    "children": [
+      "image#gpu"
+    ]
+  },
+  "image#gpu": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image",
+      "src": "assets/img/miscellaneous-images/gpu.jpg"
+    }
+  },
+  "flex-layout.col#peripheral": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image--section 2",
+      "width": "50%"
+    },
+    "children": [
+      "image#peripheral"
+    ]
+  },
+  "image#peripheral": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image",
+      "src": "assets/img/miscellaneous-images/peripheral.jpg"
+    }
+  },
+  "flex-layout.col#motherboards": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image--section-image",
+      "width": "25%"
+    },
+    "children": [
+      "image#mother"
+    ]
+  },
+  "image#mother": {
+    "title": "gpu__image",
+    "props": {
+      "blockClass": "gpu__image--section 2",
+      "src": "assets/img/miscellaneous-images/mothers.jpg"
+    }
+  },
+  "flex-layout.row#product__summary--oustanding": {
+    "children": [
+      "flex-layout.row#desktop__productShelf--container-2-dark"
+    ]
+  },
+
+  "flex-layout.row#desktop__productShelf--container-2-dark": {
+    "title": "product shelf",
+    "props": {
+      "blockClass": [
+        /* "desktop__productShelf--container", */
+        "dark-background"
+      ],
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#shelf_leftColumn-2",
+      "flex-layout.col#shelf_rightColumn-dark"
+    ]
+  },
+  "flex-layout.col#shelf_rightColumn-dark": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "shelf_rightColumn-dark"
+    },
+    "children": [
+      "flex-layout.row#shelf_rightColumn"
+    ]
+  },
+
+  "flex-layout.col#shelf_leftColumn-2-dark": {
+    "title": "product shelf left column",
+    "props": {
+      "blockClass": "shelf_leftColumn",
+      "width": "30%"
+    },
+    "children": [
+      "image#pc__boy--image"
+    ]
+  },
+
+  "flex-layout.row#shelf_rightColumn-dark": {
+    // "title": "product shelf right column",
+    "props": {
+      "blockClass": [
+        "shelf_rightColumn"
+      ]
+    },
+    "children": [
+      "list-context.product-list#shelf__container"
+    ]
+  },
+  "slider-layout#desktop__slider--brands-mini": {
+    "title": "slider brands mini",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "arrowSize": "30",
+      "blockClass": "desktop__slider--brandsMini",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1",
+      "image#brand-1"
+    ]
+  },
+  "image#brand-1": {
+    "title": "logitech brand",
+    "props": {
+      "blockClass": "image__brand--mini",
+      "src": "assets/img/brands-mini/logitech.png"
+    }
+  }
+}

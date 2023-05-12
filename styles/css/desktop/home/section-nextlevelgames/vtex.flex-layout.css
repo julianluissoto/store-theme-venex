@@ -1,0 +1,41 @@
+.flexRowContent--desktop__nexLevelGames--section-container {
+    display: flex;
+    background-color: #2D2D33;
+    min-height: 1125px;
+    justify-content: center;
+}
+
+.flexCol--desktop__nexLevelGames--section {
+    flex-direction: column;
+}
+
+.flexCol--desktop__nexLevelGames--section {
+    max-width: 1170px;
+}
+
+.flexRow--gpu__imageLinks--container {
+    min-height: 365px;
+}
+
+.flexRowContent--gpu__imageLinks--container {
+    gap: 1.5%;
+}
+
+.flexColChild--desktop__nexLevelGames--section {
+    margin-bottom: 45px;
+
+
+
+}
+
+.flexRow--dark-background {
+    background-color: #333333;
+    justify-content: space-around;
+}
+
+.flexRowContent--dark-background {
+    overflow: hidden;
+    max-height: 370px;
+    position: relative;
+    right: 1rem;
+}

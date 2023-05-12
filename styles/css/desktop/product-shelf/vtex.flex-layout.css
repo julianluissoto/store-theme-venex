@@ -6,9 +6,36 @@
 .flexRowContent--desktop__productShelf--container {
     background-color: #E7EAEC;
     justify-content: space-around;
-    max-width: 1280px;
+    /* width: 1170px; */
+    max-height: 390px;
+    margin: 0 auto;
 }
+
+
 
 .flexRow--desktop__sliderBrands--container {
     margin-bottom: 20px;
+}
+
+.flexRow--desktop__productShelf--container {
+    display: flex;
+    height: 391px;
+
+    margin-bottom: 2rem;
+    flex-basis: content;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.flexCol--shelf_leftColumn {
+    flex-basis: content;
+}
+
+.flexColChild--shelf_rightColumn {
+    overflow: hidden;
+    background-color: #E7EAEC;
+    max-height: 370px;
+    position: relative;
+    right: 2rem;
+    margin-right: -1rem;
 }

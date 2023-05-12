@@ -1,0 +1,233 @@
+{
+  "flex-layout.row#desktop__buyingOptions--container": {
+    "title": "buying option main container",
+    "props": {
+      "blockClass": "desktop__buyingOptions--Maincontainer"
+    },
+    "children": [
+      "flex-layout.col#desktop__buyingOptions--container-col"
+    ]
+  },
+  "flex-layout.col#desktop__buyingOptions--container-col": {
+    "title": "buyng options columns",
+    "props": {
+      "blockClass": "desktop__buyingOptions--container-col"
+    },
+    "children": [
+      "flex-layout.row#desktop__creditCard"
+    ]
+  },
+
+  "flex-layout.row#desktop__creditCard": {
+    "title": "buying option main container",
+    "props": {
+      "blockClass": "desktop__buyingOptions--container"
+    },
+    "children": [
+      "flex-layout.col#creditCard__container",
+      "flex-layout.col#receibeProduct__container",
+      "flex-layout.col#creditCard__container-3"
+    ]
+  },
+  "flex-layout.col#creditCard__container": {
+    "title": "credit card col container",
+    "props": {
+      "blockClass": "creditCard__container",
+      "with": "33%"
+    },
+    "children": [
+      "modal-trigger#creditcard__modal--trigger",
+      "flex-layout.row#card__txt-container"
+    ]
+  },
+  "flex-layout.col#receibeProduct__container": {
+    "title": "receibe your product col container",
+    "props": {
+      "blockClass": "creditCard__container",
+      "with": "33%"
+    },
+    "children": [
+      "modal-trigger#creditcard__modal--trigger-2",
+      "flex-layout.row#card__txt-container-2"
+    ]
+  },
+
+  "flex-layout.col#creditCard__container-3": {
+    "title": "receibe your product col container",
+    "props": {
+      "blockClass": "creditCard__container",
+      "with": "33%"
+    },
+    "children": [
+      "flex-layout.row#shipingImage-container",
+
+      "flex-layout.row#card__txt-container-3"
+    ]
+  },
+  "flex-layout.row#shipingImage-container": {
+    "title": "shiping image container",
+    "props": {
+      "blockClass": "creditCard__container"
+    },
+    "children": [
+      "flex-layout.col#shipingImage-container"
+    ]
+  },
+  "flex-layout.col#shipingImage-container": {
+    "title": "shiping image col container",
+    "props": {
+      "blockClass": "shipingImage-container"
+    },
+    "children": [
+      "image#Hipping_image"
+    ]
+  },
+
+  "flex-layout.row#card__txt-container": {
+    "title": "credit card col text container",
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "flex-layout.col#card__txt-container-1"
+    ]
+  },
+  "flex-layout.col#card__txt-container-1": {
+    "title": "credit card col text container",
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "rich-text#creditOptions__text-1",
+      "rich-text#creditOptions__text-2"
+    ]
+  },
+
+  "flex-layout.row#card__txt-container-2": {
+    "title": "credit card col text container",
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "flex-layout.col#card__txt-container-2"
+    ]
+  },
+  "flex-layout.col#card__txt-container-2": {
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "rich-text#creditOptions__text-1",
+      "rich-text#creditOptions__text-2"
+    ]
+  },
+
+  "flex-layout.row#card__txt-container-3": {
+    "title": "credit card col text container",
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "flex-layout.col#card__txt-container-3"
+    ]
+  },
+  "flex-layout.col#card__txt-container-3": {
+    "props": {
+      "blockClass": "card__txt-container"
+    },
+    "children": [
+      "rich-text#creditOptions__text-1",
+      "rich-text#creditOptions__text-2"
+    ]
+  },
+
+  "modal-trigger#creditcard__modal--trigger": {
+    "title": "credit card col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image",
+      "modal-layout#credit-card"
+    ]
+  },
+  "modal-trigger#creditcard__modal--trigger-2": {
+    "title": "receibe your product col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image-2",
+      "modal-layout#credit-card"
+    ]
+  },
+
+  "modal-layout#credit-card": {
+    "children": [
+      "rich-text#credit-card"
+    ]
+  },
+  "rich-text#credit-card": {
+    "props": {
+      "text": "Hello"
+    }
+  },
+  "image#Hipping_image": {
+    "title": "image credit card",
+    "props": {
+      "src": "assets/img/banner-shiping-img/envio_express_footer.png",
+      "blockClass": "shiping__image"
+    }
+  },
+
+  "image#creditCard__image": {
+    "title": "image credit card",
+    "props": {
+      "src": "assets/img/banner-shiping-img/card.png",
+      "blockClass": "creditCard__image"
+    }
+  },
+  "image#creditCard__image-2": {
+    "title": "image credit card",
+    "props": {
+      "src": "assets/img/banner-shiping-img/grey-truck.png",
+      "blockClass": "creditCard__image"
+    }
+  },
+  "rich-text#creditOptions__text-1": {
+    "title": "image credit text",
+    "props": {
+      "blockClass": "creditOptions__text-1",
+      "text": " UP TO 12 PAYMENTS "
+    }
+  },
+  "rich-text#creditOptions__text-2": {
+    "title": "image credit text",
+    "props": {
+      "blockClass": "creditOptions__text-2",
+      "text": " with mayor credit cards",
+      "font": "heading-3"
+    }
+  }
+
+  /*   "flex-layout.row#desktop__pickUpOnStore": {
+    "title": "buying option main container",
+    "props": {
+      "blockClass": "desktop__buyingOptions--container",
+      "children": [
+        "image#creditCard",
+        "rich-text#creditOptions"
+      ]
+    }
+  },
+  "flex-layout.row#desktop__shiping": {
+    "title": "buying option main container",
+    "props": {
+      "blockClass": "desktop__buyingOptions--container",
+      "children": [
+        "image#creditCard",
+        "rich-text#creditOptions"
+      ]
+    }
+  } */
+}

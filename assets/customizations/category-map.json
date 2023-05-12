@@ -1,0 +1,147 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electrodomesticos",
+        "href": "/electrodomesticos",
+        "children": [
+          {
+            "id": 3,
+            "name": "Hierro",
+            "href": "/electrodomesticos/hierro"
+          },
+          {
+            "id": 4,
+            "name": "Varillas",
+            "href": "/electrodomesticos/varillas"
+          },
+          {
+            "id": 5,
+            "name": "Ladrillos",
+            "href": "/electrodomesticos/ladrillos"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Celulares",
+        "href": "/celulares",
+        "children": []
+      },
+      {
+        "id": 8,
+        "name": "Madera",
+        "href": "/madera",
+        "children": [
+          {
+            "id": 9,
+            "name": "Madera Maciza",
+            "href": "/madera/madera-maciza"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Queso",
+        "href": "/queso",
+        "children": [
+          {
+            "id": 2,
+            "name": "Cemento",
+            "href": "/queso/cemento"
+          },
+          {
+            "id": 11,
+            "name": "Quesos Importados",
+            "href": "/queso/quesos-importados"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Mujer",
+        "href": "/mujer",
+        "children": [
+          {
+            "id": 13,
+            "name": "Zapatos",
+            "href": "/mujer/zapatos"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Notebook",
+        "href": "/notebook",
+        "children": [
+          {
+            "id": 15,
+            "name": "Notebook Tradicional",
+            "href": "/notebook/notebook-tradicional"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Techo",
+        "href": "/techo",
+        "children": []
+      },
+      {
+        "id": 18,
+        "name": "Hombre",
+        "href": "/hombre",
+        "children": [
+          {
+            "id": 19,
+            "name": "zapatos",
+            "href": "/hombre/zapatos"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Mens",
+        "href": "/mens",
+        "children": [
+          {
+            "id": 21,
+            "name": "Clothing",
+            "href": "/mens/clothing"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Pet supplies",
+        "href": "/pet-supplies",
+        "children": [
+          {
+            "id": 24,
+            "name": "Cat supplies",
+            "href": "/pet-supplies/cat-supplies"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "department1",
+        "href": "/department1",
+        "children": [
+          {
+            "id": 27,
+            "name": "name1",
+            "href": "/department1/name1"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "testing1",
+        "href": "/testing1",
+        "children": []
+      }
+    ]
+  }
+}

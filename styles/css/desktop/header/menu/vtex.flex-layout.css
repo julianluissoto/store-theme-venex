@@ -1,0 +1,17 @@
+.flexRowContent--menu__desktop--containerMain {
+    display: flex;
+
+    justify-content: center;
+    max-height: 50px;
+    column-gap: 48px;
+}
+
+.flexCol--menu__desktop--container {
+    flex-wrap: wrap;
+    min-height: 55px;
+}
+
+.flexRowContent--menu__desktop--Maincontainer {
+    min-height: 55px;
+
+}

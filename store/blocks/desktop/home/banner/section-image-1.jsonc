@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#desktop__section--image": {
+    "title": "section image 1 container",
+    "props": {
+      "blockClass": "desktop__section--image-container"
+    },
+    "children": [
+      "image#section__image--one"
+    ]
+  },
+  "image#section__image--one": {
+    "title": "section image 1",
+    "props": {
+      "blockClass": "desktop__section--image",
+      "src": "assets/img/home-images/home-image-1.jpg",
+      "maxwidth": 1170
+    }
+  },
+  "flex-layout.row#desktop__section--image-2": {
+    "title": "section image 1 container",
+    "props": {
+      "blockClass": "desktop__section--image-container-2"
+    },
+    "children": [
+      "image#section__image--two"
+    ]
+  },
+  "image#section__image--two": {
+    "title": "section image 1",
+    "props": {
+      "blockClass": "desktop__section--image -2",
+      "src": "assets/img/home-images/home-image-2.jpg",
+      "maxwidth": 1170
+    }
+  }
+}

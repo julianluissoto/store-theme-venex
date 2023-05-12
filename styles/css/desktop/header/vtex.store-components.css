@@ -1,8 +1,8 @@
-.logoContainer {
-    max-width: 280px;
-    max-height: 125px;
-    min-width: 128px;
-    margin-left: -3rem
+.logoImage--logo-desktop {
+
+    width: 11rem;
+    height: 34px;
+
 }
 
 
@@ -12,14 +12,19 @@
     margin-top: -5px;
 }
 
-.vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group {
-    min-height: 50px;
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    min-height: 35px;
+    border-style: none;
+
 }
 
 .imageElement--venexCorporate {
+
     max-height: 35px;
     position: relative;
-    top: 8px;
+    top: 10px;
+
+
 }
 
 .autoCompleteOuterContainer {
@@ -30,4 +35,27 @@
 
 .searchBarContainer .input-prefix__group {
     border: none !important;
+}
+
+.logoContainer--logo-desktop {
+    margin-left: -3rem;
+
+    max-width: 192px;
+    max-height: 72px;
+    min-width: 123px;
+
+}
+
+
+
+.imageElement--slider__brand--image-logo {
+
+
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: 46%;
+
+
 }

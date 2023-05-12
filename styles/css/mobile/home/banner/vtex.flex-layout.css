@@ -1,0 +1,18 @@
+.flexRowContent--mobile__banner--image-Maincontainer {
+    padding-top: 30px;
+    background-color: #EEEEEE;
+}
+
+.flexColChild--mobile__banner--container {
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol--mobile__banner--container {
+    padding-top: 30x;
+    padding-bottom: 20px;
+}
+
+.flexRow--mobile__banner--logo-container {
+    padding-top: 30px;
+}
