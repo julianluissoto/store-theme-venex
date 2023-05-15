@@ -191,7 +191,9 @@
   "flex-layout.row#socialNetworks__container": {
     "title": "social network container",
     "props": {
-      "blockClass": "social__container"
+      "blockClass": [
+        "social__container"
+      ]
     },
     "children": [
       "flex-layout.col#facebook",
@@ -234,7 +236,7 @@
   "image#facebook": {
     "title": "facebook image",
     "props": {
-      "blockClass": "socialNetwork__image",
+      "blockClass": "socialNetwork__image-facebook",
       "src": "assets/img/icons/svg/facebook.svg",
       "link": {
         "url": "https://www.venex.com.ar/pagina-inicial.html"
@@ -264,25 +266,6 @@
     }
   },
 
-  /* "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "url": "https://facebook.com/foo",
-          "name": "Facebook"
-        },
-        {
-          "url": "https://instagram.com/foo",
-          "name": "Instagram"
-        },
-        {
-          "url": "https://youtube.com/foo",
-          "name": "Youtube"
-        }
-      ],
-      "showInColor": true
-    }
-  }, */
   "newsletter": {
     "title": "newsletter",
     "props": {

@@ -1,0 +1,30 @@
+.flexColChild--mobile__footer--colContainer {
+    background-color: var(--secondary-color);
+}
+
+.flexRowContent--mobile__footer--rowContainer {
+    padding-top: 25px;
+}
+
+.flexColChild--mobile__footer--colContainer {
+    padding-top: 45px;
+}
+
+.flexColChild--newsLetter__mobile {
+    padding-left: 18px;
+    padding-bottom: 30px;
+}
+
+.flexRowContent--social__container--mobile {
+
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.flexCol--data-fical__mobile--container {
+    flex-direction: row;
+    align-items: center;
+}

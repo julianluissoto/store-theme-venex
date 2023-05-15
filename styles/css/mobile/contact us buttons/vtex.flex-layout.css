@@ -1,0 +1,46 @@
+.flexRow--contact__button-mainContainer {
+    padding: 5% 0;
+    background-color: var(--mobile-gray);
+}
+
+
+.flexRowContent--contact__button-mainContainer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flexCol--button__textUs--container {
+    width: 95% !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #37373F;
+    margin-right: 7px;
+
+}
+
+.flexCol--button__callUs--container {
+    width: 95% !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    background-color: var(--icon-color);
+
+}
+
+.flexColChild--button__callUs--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexColChild--button__textUs--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

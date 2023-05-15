@@ -5,8 +5,8 @@
       "blockClass": "home__desktop--container"
     },
     "children": [
-      "flex-layout.row#desktop__searchBar--container",
-      "flex-layout.row#menu__links--container",
+      //"flex-layout.row#desktop__searchBar--container",
+      //"flex-layout.row#menu__links--container",
       "slider-layout#home__slider--children",
       "flex-layout.row#desktop__title",
       "flex-layout.row#desktop__sliderBrands",
@@ -28,6 +28,8 @@
       "flex-layout.row#desktop__buyingOptions--container",
       "flex-layout.row#titleAndLogo",
       "flex-layout.row#partners",
+
+      "flex-layout.row#whatapp__logo--container",
 
       "footer#desktop"
     ]

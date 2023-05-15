@@ -6,6 +6,39 @@
     width: 350px;
 }
 
+@media screen and (max-width:767px) {
+    .container--newsletter {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .inputGroup--newsletter {
+
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .buttonContainer--newsletter {
+        padding-top: 0;
+    }
+
+    .form--newsletter {
+        min-width: 100%;
+    }
+}
+
+.imageElementLink--socialNetwork__image {
+    text-align: center;
+    width: 50% !;
+}
+
+
+
+
 .buttonContainer--newsletter :global(.vtex-button) {
     background-color: #91C612;
     width: 52px;

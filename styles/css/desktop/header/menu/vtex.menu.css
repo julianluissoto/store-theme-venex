@@ -3,6 +3,11 @@
 
 }
 
+.styledLinkContent--header__menu--subcategory-ssd, .styledLinkContent--header__menu--subcategory-hdd {
+    color: var(--primary-color);
+    font-family: Montserrat-Regular;
+}
+
 .styledLinkContainer--all__categories {
     border-right: 2px solid #C8C8C8;
     padding-right: 1rem;

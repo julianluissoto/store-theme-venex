@@ -29,3 +29,7 @@
      margin-left: 2rem;
      margin-right: 2rem;
  }
+
+ .container--home__orderOptions {
+     justify-content: end;
+ }

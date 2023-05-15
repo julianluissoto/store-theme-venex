@@ -31,5 +31,25 @@
       "modal-trigger#mobilecreditcard__modal--trigger-2",
       "flex-layout.row#card__txt-container-2"
     ]
+  },
+  "modal-trigger#mobilecreditcard__modal--trigger": {
+    "title": "credit card col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image",
+      "modal-layout#credit-card"
+    ]
+  },
+  "modal-trigger#mobilecreditcard__modal--trigger-2": {
+    "title": "receibe your product col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image-2",
+      "modal-layout#credit-card"
+    ]
   }
 }

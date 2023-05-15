@@ -1,95 +1,88 @@
 {
-  "store.search": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-  "store.search#category": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-  "store.search#brand": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
   "store.search#department": {
+    "title": "store category",
     "blocks": [
-      "search-result-layout"
-    ],
+      "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department": {
+    "title": "Result layout container",
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "title": "Result desktop container",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "gallery-layout-switcher",
+      "search-content"
+    ]
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "department breadcrum",
     "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
+      "blockClass": "department__breadcrumb"
+    },
+    "children": [
+      "flex-layout.col#department__breadcrumb"
+    ]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": [
+      "breadcrumb.search#desktop"
+    ]
+  },
+  "breadcrumb.search#desktop": {
+    "props": {
+      "blockClass": "department__desktop--breadcrum"
     }
   },
-  "store.search#subcategory": {
-    "blocks": [
-      "search-result-layout"
-    ],
+  "search-result-layout.mobile#department": {
+    "title": "Result mobile container",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department results",
+    "children": [
+      "gallery-layout-switcher",
+      "search-content"
+    ]
+  },
+  "rich-text#desktop-response-department": {
     "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
+      "text": "desktop search department"
     }
   },
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop#departments",
-      "search-result-layout.mobile#departments"
-      //"search-not-found-layout#departments"
-    ]
-  },
-
-  "search-result-layout.desktop#departments": {
-    "children": [
-      "flex-layout.row#search__laptops"
-    ]
-  },
-  "flex-layout.row#search__laptops": {
-    "children": [
-      "rich-text#search--laptops"
-    ]
-  },
-  "rich-text#search--laptops": {
+  "rich-text#mobile-response-department": {
     "props": {
-      "text": "this is search latops on DESKTOP"
+      "text": "mobile search department"
     }
   },
-  "search-result-layout.mobile#departments": {
+  "gallery-layout-switcher": {
+    "title": "Gallery switcher",
     "children": [
-      "flex-layout.row#search__laptops--mobile"
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one--column"
     ]
   },
-  "flex-layout.row#search__laptops--mobile": {
-    "children": [
-      "rich-text#search--laptops--mobile"
-    ]
-  },
-  "rich-text#search--laptops--mobile": {
+  "gallery-layout-option#grid__two-columns": {
+    "title": "Gallery grid two columns",
     "props": {
-      "text": "this is search latops on MOBILE"
+      "name": "grid-two-column",
+      "blockClass": "grid__selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid__one--column": {
+    "title": "Gallery grid one column",
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
     }
   }
 }

@@ -3,9 +3,10 @@
 }
 
 .flexRowContent--desktop__section--image-container-2 {
-    margin-top: 45px;
-    margin-bottom: 45px;
-    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 1230px;
 }
 
 
@@ -99,7 +100,7 @@
 }
 
 .flexRowContent--partners_main--container {
-    width: 1170px;
+    width: 1280px;
     margin: 2rem auto;
 }
 

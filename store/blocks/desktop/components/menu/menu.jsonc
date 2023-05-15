@@ -244,8 +244,8 @@
   "icon#moreCategories": {
     "props": {
       "blockClass": "icon__moreCategories",
-      "id": "arrow-right",
-      "size": 16
+      "id": "arrow-right-2",
+      "size": 14
     }
   },
   "rich-text#categorie__dot": {

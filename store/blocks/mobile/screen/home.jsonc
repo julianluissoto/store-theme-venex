@@ -22,13 +22,14 @@
       "flex-layout.row#mobile__productShelf--container-9",
       "flex-layout.row#mobile__section--2",
       "flex-layout.row#mobile__Big--title",
-
       "flex-layout.row#mobile__productShelf--container-4",
       "flex-layout.row#mobile__creditCard",
-
-      "footer#mobile",
       "flex-layout.row#mobile__logo--banner",
-      "flex-layout.row#disclosure-layout__Maincontainer"
+      "flex-layout.row#disclosure-layout__Maincontainer",
+      "flex-layout.row#contact__button",
+      "flex-layout.row#customerService__contactInfo--mobile",
+      "flex-layout.row#whatapp__logo--container",
+      "footer#mobile__footer"
     ]
   }
 }

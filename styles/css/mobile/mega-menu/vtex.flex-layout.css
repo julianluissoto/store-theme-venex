@@ -19,3 +19,7 @@
     margin-left: 1.5rem;
     transform: translateY(-10px);
 }
+
+.container--buildPc__text--mobile {
+    margin-left: 17px;
+}

@@ -190,7 +190,7 @@
   "rich-text#buildYourPc": {
     "title": "build your pc menu text",
     "props": {
-      "blockClass": "buildPc__text",
+      "blockClass": "buildPc__text--mobile",
       "text": "BUILD YOUR PC",
       "font": "heading-2",
       "textColor": "c-on-emphasis"
