@@ -1,0 +1,183 @@
+{
+  "store.search": {
+    "title": "store search general",
+    "blocks": [
+      "search-result-layout#global"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "title": "store department",
+    "blocks": [
+      "search-result-layout#global"
+    ]
+  },
+  "store.search#category": {
+    "title": "store category",
+    "blocks": [
+      "search-result-layout#global"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "title": "store subcategory",
+    "blocks": [
+      "search-result-layout#global"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "title": "store brand",
+    "blocks": [
+      "search-result-layout#global"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#global": {
+    "title": "Result layout container",
+    "blocks": [
+      "search-result-layout.desktop#desktop",
+      "search-result-layout.mobile#global",
+      "search-not-found-layout"
+    ]
+  },
+  "flex-layout.row#searchbread": {
+    "title": "row bread",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#searchtitle": {
+    "title": "search title",
+    "children": [
+      "gallery-layout-switcher"
+    ]
+  },
+  "flex-layout.row#container--result-search--row": {
+    "title": "Container search result row",
+    "children": [
+      "search-content#global"
+    ]
+  },
+  "search-content#global": {
+    "title": "global search content",
+    "blocks": [
+      "gallery#search__results--gallery",
+      "not-found"
+    ]
+  },
+  "gallery#search__results--gallery": {
+    "title": "gallery search result gallery shitcher",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+          }
+        },
+        {
+          "name": "general-list",
+          "component": "GeneralList",
+          "itemsPerRow": 1
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#desktop__shelf--container",
+      "GeneralList": "product-summary.shelf#desktop__shelf--container"
+    }
+  },
+  /* "product-summary.shelf#global": {
+    "title": "global summary shelf",
+    "children": [
+      "product-summary-image",
+      "product-list-price",
+      "product-summary-name"
+
+      // "add-to-cart-button",
+      // "modal-trigger#global__quick-view",
+      // "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "global__summary-shelf"
+    }
+  }, */
+  "product-summary-sku-selector": {
+    "title": "SKU selector",
+    "props": {
+      "hideImposibleCombinations": false
+    }
+  },
+  "modal-trigger#global__quick-view": {
+    "title": "trigger quick view",
+    "children": [
+      "rich-text#global__quick-view--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "rich-text#global__quick-view--trigger": {
+    "title": "rich text trigger quick view",
+    "props": {
+      "text": " viata rapida",
+      "blockClass": "quick-view__trigger"
+    }
+  },
+  "modal-layout#global__quick-view--modal": {
+    "title": "modal quik view",
+    "children": [
+      "product-summary-name"
+    ]
+  },
+  "gallery-layout-switcher#global": {
+    "title": "Gallery switcher",
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one--column"
+    ],
+    "props": {
+      "blockClass": "global__selector--column"
+    }
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "title": "Gallery grid two columns",
+    "props": {
+      "name": "general-list",
+      "blockClass": "grid__selector--two-columns"
+    },
+    "children": [
+      "icon-single-grid"
+    ]
+  },
+  "gallery-layout-option#grid__one--column": {
+    "title": "Gallery grid one column",
+    "props": {
+      "name": "general-grid",
+      "blockClass": "grid__selector--one-column"
+    },
+    "children": [
+      "icon-inline-grid"
+    ]
+  }
+}

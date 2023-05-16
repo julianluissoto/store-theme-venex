@@ -12,12 +12,14 @@
 
 .flexRow--desktop__buyingOptions--Maincontainer {
     height: 150px;
-    ;
+
     background-color: #E8E8ED;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .flexCol--creditCard__container {
     flex-direction: row;

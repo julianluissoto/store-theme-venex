@@ -27,3 +27,17 @@
     position: relative;
 
 }
+
+@media screen and (min-width:992px) {
+    .autoCompleteOuterContainer--searchBar__input--container {
+        width: 476px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    .autoCompleteOuterContainer--searchBar__input--container {
+        width: 639px;
+    }
+
+}

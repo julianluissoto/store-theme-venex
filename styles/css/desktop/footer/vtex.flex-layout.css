@@ -6,6 +6,11 @@
 
 .flexRowContent--footer__desktop--container {
     height: 70px;
+
+    padding: 10px;
+    justify-content: space-between;
+
+
 }
 
 .flexRow--footer__desktop--info {
@@ -60,15 +65,11 @@
 
 }
 
-.flexRowContent--footer__desktop--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+/* .flexRowContent--footer__desktop--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 11% !important;
 }
+ */
 
-.flexRowContent--footer__desktop--container {
-    padding: 10px;
-    justify-content: center;
-
-}
 
 .flexColChild--CopyRight {
 

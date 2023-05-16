@@ -1,10 +1,10 @@
 {
-  "footer#mobile": {
+  /* "footer#mobile": {
     "title": "fotter mobile",
     "blocks": [
       "footer-layout.mobile#mobile__footer--mainContainer"
     ]
-  },
+  }, */
 
   "footer-layout.mobile#mobile__footer--mainContainer": {
     "title": "footer mobile main container",

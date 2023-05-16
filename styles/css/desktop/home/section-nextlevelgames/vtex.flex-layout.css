@@ -3,14 +3,16 @@
     background-color: #2D2D33;
     min-height: 1125px;
     justify-content: center;
+
+
 }
+
+
 
 .flexCol--desktop__nexLevelGames--section {
     flex-direction: column;
-}
-
-.flexCol--desktop__nexLevelGames--section {
-    max-width: 1170px;
+    width: 1280px !important;
+    margin: 0 auto;
 }
 
 .flexRow--gpu__imageLinks--container {
@@ -23,9 +25,6 @@
 
 .flexColChild--desktop__nexLevelGames--section {
     margin-bottom: 45px;
-
-
-
 }
 
 .flexRow--dark-background {

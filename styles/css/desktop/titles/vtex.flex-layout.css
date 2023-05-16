@@ -9,7 +9,7 @@
 .flexCol--desktop__title--col {
     flex-direction: row;
     width: 90% !important;
-    margin-left: 11%;
+    margin-left: 15px;
 }
 
 @media screen and (max-width:640px) {

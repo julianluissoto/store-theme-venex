@@ -6,17 +6,11 @@
     border-radius: 5px;
 }
 
-.sliderArrows--porduct__shelf--slider :hover {
-    height: 50px;
-    width: 30px;
-    background: #29282b;
-    opacity: 0.5;
-    border-radius: 5px;
-}
-
 .caretIcon--porduct__shelf--slider {
     color: white
 }
+
+
 
 .sliderTrack--porduct__shelf--slider {
     gap: 1.5rem;

@@ -1,0 +1,15 @@
+.flexRowContent--desktop__titleAndOrder--container {
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.flexCol--search-order__container {
+    flex-direction: row;
+
+    justify-content: flex-end
+}
+
+.flexColChild--search-order__container {
+    display: flex;
+    align-items: center;
+}

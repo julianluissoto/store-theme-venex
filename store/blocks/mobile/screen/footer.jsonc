@@ -1,9 +1,4 @@
 {
-  "footer#mobile__footer": {
-    "blocks": [
-      "footer-layout.mobile"
-    ]
-  },
   "footer-layout.mobile": {
     "children": [
       "footer-layout.mobile#mobile__footer--mainContainer"

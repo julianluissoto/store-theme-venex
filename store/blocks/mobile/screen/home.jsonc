@@ -5,7 +5,7 @@
       "blockClass": "layout__phoneandtablet"
     },
     "children": [
-      "header-layout#header__mobile--container",
+      /* "header-layout#header__mobile--container",
       "flex-layout.row#mobile__slider",
       "flex-layout.row#desktop__title",
       "flex-layout.row#mobile__sliderBrands",
@@ -28,8 +28,7 @@
       "flex-layout.row#disclosure-layout__Maincontainer",
       "flex-layout.row#contact__button",
       "flex-layout.row#customerService__contactInfo--mobile",
-      "flex-layout.row#whatapp__logo--container",
-      "footer#mobile__footer"
+      "flex-layout.row#whatapp__logo--container" */
     ]
   }
 }

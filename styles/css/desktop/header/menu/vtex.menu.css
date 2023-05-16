@@ -11,6 +11,7 @@
 .styledLinkContainer--all__categories {
     border-right: 2px solid #C8C8C8;
     padding-right: 1rem;
+    padding-top: 23px;
 
 }
 
@@ -24,6 +25,11 @@
 .styledLink--desktop__pcComponents {
     position: relative;
     right: 6rem;
+}
+
+.styledLinkIcon--all__categories {
+    position: relative;
+    top: 4px;
 }
 
 

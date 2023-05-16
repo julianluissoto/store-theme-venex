@@ -1,0 +1,68 @@
+.searchResultContainer--desktop__result--container {
+    max-width: 1280px;
+    margin: 0 auto 50px;
+    padding-top: 0;
+
+}
+
+
+
+.filterPopupArrowIcon--desktop__sortby {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.caretIcon--desktop__sortby {
+
+    color: var(--icon-color);
+}
+
+.galleryItem--general-grid {
+    background-color: #FFF;
+    border: 1.5px solid #EEEEEE;
+    padding: 0 !important;
+    height: 403px;
+}
+
+.galleryItem--general-list {
+    background-color: #FFF;
+    border: 1.5px solid #EEEEEE;
+    padding: 0 !important;
+}
+
+.galleryItem--general-list {
+    background-color: #FFF;
+
+}
+
+.galleryTitle--layout {
+    display: inline-block;
+    height: auto;
+    line-height: 1.42857143;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Montserrat-Semibold;
+    color: #424143;
+}
+
+.orderByOptionsContainer {
+    position: absolute;
+    top: 40px;
+    border-radius: 10px;
+    border-color: #EEEEEE !important;
+    width: 100px;
+
+}
+
+.orderByOptionItem--desktop__sortby {
+
+    background-color: #424143;
+    color: #EEEEEE;
+    font-family: Montserrat-Regular;
+}
+
+
+.orderByOptionItem--desktop__sortby :global(.vtex-search-result-3-x-orderByOptionItem-hover-bg-muted-5) {
+    background-color: #6d0cc2 !important;
+}

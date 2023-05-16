@@ -1,0 +1,11 @@
+/* check hover on product shelf, must not exist */
+
+/* .containerNormal--desktop__shelf--container:hover {
+
+    border: 1.5px solid var(--icon-color);
+
+} */
+
+.clearLink--desktop__shelf--container {
+    max-width: 100%;
+}

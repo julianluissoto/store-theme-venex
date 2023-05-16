@@ -1,0 +1,12 @@
+.singleGridIcon, .inlineGridIcon {
+    color: var(--secondary-color);
+    width: 25px;
+    height: auto
+}
+
+.singleGridIcon :hover, .inlineGridIcon :hover {
+    color: var(--icon-color);
+    width: 25px;
+    height: auto;
+
+}
