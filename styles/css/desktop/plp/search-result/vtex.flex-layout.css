@@ -13,3 +13,31 @@
     display: flex;
     align-items: center;
 }
+
+.flexRow--plp__rowContainer {
+    width: 100%;
+}
+
+.flexCol--plp__colContainer--image {
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+}
+
+.flexColChild--plp__colContainer--image {
+    display: flex;
+    align-items: center;
+    height: 240px !important;
+}
+
+.flexRowContent--desktop__search--banner--mobile {
+
+    position: relative;
+    height: 50px;
+
+    top: 48px;
+    margin-bottom: 49px;
+
+}
+
+.flexCol--mobile__container--filter {
+    padding-left: 10px;
+}

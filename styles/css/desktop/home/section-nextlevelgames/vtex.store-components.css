@@ -7,3 +7,10 @@
     margin: 0 auto;
 
 }
+
+@media screen and (max-width:1024px) {
+    .imageElement--desktop__section--image {
+
+        width: 100vw;
+    }
+}

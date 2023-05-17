@@ -22,7 +22,19 @@
     background-color: #FFF;
     border: 1.5px solid #EEEEEE;
     padding: 0 !important;
-    height: 403px;
+    height: 400px;
+}
+
+
+@media screen and (max-width:1080px) {
+    .galleryItem--general-grid {
+        flex-basis: 40% !important;
+        height: 344px;
+
+
+    }
+
+
 }
 
 .galleryItem--general-list {
@@ -63,6 +75,7 @@
 }
 
 
-.orderByOptionItem--desktop__sortby :global(.vtex-search-result-3-x-orderByOptionItem-hover-bg-muted-5) {
-    background-color: #6d0cc2 !important;
+.gallery--general-list {
+    width: 70% !important;
+
 }

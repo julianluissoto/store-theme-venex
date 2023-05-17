@@ -1,11 +1,4 @@
 {
-  /* "footer#mobile": {
-    "title": "fotter mobile",
-    "blocks": [
-      "footer-layout.mobile#mobile__footer--mainContainer"
-    ]
-  }, */
-
   "footer-layout.mobile#mobile__footer--mainContainer": {
     "title": "footer mobile main container",
     "props": {
@@ -21,6 +14,7 @@
       "blockClass": "mobile__footer--rowContainer"
     },
     "children": [
+      "flex-layout.col#mobile__logo--banner",
       "flex-layout.col#mobile__footer--colContainer"
     ]
   },

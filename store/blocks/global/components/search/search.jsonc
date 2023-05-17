@@ -106,7 +106,71 @@
         }
       ],
       "GeneralGrid": "product-summary.shelf#desktop__shelf--container",
-      "GeneralList": "product-summary.shelf#desktop__shelf--container"
+      "GeneralList": "product-summary.shelf#desktop__shelf--container-list"
+    }
+  },
+  "product-summary.shelf#desktop__shelf--container-list": {
+    "props": {
+      "blockClass": "desktop__shelf--container-list"
+    },
+    "title": "summary shelf",
+    "children": [
+      "flex-layout.row#plp__product--list"
+    ]
+  },
+  "flex-layout.row#plp__product--list": {
+    "title": "plp product row container",
+    "props": {
+      "blockClass": "plp__rowContainer"
+    },
+    "children": [
+      "flex-layout.col#product-summary-image",
+      "flex-layout.col#product-summary-info"
+    ]
+  },
+  "flex-layout.col#product-summary-image": {
+    "title": "plp product row container",
+    "props": {
+      "blockClass": "plp__colContainer--image"
+    },
+    "children": [
+      "product-summary-image#shelf__image-list"
+    ]
+  },
+  "flex-layout.col#product-summary-info": {
+    "title": "plp product row container",
+    "props": {
+      "blockClass": "plp__colContainer--info"
+    },
+    "children": [
+      "rich-text#label_promo--text-list",
+      "product-summary-price#shelf__price-list",
+      "product-summary-name#shelf__name-list"
+    ]
+  },
+  "product-summary-image#shelf__image-list": {
+    "props": {
+      "blockClass": "shelf__image-list"
+    }
+  },
+  "rich-text#label_promo--text-list": {
+    "title": "promo text",
+    "props": {
+      "text": "15% OFF",
+      "blockClass": "label_promo--text-list",
+
+      "font": "heading-2"
+    }
+  },
+
+  "product-summary-price#shelf__price-list": {
+    "props": {
+      "blockClass": "product-summary__Shelf--price-list"
+    }
+  },
+  "product-summary-name#shelf__name-list": {
+    "props": {
+      "blockClass": "shelf__name-list"
     }
   },
   /* "product-summary.shelf#global": {
