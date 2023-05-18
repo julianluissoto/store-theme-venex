@@ -77,10 +77,7 @@
   "rich-text#customerService__title-PickUpPoint": {
     "title": "Customer Services Pick Up Pont text",
     "props": {
-      "blockClass": [
-        "customerService__PickUpPoint",
-        "customerService__title-1"
-      ],
+      "blockClass": "customerService__PickUpPoint",
       "text": "VENEX PICKUP PONT",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

@@ -11,13 +11,14 @@
 .styledLinkContainer--all__categories {
     border-right: 2px solid #C8C8C8;
     padding-right: 1rem;
-    padding-top: 23px;
+
 
 }
 
 .styledLinkContent--all__categories {
     color: var(--primary-color);
     font-family: Montserrat-semibold;
+    font-size: 15.5px;
 
 
 }

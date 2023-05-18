@@ -1,14 +1,14 @@
 .paragraph--customerServices__text {
     color: #91c612;
     font-weight: 400;
-    font-family: Montserrat;
+    font-family: Montserrat-Medium;
 
 }
 
 .paragraph--customerService__title-1 {
-    color: #91C616;
+    color: #91c612;
     font-weight: 600;
-    font-family: Montserrat-Regular;
+    font-family: Montserrat-Medium;
     font-size: 15px;
 }
 
@@ -40,16 +40,22 @@
 
 .container--customerService__title-1 {
     justify-content: flex-start;
-    padding-left: 18px;
+
     position: relative;
-    left: 14%;
+    left: 3%;
 }
 
 .paragraph--customerService__PickUpPoint {
     width: max-content;
-    text-align: center;
+
     padding-top: 20px;
-    margin-left: -8%;
+    margin-left: 33%;
+
+    color: #91c612;
+    font-weight: 600;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+
 
 }
 
@@ -59,8 +65,10 @@
 }
 
 .container--customerService__title-3 {
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 18px;
+    padding-right: 15%;
+
 }
 
 .paragraph--contactInfo__text {

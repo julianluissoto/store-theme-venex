@@ -2,11 +2,13 @@
   "search-result-layout.mobile#global": {
     "title": "Result global container",
     "children": [
-      "flex-layout.row#mobile__search--banner",
-
       "flex-layout.row#container__result-search--orderby",
 
-      "flex-layout.row#desktop__search--container"
+      "flex-layout.row#desktop__search--container",
+      "flex-layout.row#mobile__logo--banner",
+      "flex-layout.row#disclosure-layout__Maincontainer",
+      "flex-layout.row#contact__button",
+      "flex-layout.row#customerService__contactInfo--mobile"
     ],
     "props": {
       "preventRouteChange": true,

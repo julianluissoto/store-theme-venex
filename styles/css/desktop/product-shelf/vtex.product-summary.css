@@ -37,7 +37,7 @@
 .element--desktop__shelf--container {
 
     padding: 0;
-    height: 350px;
+    height: 380px;
     flex-direction: column !important;
     border-radius: 20px;
 

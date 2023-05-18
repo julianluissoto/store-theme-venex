@@ -45,7 +45,7 @@
     "props": {
       "blockClass": "menu__links",
       "label": "Desktop",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/celulares"
     }
   },
   "link#Laptops": {
@@ -53,7 +53,7 @@
     "props": {
       "label": "Laptops",
       "blockClass": "menu__links",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/electrodomesticos"
     }
   },
   "link#Gpu": {
@@ -61,7 +61,7 @@
     "props": {
       "blockClass": "menu__links",
       "label": "Gpu",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/queso"
     }
   },
   "link#Monitors": {

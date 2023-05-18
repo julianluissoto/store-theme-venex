@@ -28,7 +28,7 @@
   "flex-layout.row#desktop__search--banner": {
     "title": "search banner image",
     "children": [
-      "image#desktop__search--banner"
+      /* "image#desktop__search--banner" */
     ],
     "props": {
       "blockClass": "desktop__search--banner",
@@ -111,6 +111,7 @@
     },
     "children": [
       "flex-layout.row#result-search__orderby--sortby",
+
       "flex-layout.row#result-search__orderby--switcher"
     ]
   },
@@ -138,23 +139,36 @@
   "flex-layout.row#result-search__orderby--sortby": {
     "title": "col sort by",
     "children": [
-      "order-by.v2#desktop"
+      "order-by.v2"
     ],
     "props": {
       "blockClass": "result-search__pagination-orderby--switcher",
       "width": "15%"
     }
   },
+
   "flex-layout.row#result-search__orderby--switcher": {
     "title": "swicher container",
     "children": [
+      "rich-text#showAsgridOrLits",
       "gallery-layout-switcher#global"
     ],
     "props": {
       "blockClass": "result-search__pagination-orderby--switcher",
       "width": "15%"
     }
-  } /* ,
+  },
+  "rich-text#showAsgridOrLits": {
+    "title": "show as grid or list desktop title",
+    "props": {
+      "blockClass": "showAsgridOrLits",
+      "text": "Show As",
+
+      "font": "heading-2"
+    }
+  },
+
+  /* ,
   "flex-layout.row#container__result-search--pagination": {
     "title": "row pagination",
     "children": [
@@ -165,12 +179,18 @@
     "props": {
       "blockClass": "container__result-search--pagination"
     }
-  },*/,
-  "order-by.v2#desktop": {
-    "title": "order by global",
+  },*/
+  "order-by.v2": {
+    "title": "order by desktop ",
     "props": {
-      "showOrderTitle": true,
-      "blockClass": "desktop__sortby"
+      "showOrderTitle": false,
+      "blockClass": "desktop__sortby",
+      "hiddenOptions": [
+        "OrderByNameASC",
+        "OrderByTopSaleDESC",
+        "OrderByReleaseDateDESC",
+        "OrderByBestDiscountDESC"
+      ]
     }
   }
 }

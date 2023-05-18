@@ -6,9 +6,11 @@
 
 .flexRowContent--footer__desktop--container {
     height: 70px;
-
+    max-width: 1280px;
     padding: 10px;
     justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
 
 
 }
@@ -24,6 +26,7 @@
     position: relative;
     left: 10%;
     flex-direction: row;
+    padding-top: 5%;
 
 
 }
@@ -86,7 +89,7 @@
 
 .flexRowContent--footer__desktop--info {
     height: 17rem;
-    justify-content: center;
+    justify-content: space-between;
     width: 1280px;
     margin: 0 auto;
 }

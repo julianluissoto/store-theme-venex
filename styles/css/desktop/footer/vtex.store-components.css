@@ -85,9 +85,14 @@
 
 .imageElement--cace__image {
     position: relative;
-    right: 70%
+    right: 70%;
+    margin: auto 10%;
 }
 
 .imageElement--socialNetwork__image {
     height: 42px;
+}
+
+.imageElement--imagefiscal__image {
+    height: 78px;
 }

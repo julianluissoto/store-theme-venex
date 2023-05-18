@@ -4,3 +4,22 @@
 
     top: 3px;
 }
+
+.discountInsideContainer {
+
+    background-color: var(--icon-color);
+    /* bottom: -3rem; */
+    top: 12rem;
+    font-size: 16px;
+    color: #000;
+    max-width: 86px;
+    /* min-width: 97px; */
+    /* width: 43%; */
+    height: 28px;
+    border-radius: 5px;
+    position: relative;
+    /* top: 15%; */
+    left: -5%;
+    font-family: Montserrat-semibold;
+
+}

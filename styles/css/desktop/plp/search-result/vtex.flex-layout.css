@@ -41,3 +41,15 @@
 .flexCol--mobile__container--filter {
     padding-left: 10px;
 }
+
+.flexRowContent--desktop__search--banner {
+
+    background-image: url(assets/img/search-images/banner-search.jpg);
+    width: 100vw;
+    margin-left: calc((100% - (100vw - 17px))/ 2);
+    margin-right: calc((100% - (100vw - 17px))/ 2);
+    height: 112px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

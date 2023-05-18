@@ -7,7 +7,7 @@
     },
     "children": [
       "flex-layout.col#shelf_leftColumn",
-      //"image#notebook__girl--image",
+
       "flex-layout.col#shelf_rightColumn"
     ]
   },
@@ -86,7 +86,7 @@
     "title": "summary shelf",
     "children": [
       "product-summary-image#shelf__image",
-      "rich-text#label_promo--text",
+      // "rich-text#label_promo--text",
       "product-summary-price#shelf__price",
       "product-summary-name#shelf__name"
     ]

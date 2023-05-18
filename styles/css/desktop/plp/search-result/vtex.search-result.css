@@ -79,3 +79,14 @@
     width: 70% !important;
 
 }
+
+.filterPopupTitle--desktop__sortby {
+    font-family: Montserrat-Regular;
+    font-weight: 600;
+}
+
+.orderByText--desktop__sortby {
+    font-family: Montserrat-SemiBold;
+
+
+}

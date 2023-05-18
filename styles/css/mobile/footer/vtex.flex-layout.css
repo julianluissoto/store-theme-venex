@@ -11,6 +11,7 @@
 }
 
 .flexColChild--newsLetter__mobile {
+    padding-right: 3%;
     padding-left: 18px;
     padding-bottom: 30px;
 }
@@ -26,5 +27,14 @@
 
 .flexCol--data-fical__mobile--container {
     flex-direction: row;
+    align-items: center;
+}
+
+.flexCol--newsLetter__mobile {
+    margin-top: -15px;
+}
+
+.flexColChild--data-fical__mobile {
+    display: flex;
     align-items: center;
 }
