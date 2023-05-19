@@ -26,16 +26,6 @@
 }
 
 
-@media screen and (max-width:1080px) {
-    .galleryItem--general-grid {
-        flex-basis: 40% !important;
-        height: 344px;
-
-
-    }
-
-
-}
 
 .galleryItem--general-list {
     background-color: #FFF;
@@ -56,6 +46,13 @@
     font-size: 25px;
     font-family: Montserrat-Semibold;
     color: #424143;
+}
+
+@media screen and (max-width:640px) {
+    .galleryTitle--layout {
+        margin: 0;
+
+    }
 }
 
 .orderByOptionsContainer {
@@ -87,6 +84,37 @@
 
 .orderByText--desktop__sortby {
     font-family: Montserrat-SemiBold;
+
+
+}
+
+@media screen and (min-width:1080px) {
+    .galleryItem--general-grid {
+
+        flex-basis: 35.3333% !important;
+        max-width: 40.3333% !important;
+    }
+
+
+}
+
+@media screen and (min-width:641px) and (max-width:1079px) {
+    .galleryItem--general-grid {
+
+        flex-basis: 45% !important;
+        max-width: 50 !important;
+    }
+
+
+}
+
+@media screen and (max-width:640px) {
+    .galleryItem--general-grid {
+        flex-basis: 47% !important;
+        height: 250px;
+
+
+    }
 
 
 }

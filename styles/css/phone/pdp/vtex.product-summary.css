@@ -1,0 +1,43 @@
+.element--pdp__shelf--container {
+    flex-direction: column !important;
+}
+
+.clearLink--pdp__shelf--container {
+    border-radius: 10px;
+    height: 249px;
+}
+
+.imageContainer--pdp__slider--image {
+    height: 119px;
+    width: auto;
+}
+
+.image--pdp__slider--image {
+    height: 100% !important;
+    max-width: 200px;
+}
+
+.element--pdp__shelf--container {
+    padding: 0;
+}
+
+.imageWrapper--pdp__slider--image {
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerNormal--pdp__shelf--container {
+    width: 95%;
+}
+
+.nameContainer--pdp__slider--name {
+    padding: 0;
+}
+
+.nameContainer--pdp__slider--name {
+    background-color: #FFF;
+    height: 20%;
+}

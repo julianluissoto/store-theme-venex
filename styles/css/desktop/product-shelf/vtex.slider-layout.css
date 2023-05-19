@@ -4,11 +4,19 @@
     background: #7e7c83 !important;
     opacity: 0.9;
     border-radius: 5px;
+    padding: 0;
 }
 
-.caretIcon--porduct__shelf--slider {
-    color: white
+.sliderArrows--porduct__shelf--slider :hover {
+    width: 30px;
+    height: 50px;
+    background: #b5b4b9 !important;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 0;
 }
+
+
 
 
 

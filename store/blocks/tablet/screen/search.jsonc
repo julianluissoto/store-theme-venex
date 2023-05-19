@@ -1,6 +1,6 @@
 {
-  "search-result-layout.mobile#global": {
-    "title": "Result global container",
+  "search-result-layout.mobile#phone": {
+    "title": "Result tablet container",
     "children": [
       "flex-layout.row#container__result-search--orderby",
 
@@ -74,13 +74,13 @@
     }
   },
   "flex-layout.col#desktop__container--result-search": {
-    "title": "Container result search",
+    "title": "Container tablet result search",
     "children": [
       "flex-layout.row#container--result-search--row"
     ],
     "props": {
       "width": "grow",
-      "blockClass": "desktop__container--result-search"
+      "blockClass": "tablet__container--result-search"
     }
   },
   "flex-layout.row#container__result-search--orderby": {

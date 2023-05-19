@@ -57,7 +57,7 @@
     "title": "Result layout container",
     "blocks": [
       "search-result-layout.desktop#desktop",
-      "search-result-layout.mobile#global",
+      "search-result-layout.mobile#phone",
       "search-not-found-layout"
     ]
   },
@@ -143,7 +143,6 @@
       "blockClass": "plp__colContainer--info"
     },
     "children": [
-      // "rich-text#label_promo--text-list",
       "product-summary-price#shelf__price-list",
       "product-summary-name#shelf__name-list"
     ]
@@ -193,7 +192,7 @@
     "props": {
       "hideImposibleCombinations": false
     }
-  },
+  } /* ,
   "modal-trigger#global__quick-view": {
     "title": "trigger quick view",
     "children": [
@@ -243,5 +242,5 @@
     "children": [
       "icon-inline-grid"
     ]
-  }
+  } */
 }
