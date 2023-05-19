@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#whatapp__logo--container": {
+    "title": " customer services container",
+    "props": {
+      "blockClass": "whatapp__logo--container"
+    },
+    "children": [
+      "image#logo__whatapp"
+    ]
+  },
+  "image#logo__whatapp": {
+    "title": "logo whatapp",
+    "props": {
+      "src": "assets/img/miscellaneous-images/logo-whatsapp.png",
+      "blockClass": "logo-whatapps",
+      "link": {
+        "url": "https://api.whatsapp.com/send/?phone=5491120400949"
+      }
+    }
+  }
+}

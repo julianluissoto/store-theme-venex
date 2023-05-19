@@ -8,8 +8,9 @@
 
 .minicartQuantityBadgeDefault {
     background-color: #D4D512;
-    border-radius: 1rem;
+    border-radius: 50%;
     height: 0.5rem;
+    width: 0.5rem;
 
 }
 

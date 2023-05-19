@@ -7,7 +7,7 @@
     },
     "children": [
       "flex-layout.col#shelf_leftColumn",
-      //"image#notebook__girl--image",
+
       "flex-layout.col#shelf_rightColumn"
     ]
   },
@@ -15,10 +15,7 @@
   "flex-layout.row#desktop__productShelf--container-2": {
     "title": "product shelf",
     "props": {
-      "blockClass": [
-        "desktop__productShelf--container"
-      ],
-      "width": "80%"
+      "blockClass": "desktop__productShelf--container"
     },
     "children": [
       "flex-layout.col#shelf_leftColumn-2",
@@ -40,7 +37,7 @@
     "title": "product shelf left column",
     "props": {
       "blockClass": "shelf_leftColumn",
-      "width": "25%"
+      "width": "20%"
     },
     "children": [
       "image#pc__boy--image"
@@ -50,7 +47,8 @@
   "flex-layout.col#shelf_rightColumn": {
     "title": "product shelf right column",
     "props": {
-      "blockClass": "shelf_rightColumn"
+      "blockClass": "shelf_rightColumn",
+      "width": "75%"
     },
     "children": [
       "flex-layout.row#shelf_rightColumn"
@@ -88,7 +86,7 @@
     "title": "summary shelf",
     "children": [
       "product-summary-image#shelf__image",
-      "rich-text#label_promo--text",
+      // "rich-text#label_promo--text",
       "product-summary-price#shelf__price",
       "product-summary-name#shelf__name"
     ]

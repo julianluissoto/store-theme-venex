@@ -6,6 +6,13 @@
 
 .flexRowContent--footer__desktop--container {
     height: 70px;
+    max-width: 1280px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+
+
 }
 
 .flexRow--footer__desktop--info {
@@ -19,6 +26,7 @@
     position: relative;
     left: 10%;
     flex-direction: row;
+    padding-top: 5%;
 
 
 }
@@ -60,15 +68,11 @@
 
 }
 
-.flexRowContent--footer__desktop--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+/* .flexRowContent--footer__desktop--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 11% !important;
 }
+ */
 
-.flexRowContent--footer__desktop--container {
-    padding: 10px;
-    justify-content: center;
-
-}
 
 .flexColChild--CopyRight {
 
@@ -85,7 +89,7 @@
 
 .flexRowContent--footer__desktop--info {
     height: 17rem;
-    justify-content: center;
+    justify-content: space-between;
     width: 1280px;
     margin: 0 auto;
 }

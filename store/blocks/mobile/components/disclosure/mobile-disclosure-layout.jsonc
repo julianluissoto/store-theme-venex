@@ -5,10 +5,22 @@
       "blockClass": "disclosure-layout__Maincontainer"
     },
     "children": [
+      "flex-layout.col#disclosure-layout__Maincontainer"
+    ]
+  },
+
+  "flex-layout.col#disclosure-layout__Maincontainer": {
+    "title": "disclosure layout mobile",
+    "props": {
+      "blockClass": "disclosure-layout__Maincontainer--col",
+      "preventVerticalStretch": true
+    },
+    "children": [
       "disclosure-layout#howToBuy",
       "disclosure-layout#venex"
     ]
   },
+
   "disclosure-layout#howToBuy": {
     "title": "disclosure layout how to buy",
     "props": {
@@ -20,20 +32,23 @@
   },
   "disclosure-state-indicator": {
     "props": {
-      "Show": "icon#angledown",
-      "Hide": "icon#angleup"
+      "Show": "icon#arrowRight",
+      "Hide": "icon#arrowDown",
+      "blockClass": "disclosure__stateIndicator--container"
     }
   },
-  "icon#angledown": {
+  "icon#arrowRight": {
+    "props": {
+      "id": "arrow-right-2",
+      "size": 20,
+      "blockClass": "disclosure__stateIndicator--right"
+    }
+  },
+  "icon#arrowDown": {
     "props": {
       "id": "arrow-down",
-      "size": 16
-    }
-  },
-  "icon#angleup": {
-    "props": {
-      "id": "hpa-arrow-back",
-      "size": 16
+      "size": 20,
+      "blockClass": "disclosure__stateIndicator--down"
     }
   },
 
@@ -66,7 +81,6 @@
     },
     "children": [
       "flex-layout.col#disclosureHowtoBuy__container"
-      /* "rich-text#howToBuy-answer" */
     ]
   },
   "flex-layout.col#disclosureHowtoBuy__container": {
@@ -78,13 +92,16 @@
       "modal-trigger#howToBuy",
       "modal-trigger#howToBuy",
       "modal-trigger#howToBuy",
+      "modal-trigger#howToBuy",
       "modal-trigger#howToBuy"
     ]
   },
 
   "rich-text#howToBuy": {
     "props": {
-      "text": "HOW TO BUY"
+      "blockClass": "disclosure__option--text",
+      "text": "HOW TO BUY",
+      "font": "heading-4"
     }
   },
   "rich-text#howToBuy-answer": {
@@ -94,11 +111,26 @@
   },
   "disclosure-layout#venex": {
     "children": [
+      "flex-layout.row#disclosureVenex__container"
+    ]
+  },
+
+  "flex-layout.row#disclosureVenex__container": {
+    "title": "modal triger disclosure row container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__rowContainer"
+    },
+    "children": [
       "disclosure-trigger#venex",
       "disclosure-content#venex"
     ]
   },
+
   "disclosure-trigger#venex": {
+    "props": {
+      "blockClass": "disclosure-layout__trigger--container"
+    },
+
     "children": [
       "rich-text#questionvenex",
       "disclosure-state-indicator"
@@ -113,8 +145,10 @@
     ]
   },
   "rich-text#answerHowtoBuy": {
+    "title": "disclosure answer text",
     "props": {
-      "text": "Pick Up Order"
+      "text": "Pick Up Order",
+      "blockClass": "answerHowtoBuy"
     }
   },
 
@@ -135,23 +169,41 @@
     }
   },
 
-  ////////
-
   "disclosure-content#venex": {
+    "title": "disclosure layout constent",
+    "props": {
+      "blockClass": "disclosure-content__Maincontainer"
+    },
     "children": [
-      "link#AboutUs-disclosure"
+      "flex-layout.col#disclosureVenex__container"
     ]
   },
+
   "rich-text#questionvenex": {
     "props": {
-      "text": "VENEX"
+      "text": "VENEX",
+      "blockClass": "disclosure__option--text"
     }
+  },
+  "flex-layout.col#disclosureVenex__container": {
+    "title": "modal triger disclosure container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__container"
+    },
+    "children": [
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure"
+    ]
   },
 
   "link#AboutUs-disclosure": {
     "title": "link to About Us",
     "props": {
-      "blockClass": "",
+      "blockClass": "answerHowtoBuy",
       "label": "About Us",
       "href": "https://www.venex.com.ar/quienes-somos.htm"
     }

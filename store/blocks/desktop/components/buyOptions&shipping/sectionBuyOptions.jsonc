@@ -164,12 +164,15 @@
 
   "modal-layout#credit-card": {
     "children": [
-      "rich-text#credit-card"
+      "image#credit-card__option--image"
     ]
   },
-  "rich-text#credit-card": {
+
+  "image#credit-card__option--image": {
+    "title": "image credit card option",
     "props": {
-      "text": "Hello"
+      "src": "assets/img/modal-images/payment-options.png",
+      "blockClass": "shiping__image"
     }
   },
   "image#Hipping_image": {

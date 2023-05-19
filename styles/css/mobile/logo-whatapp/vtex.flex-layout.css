@@ -1,0 +1,13 @@
+.flexRowContent--whatapp__logo--container {
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    background-color: #1CAE9C;
+    padding: 3px;
+    border-radius: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

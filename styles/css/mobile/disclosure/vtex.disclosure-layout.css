@@ -1,4 +1,19 @@
 .trigger--disclosure-layout__trigger--container {
     display: flex;
     justify-content: space-between;
+    background-color: #424143;
+    height: 60px;
+    align-items: center;
+    padding-left: 2%;
+
+}
+
+
+.content--disclosure-content__Maincontainer {
+    background-color: #343636;
+    border: 0.5px solid #fff;
+}
+
+.content--disclosure-content__Maincontainer--visible {
+    border: 0.5px solid #e7e4e4;
 }

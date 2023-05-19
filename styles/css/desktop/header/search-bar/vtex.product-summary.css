@@ -31,7 +31,11 @@
 
 
 
-.containerNormal--desktop__shelf--container-desktop {
+/* .containerNormal--desktop__shelf--container-desktop {
     width: 250px !important;
 
+} */
+
+.containerNormal--desktop__shelf--container {
+    max-width: 100% !important;
 }

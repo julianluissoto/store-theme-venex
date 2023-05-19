@@ -6,6 +6,8 @@
 .flexColChild--mobile__banner--container {
     display: flex;
     justify-content: center;
+    background-color: #FFF;
+    padding-top: 10px;
 }
 
 .flexCol--mobile__banner--container {
@@ -14,5 +16,5 @@
 }
 
 .flexRow--mobile__banner--logo-container {
-    padding-top: 30px;
+    padding-top: 13px;
 }

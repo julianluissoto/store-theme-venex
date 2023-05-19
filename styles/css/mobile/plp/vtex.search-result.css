@@ -1,0 +1,48 @@
+.searchResultContainer--result--container--mobile {
+    padding-top: 7%;
+}
+
+.sidebar {
+    background-color: #37373F;
+    max-width: 60%;
+}
+
+.filterAccordionBreadcrumbs {
+    background-color: #2D2D33;
+}
+
+.accordionFilterItemTitle--mobile__filter, .filterBreadcrumbsText--mobile__filter, .filterTitleSpan--mobile__filter {
+    color: #e4dada;
+    font-family: Montserrat-Regular;
+
+}
+
+.caretIcon--mobile__filter {
+    color: #91C612;
+}
+
+.accordionFilterItemOptions :global(.vtex-checkbox__label) {
+    color: #fff
+}
+
+.filterButtonsBox {
+    background-color: #2D2D33;
+
+
+}
+
+.filterClearButtonWrapper--mobile__filter :global(.vtex-button__label) {
+    color: #EEEEEE;
+    font-family: Montserrat-Regular;
+
+}
+
+.filterApplyButtonWrapper--mobile__filter :global(.vtex-button) {
+    background-color: #91C612;
+    border: none;
+
+}
+
+.accordionFilterContainer--mobile__filter {
+    padding-left: 1rem !important;
+}

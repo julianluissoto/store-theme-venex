@@ -1,0 +1,23 @@
+.container--customerService__title-mobile {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+
+}
+
+.container--contactInfo__text--mobile {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.paragraph--contactInfo__text--mobile {
+    text-align: left;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+}
+
+.paragraph--customerService__title-mobile {
+    color: #91c612;
+    font-weight: 400;
+    font-family: Montserrat;
+
+}

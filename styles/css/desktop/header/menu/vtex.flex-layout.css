@@ -1,9 +1,15 @@
+.flexRow--menu__desktop--containerMain {
+    background-color: var(--mobile-gray);
+}
+
 .flexRowContent--menu__desktop--containerMain {
     display: flex;
-
+    background-color: var(--mobile-gray);
     justify-content: center;
-    max-height: 50px;
+    height: auto;
     column-gap: 48px;
+    flex-wrap: wrap;
+
 }
 
 .flexCol--menu__desktop--container {
@@ -14,4 +20,8 @@
 .flexRowContent--menu__desktop--Maincontainer {
     min-height: 55px;
 
+}
+
+.flexRow--header__menu--row {
+    min-height: 40px;
 }

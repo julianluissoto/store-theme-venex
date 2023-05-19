@@ -1,0 +1,9 @@
+.imageElement--logo-whatapps {
+    height: 40px;
+}
+
+.imageElementLink--logo-whatapps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

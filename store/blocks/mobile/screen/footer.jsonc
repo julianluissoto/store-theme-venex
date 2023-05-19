@@ -1,0 +1,7 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "footer-layout.mobile#mobile__footer--mainContainer"
+    ]
+  }
+}

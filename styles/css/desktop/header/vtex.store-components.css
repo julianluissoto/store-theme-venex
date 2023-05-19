@@ -1,7 +1,8 @@
 .logoImage--logo-desktop {
 
-    width: 11rem;
+    width: 12rem;
     height: 34px;
+    margin-right: 15px;
 
 }
 
@@ -21,8 +22,8 @@
 .imageElement--venexCorporate {
 
     max-height: 35px;
-    position: relative;
-    top: 10px;
+
+
 
 
 }

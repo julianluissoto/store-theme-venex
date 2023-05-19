@@ -1,0 +1,18 @@
+.flexCol--pdp__slider--container {
+    margin-top: 20%;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.flexColChild--pdp__slider--container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flexCol--pdp__slider--container {
+    background-color: #EEEEEE;
+}
+
+.flexRow--pdp__main--container {
+    margin-top: 25%;
+}

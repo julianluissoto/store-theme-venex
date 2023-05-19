@@ -1,145 +1,134 @@
 {
-  "footer#mobile": {
-    "title": "fotter mobile",
-    "blocks": [
-      "footer-layout.mobile#mobile__footer--mainContainer"
-    ]
-  },
-
   "footer-layout.mobile#mobile__footer--mainContainer": {
-    "title": "footer__mobile--container",
+    "title": "footer mobile main container",
     "props": {
       "blockClass": "mobile__footer--mainContainer"
     },
     "children": [
-      /* "flex-layout.row#mobile__creditCard" */
+      "flex-layout.row#mobile__footer--rowContainer"
+    ]
+  },
+  "flex-layout.row#mobile__footer--rowContainer": {
+    "title": "footer mobile row container",
+    "props": {
+      "blockClass": "mobile__footer--rowContainer"
+    },
+    "children": [
+      "flex-layout.col#mobile__footer--colContainer"
+    ]
+  },
+  "flex-layout.col#mobile__footer--colContainer": {
+    "title": "footer mobile col container",
+    "props": {
+      "blockClass": "mobile__footer--colContainer"
+    },
+    "children": [
+      "rich-text#customerService__title-2",
+      "flex-layout.col#newsLetter__mobile"
+    ]
+  },
+  "flex-layout.col#newsLetter__mobile": {
+    "title": "newsletter",
+    "props": {
+      "blockClass": "newsLetter__mobile"
+    },
+    "children": [
+      "rich-text#suscribe__title",
+      "newsletter#mobile",
+      "flex-layout.row#socialNetworks__container--mobile",
+      "flex-layout.row#data-fiscal__mobile--mainContainer"
+    ]
+  },
+  "newsletter#mobile": {
+    "title": "newsletter",
+    "props": {
+      "blockClass": "newsletter",
+      "hideLabel": true,
+      "placeholder": "Enter your E-Mail",
+      "submit": ">"
+    }
+  },
+
+  "flex-layout.row#socialNetworks__container--mobile": {
+    "title": "social network container",
+    "props": {
+      "blockClass": [
+        "social__container--mobile"
+      ],
+      "width": "50%"
+    },
+    "children": [
+      "image#facebook__mobile",
+      "image#instagram__mobile",
+      "image#youtube__mobile"
     ]
   },
 
-  /* "flex-layout.col#shipingImage-container": {
-    "title": "shiping image col container",
+  "image#facebook__mobile": {
+    "title": "facebook image",
     "props": {
-      "blockClass": "shipingImage-container"
-    },
-    "children": [
-      "image#Hipping_image"
-    ]
-  }, */
-
-  /* "flex-layout.row#card__txt-container": {
-    "title": "credit card col text container",
-    "props": {
-      "blockClass": "card__txt-container"
-    },
-    "children": [
-      "flex-layout.col#card__txt-container-1"
-    ]
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/facebook.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
   },
 
-  "flex-layout.row#card__txt-container-2": {
-    "title": "credit card col text container",
+  "image#instagram__mobile": {
+    "title": "facebook image",
     "props": {
-      "blockClass": "card__txt-container"
-    },
-    "children": [
-      "flex-layout.col#card__txt-container-2"
-    ]
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/instagram.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
   },
-  "flex-layout.col#card__txt-container-2": {
+
+  "image#youtube__mobile": {
+    "title": "facebook image",
     "props": {
-      "blockClass": "card__txt-container"
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/youtube.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+  "flex-layout.row#data-fiscal__mobile--mainContainer": {
+    "title": "data fiscal mobile main ",
+    "props": {
+      "blockClass": "data-fical__mobile--mainContainer"
     },
     "children": [
-      "rich-text#creditOptions__text-1",
-      "rich-text#creditOptions__text-2"
+      "flex-layout.col#data-fical__mobile--container"
     ]
   },
 
-  "flex-layout.row#card__txt-container-3": {
-    "title": "credit card col text container",
+  "flex-layout.col#data-fical__mobile--container": {
+    "title": "data fiscal mobile container",
     "props": {
-      "blockClass": "card__txt-container"
+      "blockClass": "data-fical__mobile--container"
     },
     "children": [
-      "flex-layout.col#card__txt-container-3"
+      "image#dataFiscal--mobile",
+      "image#cace__mobile"
     ]
   },
-  "flex-layout.col#card__txt-container-3": {
+  "image#dataFiscal--mobile": {
+    "title": "data fsical image",
     "props": {
-      "blockClass": "card__txt-container"
-    },
-    "children": [
-      "rich-text#creditOptions__text-1",
-      "rich-text#creditOptions__text-2"
-    ]
+      "blockClass": "imagefiscal__image--mmobile",
+      "src": "assets/img/miscellaneous-images/DATAWEB.jpg"
+    }
   },
- */
-  "modal-trigger#mobilecreditcard__modal--trigger": {
-    "title": "credit card col trigger",
+  "image#cace__mobile": {
+    "title": "cace image",
     "props": {
-      "blockClass": "creditcard__modal--trigger"
-    },
-    "children": [
-      "image#creditCard__image",
-      "modal-layout#credit-card"
-    ]
-  },
-  "modal-trigger#mobilecreditcard__modal--trigger-2": {
-    "title": "receibe your product col trigger",
-    "props": {
-      "blockClass": "creditcard__modal--trigger"
-    },
-    "children": [
-      "image#creditCard__image-2",
-      "modal-layout#credit-card"
-    ]
+      "blockClass": "cace__image--mobile",
+      "src": "assets/img/miscellaneous-images/sello-cace-venex.png",
+      "url": "#"
+    }
   }
-  /*
-  "modal-layout#credit-card": {
-    "children": [
-      "rich-text#credit-card"
-    ]
-  },
-  "rich-text#credit-card": {
-    "props": {
-      "text": "Hello"
-    }
-  },
-  "image#Hipping_image": {
-    "title": "image credit card",
-    "props": {
-      "src": "assets/img/banner-shiping-img/envio_express_footer.png",
-      "blockClass": "shiping__image"
-    }
-  },
-
-  "image#creditCard__image": {
-    "title": "image credit card",
-    "props": {
-      "src": "assets/img/banner-shiping-img/card.png",
-      "blockClass": "creditCard__image"
-    }
-  },
-  "image#creditCard__image-2": {
-    "title": "image credit card",
-    "props": {
-      "src": "assets/img/banner-shiping-img/grey-truck.png",
-      "blockClass": "creditCard__image"
-    } */
-  /* ,
-  "rich-text#creditOptions__text-1": {
-    "title": "image credit text",
-    "props": {
-      "blockClass": "creditOptions__text-1",
-      "text": " UP TO 12 PAYMENTS "
-    }
-  },
-  "rich-text#creditOptions__text-2": {
-    "title": "image credit text",
-    "props": {
-      "blockClass": "creditOptions__text-2",
-      "text": " with mayor credit cards",
-      "font": "heading-3"
-    }
-  } */
 }

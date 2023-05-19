@@ -4,19 +4,21 @@
     background: #7e7c83 !important;
     opacity: 0.9;
     border-radius: 5px;
+    padding: 0;
 }
 
 .sliderArrows--porduct__shelf--slider :hover {
-    height: 50px;
     width: 30px;
-    background: #29282b;
-    opacity: 0.5;
+    height: 50px;
+    background: #b5b4b9 !important;
+    opacity: 0.9;
     border-radius: 5px;
+    padding: 0;
 }
 
-.caretIcon--porduct__shelf--slider {
-    color: white
-}
+
+
+
 
 .sliderTrack--porduct__shelf--slider {
     gap: 1.5rem;
@@ -29,9 +31,7 @@
 }
 
 .sliderTrackContainer--porduct__shelf--slider {
-
-
     position: relative;
     bottom: 3px;
-
+    right: 1%
 }

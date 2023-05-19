@@ -29,9 +29,9 @@
     fill: azure;
 }
 
-.sliderLayoutContainer--porduct__shelf--slider {
+/* .sliderLayoutContainer--porduct__shelf--slider {
     min-height: 380px;
-}
+} */
 
 .slideChildrenContainer--porduct__shelf--slider {
     /*  min-height: 300px; */
@@ -40,4 +40,8 @@
 
 .slide--porduct__shelf--slider {
     justify-content: center;
+}
+
+.caretIcon--home__slider {
+    color: #EEEEEE;
 }

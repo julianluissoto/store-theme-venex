@@ -102,21 +102,19 @@
   "flex-layout.row#desktop__productShelf--container-2-dark": {
     "title": "product shelf",
     "props": {
-      "blockClass": [
-        /* "desktop__productShelf--container", */
-        "dark-background"
-      ],
-      "width": "100%"
+      "blockClass": "dark-background"
+      /* "width": "100%" */
     },
     "children": [
-      "flex-layout.col#shelf_leftColumn-2",
+      "flex-layout.col#shelf_leftColumn-2-dark",
       "flex-layout.col#shelf_rightColumn-dark"
     ]
   },
   "flex-layout.col#shelf_rightColumn-dark": {
     "title": "product shelf right column",
     "props": {
-      "blockClass": "shelf_rightColumn-dark"
+      "blockClass": "shelf_rightColumn-dark",
+      "width": "85%"
     },
     "children": [
       "flex-layout.row#shelf_rightColumn"
@@ -127,7 +125,7 @@
     "title": "product shelf left column",
     "props": {
       "blockClass": "shelf_leftColumn",
-      "width": "30%"
+      "width": "25%"
     },
     "children": [
       "image#pc__boy--image"
@@ -135,11 +133,9 @@
   },
 
   "flex-layout.row#shelf_rightColumn-dark": {
-    // "title": "product shelf right column",
+    "title": "product shelf right column",
     "props": {
-      "blockClass": [
-        "shelf_rightColumn"
-      ]
+      "blockClass": "shelf_rightColumn"
     },
     "children": [
       "list-context.product-list#shelf__container"

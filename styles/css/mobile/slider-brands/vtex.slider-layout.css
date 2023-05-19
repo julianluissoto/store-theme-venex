@@ -4,6 +4,8 @@
 
 .slide--mobile__slider--brands {
     height: 224px;
+    display: flex;
+    justify-content: center;
 }
 
 .slideChildrenContainer--mobile__slider--brands {

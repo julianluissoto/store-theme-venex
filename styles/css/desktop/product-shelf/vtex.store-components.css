@@ -1,7 +1,22 @@
 .imageElement--notebook__girl--image {
 
     position: relative;
-    left: -17px;
 
     top: 3px;
+}
+
+.discountInsideContainer {
+    background-color: var(--icon-color);
+
+    position: absolute;
+    font-size: 16px;
+    color: #000;
+    max-width: 86px;
+    height: 28px;
+    border-radius: 5px;
+
+    left: -23%;
+    bottom: -3%;
+    font-family: Montserrat-Regular;
+
 }

@@ -1,0 +1,11 @@
+.filterPopupTitle--mobile__filter {
+    font-family: Montserrat-Semibold;
+    color: #424143;
+}
+
+@media screen and (max-width:640px) {
+    .gallery--general-grid {
+        justify-content: center;
+
+    }
+}

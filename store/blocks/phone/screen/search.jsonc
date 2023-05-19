@@ -1,0 +1,152 @@
+{
+  "search-result-layout.mobile#phone": {
+    "title": "Result global container",
+    "children": [
+      "flex-layout.row#container__result-search--orderby",
+
+      "flex-layout.row#phone__search--container",
+      "flex-layout.row#mobile__logo--banner",
+      "flex-layout.row#disclosure-layout__Maincontainer",
+      "flex-layout.row#contact__button",
+      "flex-layout.row#customerService__contactInfo--mobile"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "result__container--mobile"
+    }
+  },
+
+  "flex-layout.row#phone__search--container": {
+    "title": "search row phone container",
+    "children": [
+      "flex-layout.col#phone__container--result-search"
+    ],
+    "props": {
+      "blockClass": "phone__container--row",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#mobile__container--filter": {
+    "title": "container filter col",
+    "children": [
+      "filter-navigator.v3#global__filter"
+    ],
+    "props": {
+      "blockClass": "mobile__container--filter"
+    }
+  },
+  "filter-navigator.v3#global__filter": {
+    "title": "filter navigator",
+    "props": {
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "blockClass": "mobile__filter",
+      "initiallyCollapsed": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible"
+    }
+  },
+  "flex-layout.col#phone__container--result-search": {
+    "title": "Container result search",
+    "children": [
+      "flex-layout.row#container--result-search--row"
+    ],
+    "props": {
+      "blockClass": "phone--result-search"
+    }
+  },
+  "flex-layout.row#container__result-search--orderby": {
+    "title": "row order and pagination",
+    "children": [
+      "flex-layout.row#mobile__title&filer--container",
+      "flex-layout.col#search-order__container"
+    ],
+    "props": {
+      "blockClass": "phone__titleAndOrder--container"
+    }
+  },
+  "flex-layout.row#mobile__title&filer--container": {
+    "title": "mobile title and filter container",
+    "children": [
+      "flex-layout.col#search-title__container-phone",
+      "flex-layout.col#mobile__container--filter"
+    ],
+    "props": {
+      "blockClass": "mobile__title-filer--container"
+    }
+  },
+
+  "flex-layout.col#search-title__container-phone": {
+    "title": "search title",
+    "props": {
+      "blockClass": "search-title__phone--container"
+    },
+    "children": [
+      "search-title.v2#search__title--phone"
+    ]
+  },
+  "flex-layout.col#search-order__container": {
+    "title": "phone search order container",
+    "props": {
+      "blockClass": "phone__search-order--container"
+    },
+    "children": [
+      "flex-layout.row#result-search__orderby--sortby",
+      "flex-layout.row#result-search__orderby--switcher"
+    ]
+  },
+  "search-title.v2#search__title--phone": {
+    "props": {
+      "blockClass": "phone__search--title"
+    }
+  } /* ,
+  "flex-layout.col#breadcrumb__col--desktop": {
+    "title": "col sort by",
+
+    "children": [
+      "breadcrumb.search#desktop"
+    ],
+    "props": {
+      "blockClass": "breadcrumb__col--desktop"
+    }
+  },
+  "breadcrumb.search#desktop": {
+    "props": {
+      "blockClass": "breadcrum"
+    }
+  } */
+
+  /* "flex-layout.row#result-search__orderby--sortby": {
+    "title": "col sort by",
+    "children": [
+      "order-by.v2#desktop"
+    ],
+    "props": {
+      "blockClass": "result-search__pagination-orderby--switcher",
+      "width": "15%"
+    }
+  },
+  "flex-layout.row#result-search__orderby--switcher": {
+    "title": "swicher container",
+    "children": [
+      "gallery-layout-switcher#global"
+    ],
+    "props": {
+      "blockClass": "result-search__pagination-orderby--switcher",
+      "width": "15%"
+    }
+  },
+  "order-by.v2#desktop": {
+    "title": "order by global",
+    "props": {
+      "showOrderTitle": true,
+      "blockClass": "desktop__sortby"
+    }
+  } */
+}

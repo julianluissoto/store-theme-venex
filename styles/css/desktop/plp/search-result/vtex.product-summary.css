@@ -1,0 +1,35 @@
+/* check hover on product shelf, must not exist */
+
+/* .containerNormal--desktop__shelf--container:hover {
+
+    border: 1.5px solid var(--icon-color);
+
+} */
+
+
+
+.image--shelf__image-list {
+    height: 80%;
+}
+
+.imageContainer--product-summary__Shelf--image-list {
+    width: 160%;
+}
+
+.containerNormal--desktop__shelf--container-list {
+    max-width: 100% !important;
+}
+
+.element--desktop__shelf--container-list {
+    padding: 0% !important;
+}
+
+.currencyContainer--product-summary__Shelf--price-list {
+    font-size: 25px;
+    font-family: Montserrat-Regular;
+}
+
+.productBrand--shelf__name-list {
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+}

@@ -3,24 +3,28 @@
 }
 
 .flexRowContent--desktop__section--image-container-2 {
-    margin-top: 45px;
-    margin-bottom: 45px;
-    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
 }
 
 
 .flexRow--desktop__buyingOptions--Maincontainer {
     height: 150px;
-    ;
+
     background-color: #E8E8ED;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+
 .flexCol--creditCard__container {
     flex-direction: row;
     margin-right: 20px;
+    justify-content: center;
 }
 
 .flexCol--desktop__buyingOptions--container-col {
@@ -99,7 +103,7 @@
 }
 
 .flexRowContent--partners_main--container {
-    width: 1170px;
+    width: 1280px;
     margin: 2rem auto;
 }
 

@@ -5,7 +5,9 @@
       "blockClass": "desktop__header"
     },
     "children": [
-      "flex-layout.row#header__orderOptions"
+      "flex-layout.row#header__orderOptions",
+      "flex-layout.row#desktop__searchBar--container",
+      "flex-layout.row#menu__links--container"
     ]
   },
 

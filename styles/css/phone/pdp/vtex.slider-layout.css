@@ -1,0 +1,20 @@
+.sliderArrows--porduct__shelf--slider-pdp {
+    width: 30px;
+    height: 50px;
+    background: #7e7c83 !important;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.sliderArrows--porduct__shelf--slider-pdp :hover {
+    width: 30px;
+    height: 50px;
+    background: #bbb9bf !important;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.caretIcon--porduct__shelf--slider {
+    height: 15px;
+}

@@ -5,10 +5,11 @@
 
 .flexRowContent--desktop__productShelf--container {
     background-color: #E7EAEC;
-    justify-content: space-around;
+    justify-content: space-between;
     /* width: 1170px; */
     max-height: 390px;
     margin: 0 auto;
+    width: 1280px;
 }
 
 
@@ -28,7 +29,7 @@
 }
 
 .flexCol--shelf_leftColumn {
-    flex-basis: content;
+    flex-basis: auto;
 }
 
 .flexColChild--shelf_rightColumn {

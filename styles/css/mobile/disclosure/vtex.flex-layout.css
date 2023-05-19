@@ -1,0 +1,17 @@
+.flexCol--disclosureHowtoBuy__container {
+    align-items: flex-start;
+}
+
+.flexRowContent--disclosureHowtoBuy__rowContainer .stretchChildrenWidth:first-child {
+    width: 100% !important;
+
+}
+
+.flexRowContent--disclosureHowtoBuy__rowContainer .stretchChildrenWidth:nth-child(2n) {
+    width: 100% !important;
+
+}
+
+.flexRowContent--disclosureHowtoBuy__rowContainer {
+    flex-direction: column;
+}
