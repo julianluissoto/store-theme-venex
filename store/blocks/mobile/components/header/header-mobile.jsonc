@@ -24,7 +24,8 @@
   "header-row#mobile__header--left": {
     "title": "title header mobile",
     "props": {
-      "blockClass": "mobile__header--left"
+      "blockClass": "mobile__header--left",
+      "sticky": true
     },
     "children": [
       "flex-layout.row#megamenu__mobile",
@@ -34,7 +35,8 @@
   "header-row#mobile__header--right": {
     "title": "title header mobile",
     "props": {
-      "blockClass": "mobile__header--right"
+      "blockClass": "mobile__header--right",
+      "sticky": true
     },
     "children": [
       "drawer#search-bar",
@@ -47,7 +49,10 @@
     "title": "logo phone",
     "props": {
       "blockClass": "logo__phone-mobile",
-      "url": "assets/img/logo-venex/header_logo.png"
+      "url": "assets/img/logo-venex/header_logo.png",
+      "link": {
+        "url": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
+      }
     }
   },
   "drawer#search-bar": {

@@ -1,0 +1,12 @@
+.imageElement--mobile__slider--brand-image-logo {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    bottom: 2rem;
+    margin: 0 auto;
+
+}

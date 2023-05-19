@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#contact__button": {
+    "title": "contact buttons",
+    "props": {
+      "blockClass": "contact__button-mainContainer"
+    },
+    "children": [
+      "flex-layout.col#button__textUs",
+      "flex-layout.col#button__callUs"
+    ]
+  },
+
+  "flex-layout.col#button__textUs": {
+    "title": "button text us",
+    "props": {
+      "blockClass": "button__textUs--container"
+    },
+    "children": [
+      "link#textUs"
+    ]
+  },
+  "link#textUs": {
+    "title": "button link to contact us",
+    "props": {
+      "blockClass": "contactUs__button",
+      "label": "TEXT US",
+      "displayMode": "Button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      }
+    }
+  },
+
+  "flex-layout.col#button__callUs": {
+    "title": "button call us",
+    "props": {
+      "blockClass": "button__callUs--container"
+    },
+    "children": [
+      "link#callUs"
+    ]
+  },
+  "link#callUs": {
+    "title": "button link to callUs",
+    "props": {
+      "blockClass": "contactUs__button",
+      "label": "CALL US",
+      "displayMode": "Button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      }
+    }
+  }
+}

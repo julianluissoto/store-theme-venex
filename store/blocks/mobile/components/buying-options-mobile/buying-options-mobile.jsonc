@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#mobile__creditCard": {
+    "title": "buying option main container",
+    "props": {
+      "blockClass": "mobile__buyingOptions--container",
+      "with": "90%"
+    },
+    "children": [
+      "flex-layout.col#mobile__creditCard--container",
+      "flex-layout.col#mobilereceibeProduct__container"
+    ]
+  },
+  "flex-layout.col#mobile__creditCard--container": {
+    "title": "credit card col container",
+    "props": {
+      "blockClass": "mobile__creditCard--container",
+      "with": "33%"
+    },
+    "children": [
+      "modal-trigger#mobilecreditcard__modal--trigger",
+      "flex-layout.row#card__txt-container"
+    ]
+  },
+  "flex-layout.col#mobilereceibeProduct__container": {
+    "title": "receibe your product col container",
+    "props": {
+      "blockClass": "mobile__creditCard--container",
+      "with": "33%"
+    },
+    "children": [
+      "modal-trigger#mobilecreditcard__modal--trigger-2",
+      "flex-layout.row#card__txt-container-2"
+    ]
+  },
+  "modal-trigger#mobilecreditcard__modal--trigger": {
+    "title": "credit card col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image",
+      "modal-layout#credit-card"
+    ]
+  },
+  "modal-trigger#mobilecreditcard__modal--trigger-2": {
+    "title": "receibe your product col trigger",
+    "props": {
+      "blockClass": "creditcard__modal--trigger"
+    },
+    "children": [
+      "image#creditCard__image-2",
+      "modal-layout#credit-card"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+.flexRow--phone__titleAndOrder--container {
+    padding-top: 4rem;
+}
+
+.flexRowContent--mobile__title-filer--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexColChild--search-title__phone--container {
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol--phone__search-order--container {
+    flex-direction: row;
+    justify-content: space-around;
+}

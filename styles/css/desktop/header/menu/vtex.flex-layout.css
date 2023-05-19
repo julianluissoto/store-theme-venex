@@ -1,0 +1,27 @@
+.flexRow--menu__desktop--containerMain {
+    background-color: var(--mobile-gray);
+}
+
+.flexRowContent--menu__desktop--containerMain {
+    display: flex;
+    background-color: var(--mobile-gray);
+    justify-content: center;
+    height: auto;
+    column-gap: 48px;
+    flex-wrap: wrap;
+
+}
+
+.flexCol--menu__desktop--container {
+    flex-wrap: wrap;
+    min-height: 55px;
+}
+
+.flexRowContent--menu__desktop--Maincontainer {
+    min-height: 55px;
+
+}
+
+.flexRow--header__menu--row {
+    min-height: 40px;
+}

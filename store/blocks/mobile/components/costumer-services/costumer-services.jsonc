@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#customerService__contactInfo--mobile": {
+    "title": " customer services container",
+    "props": {
+      "blockClass": "customerServices__container--mobile"
+    },
+    "children": [
+      "rich-text#customerService__title--mobile",
+      "rich-text#contactInfo__text--mobile",
+      "rich-text#contactInfo__text--timetable--mobile",
+      "rich-text#customerService__title-PickUpPoint--mobile",
+      "rich-text#contactInfo__text--timetable-pickUp--mobile"
+    ]
+  },
+
+  "rich-text#contactInfo__text--mobile": {
+    "title": "Contact info text",
+    "props": {
+      "blockClass": "contactInfo__text--mobile",
+      "text": "0810-555-8892 \n consultas@venex.com.ar \n WhatsApp +54112040-0949",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "heading-2"
+    }
+  },
+
+  "rich-text#customerService__title--mobile": {
+    "title": "Customer Services text-1",
+    "props": {
+      "blockClass": "customerService__title-mobile",
+      "text": "CUSTOMER SERVICE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#customerService__title-PickUpPoint--mobile": {
+    "title": "Customer Services Pick Up Pont text",
+    "props": {
+      "blockClass": [
+        "customerService__title-mobile"
+      ],
+      "text": "VENEX PICKUP PONT",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "heading-2"
+    }
+  },
+
+  "rich-text#contactInfo__text--timetable--mobile": {
+    "title": "Contact info text",
+    "props": {
+      "blockClass": "contactInfo__text--mobile",
+      "text": "monday to friday from 8 to 18",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "heading-2"
+    }
+  },
+
+  "rich-text#contactInfo__text--timetable-pickUp--mobile": {
+    "title": "Contact info text",
+    "props": {
+      "blockClass": "contactInfo__text--mobile",
+      "text": "Mon. to Frid.  8 to 18 ",
+
+      "font": "heading-2"
+    }
+  }
+}

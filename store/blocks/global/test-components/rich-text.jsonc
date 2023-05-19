@@ -1,7 +1,0 @@
-{
-  "rich-text#test__text": {
-    "props": {
-      "text": "test text to use on develop"
-    }
-  }
-}

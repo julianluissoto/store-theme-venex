@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#mobile__Big--title": {
+    "title": "home body title -2",
+    "props": {
+      "blockClass": "mobile__Big-title"
+    },
+    "children": [
+      "rich-text#mobile__body--Big-title"
+    ]
+  },
+  "rich-text#mobile__body--Big-title": {
+    "title": "home body title text",
+    "props": {
+      "text": "CHOOSE YOUR BEST LATOP,\n FOR GAMING OR WORK",
+      "blockClass": "mobile__body--big-title",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "font": "heading-3"
+    }
+  }
+}

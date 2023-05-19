@@ -1,0 +1,16 @@
+.imageElement--gpu__image {
+    height: 100%;
+}
+
+.imageElement--desktop__section--image {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:1024px) {
+    .imageElement--desktop__section--image {
+
+        width: 100%;
+    }
+}

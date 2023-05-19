@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#desktop__title": {
+    "title": "home body title",
+    "props": {
+      "blockClass": "desktop__title"
+    },
+    "children": [
+      "flex-layout.col#desktop__title"
+    ]
+  },
+  "flex-layout.col#desktop__title": {
+    "title": "home body title",
+    "props": {
+      "blockClass": "desktop__title--col"
+    },
+    "children": [
+      "rich-text#desktop__body--title",
+      "link#see__laptops"
+    ]
+  },
+
+  "rich-text#desktop__body--title": {
+    "title": "home body title text",
+    "props": {
+      "text": "The Best brands are in Venex!",
+      "blockClass": "desktop__body--title"
+    }
+  },
+  "link#see__laptops": {
+    "props": {
+      "href": "https://www.venex.com.ar/notebooks?vmm=3",
+      "label": "See Laptops",
+      "blockClass": "desktop__body--title-link"
+    }
+  }
+}

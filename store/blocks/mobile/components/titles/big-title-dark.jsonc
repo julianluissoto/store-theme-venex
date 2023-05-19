@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#mobile__Big--title-dark": {
+    "title": "home body title -2",
+    "props": {
+      "blockClass": "mobile__Big--title-dark"
+    },
+    "children": [
+      "rich-text#mobile__body--Big-title-dark"
+    ]
+  },
+  "rich-text#mobile__body--Big-title-dark": {
+    "title": "home body title text",
+    "props": {
+      "text": "TAKE YOUR GAMES TO THE NEXT LEVEL",
+      "blockClass": "mobile__body--big-title-dark",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    }
+  }
+}

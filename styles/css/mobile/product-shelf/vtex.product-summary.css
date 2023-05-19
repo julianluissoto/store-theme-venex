@@ -1,0 +1,49 @@
+.element--mobile__shelf--customQuery {
+    flex-direction: column !important;
+}
+
+.image--product__summary-image {
+    max-height: 119px !important;
+    max-width: 119px;
+    height: 119px !important;
+}
+
+.price_installmentContainer--product__summary-price {
+    display: none;
+}
+
+.brandName--product__summary-name {
+    font-family: Montserrat-Light;
+    font-size: 12px;
+    color: gray;
+}
+
+.price_listPriceContainer--product__summary-price {
+    display: none;
+}
+
+.priceContainer--product__summary-price {
+    padding-bottom: 0 !important;
+}
+
+.nameContainer--product__summary-name {
+    background-color: #fff;
+}
+
+.price_sellingPriceLabel--product__summary-price {
+    display: none;
+}
+
+.currencyContainer--product__summary-price {
+    position: relative;
+    right: 70%
+}
+
+.nameWrapper--product__summary-name {
+    position: relative;
+    bottom: 10px;
+}
+
+.container--mobile__shelf--customQuery {
+    max-width: 100% !important;
+}

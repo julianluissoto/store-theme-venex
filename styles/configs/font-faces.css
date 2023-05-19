@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url(assets/fonts/Montserrat-Medium.ttf);
-}
-
-@font-face {
     font-family: "Montserrat-Regular";
     src: url(assets/fonts/Montserrat-Regular.ttf);
 }
@@ -22,6 +17,16 @@
 @font-face {
     font-family: "Montserrat-Semibold";
     src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-BoldIalic";
+    src: url(assets/fonts/Montserrat-BoldItalic.ttf);
 }
 
 @font-face {

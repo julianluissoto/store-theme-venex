@@ -1,12 +1,34 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
-
+    "props": {
+      "blockClass": "layout__phoneandtablet"
+    },
     "children": [
-      "header-layout#header__mobile--container",
-      "flex-layout.row#mobile__slider"
-
-      //"search-result-layout.customQuery#home",
+      /* "header-layout#header__mobile--container",
+      "flex-layout.row#mobile__slider",
+      "flex-layout.row#desktop__title",
+      "flex-layout.row#mobile__sliderBrands",
+      "flex-layout.row#mobile__title-2",
+      "flex-layout.row#mobile__sliderLinks",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__section--image",
+      "flex-layout.row#mobile__Big--title-dark",
+      "flex-layout.row#mobile__productShelf--container-9",
+      "flex-layout.row#mobile__section--2",
+      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#mobile__productShelf--container-4",
+      "flex-layout.row#mobile__creditCard",
+      "flex-layout.row#mobile__logo--banner",
+      "flex-layout.row#disclosure-layout__Maincontainer",
+      "flex-layout.row#contact__button",
+      "flex-layout.row#customerService__contactInfo--mobile",
+      "flex-layout.row#whatapp__logo--container" */
     ]
   }
 }

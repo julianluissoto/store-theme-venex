@@ -20,6 +20,6 @@
     transform: translateY(-10px);
 }
 
-.flexRowContent--drawer-header {
-    transform: translate(230px, 17px);
+.container--buildPc__text--mobile {
+    margin-left: 17px;
 }

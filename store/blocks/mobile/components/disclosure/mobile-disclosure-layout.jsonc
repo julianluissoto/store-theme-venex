@@ -1,0 +1,211 @@
+{
+  "flex-layout.row#disclosure-layout__Maincontainer": {
+    "title": "disclosure layout mobile",
+    "props": {
+      "blockClass": "disclosure-layout__Maincontainer"
+    },
+    "children": [
+      "flex-layout.col#disclosure-layout__Maincontainer"
+    ]
+  },
+
+  "flex-layout.col#disclosure-layout__Maincontainer": {
+    "title": "disclosure layout mobile",
+    "props": {
+      "blockClass": "disclosure-layout__Maincontainer--col",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "disclosure-layout#howToBuy",
+      "disclosure-layout#venex"
+    ]
+  },
+
+  "disclosure-layout#howToBuy": {
+    "title": "disclosure layout how to buy",
+    "props": {
+      "blockClass": "disclosure-layout__container"
+    },
+    "children": [
+      "flex-layout.row#disclosureHowtoBuy__container"
+    ]
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#arrowRight",
+      "Hide": "icon#arrowDown",
+      "blockClass": "disclosure__stateIndicator--container"
+    }
+  },
+  "icon#arrowRight": {
+    "props": {
+      "id": "arrow-right-2",
+      "size": 20,
+      "blockClass": "disclosure__stateIndicator--right"
+    }
+  },
+  "icon#arrowDown": {
+    "props": {
+      "id": "arrow-down",
+      "size": 20,
+      "blockClass": "disclosure__stateIndicator--down"
+    }
+  },
+
+  "flex-layout.row#disclosureHowtoBuy__container": {
+    "title": "modal triger disclosure row container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__rowContainer"
+    },
+    "children": [
+      "disclosure-trigger#howToBuy",
+
+      "disclosure-content#howToBuy"
+    ]
+  },
+
+  "disclosure-trigger#howToBuy": {
+    "title": "disclosure layout trriger",
+    "props": {
+      "blockClass": "disclosure-layout__trigger--container"
+    },
+    "children": [
+      "rich-text#howToBuy",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#howToBuy": {
+    "title": "disclosure layout constent",
+    "props": {
+      "blockClass": "disclosure-content__Maincontainer"
+    },
+    "children": [
+      "flex-layout.col#disclosureHowtoBuy__container"
+    ]
+  },
+  "flex-layout.col#disclosureHowtoBuy__container": {
+    "title": "modal triger disclosure container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__container"
+    },
+    "children": [
+      "modal-trigger#howToBuy",
+      "modal-trigger#howToBuy",
+      "modal-trigger#howToBuy",
+      "modal-trigger#howToBuy",
+      "modal-trigger#howToBuy"
+    ]
+  },
+
+  "rich-text#howToBuy": {
+    "props": {
+      "blockClass": "disclosure__option--text",
+      "text": "HOW TO BUY",
+      "font": "heading-4"
+    }
+  },
+  "rich-text#howToBuy-answer": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+  "disclosure-layout#venex": {
+    "children": [
+      "flex-layout.row#disclosureVenex__container"
+    ]
+  },
+
+  "flex-layout.row#disclosureVenex__container": {
+    "title": "modal triger disclosure row container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__rowContainer"
+    },
+    "children": [
+      "disclosure-trigger#venex",
+      "disclosure-content#venex"
+    ]
+  },
+
+  "disclosure-trigger#venex": {
+    "props": {
+      "blockClass": "disclosure-layout__trigger--container"
+    },
+
+    "children": [
+      "rich-text#questionvenex",
+      "disclosure-state-indicator"
+    ]
+  },
+  /////////
+  "modal-trigger#howToBuy": {
+    "title": "how to buy trigger ",
+    "children": [
+      "rich-text#answerHowtoBuy",
+      "modal-layout#howToBuy__answer-1"
+    ]
+  },
+  "rich-text#answerHowtoBuy": {
+    "title": "disclosure answer text",
+    "props": {
+      "text": "Pick Up Order",
+      "blockClass": "answerHowtoBuy"
+    }
+  },
+
+  "modal-layout#howToBuy__answer-1": {
+    "title": "image modal disclosure",
+    "props": {
+      "blockClass": ""
+    },
+    "children": [
+      "image#pickUpOrderModal"
+    ]
+  },
+  "image#pickUpOrderModal": {
+    "title": " modal gps",
+    "props": {
+      "src": "assets/img/modal-images/gps.png",
+      "blockClass": ""
+    }
+  },
+
+  "disclosure-content#venex": {
+    "title": "disclosure layout constent",
+    "props": {
+      "blockClass": "disclosure-content__Maincontainer"
+    },
+    "children": [
+      "flex-layout.col#disclosureVenex__container"
+    ]
+  },
+
+  "rich-text#questionvenex": {
+    "props": {
+      "text": "VENEX",
+      "blockClass": "disclosure__option--text"
+    }
+  },
+  "flex-layout.col#disclosureVenex__container": {
+    "title": "modal triger disclosure container",
+    "props": {
+      "blockClass": "disclosureHowtoBuy__container"
+    },
+    "children": [
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure",
+      "link#AboutUs-disclosure"
+    ]
+  },
+
+  "link#AboutUs-disclosure": {
+    "title": "link to About Us",
+    "props": {
+      "blockClass": "answerHowtoBuy",
+      "label": "About Us",
+      "href": "https://www.venex.com.ar/quienes-somos.htm"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/* .flexRowContent--customerServices__container--mobile {
+    background-color: var(--mobile-gray);
+    padding-left: 15px;
+    flex-direction: column;
+}
+ */
+.container--contactInfo__text--mobile {
+    justify-content: flex-start;
+}
+
+
+.flexRowContent--customerServices__container--mobile {
+    background-color: var(--mobile-gray);
+    padding-left: 15px;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.container--contactInfo__text--mobile {
+
+    justify-content: flex-start;
+}
+
+.flexRowContent--customerServices__container--mobile {
+    background-color: var(--mobile-gray);
+    padding-left: 15px;
+    flex-direction: column;
+}

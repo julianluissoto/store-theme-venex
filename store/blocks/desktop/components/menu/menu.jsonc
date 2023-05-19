@@ -1,17 +1,59 @@
 {
+  "flex-layout.row#menu__links--container": {
+    "title": "header menu area container",
+    "props": {
+      "blockClass": "menu__desktop--containerMain",
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "borderColor": "red"
+    },
+    "children": [
+      /*  "flex-layout.col#menu__links" */
+      "flex-layout.row#header__menu--row",
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see",
+      "link#builsYourPc",
+      "image#venexCorporate"
+    ]
+  },
+
+  "flex-layout.col#menu__links": {
+    "title": "header menu area",
+    "props": {
+      "blockClass": "menu__desktop--container",
+
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#header__menu--row",
+      "link#desktops",
+      "link#Laptops",
+      "link#Gpu",
+      "link#Monitors",
+      "link#Micros",
+      "link#Must-see",
+      "link#builsYourPc",
+      "image#venexCorporate"
+    ]
+  },
   "link#desktops": {
     "title": "link to desktop",
     "props": {
       "blockClass": "menu__links",
       "label": "Desktop",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/celulares"
     }
   },
   "link#Laptops": {
     "title": "link to desktop",
     "props": {
       "label": "Laptops",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "blockClass": "menu__links",
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/electrodomesticos"
     }
   },
   "link#Gpu": {
@@ -19,7 +61,7 @@
     "props": {
       "blockClass": "menu__links",
       "label": "Gpu",
-      "href": "https://www.venex.com.ar/computadoras-y-servidores/pcs-de-escritorio?vmm=1"
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/queso"
     }
   },
   "link#Monitors": {
@@ -64,31 +106,26 @@
     "title": "venex corporate logo",
     "props": {
       "src": "assets/img/logo-venex/logo menu.png",
-      "blockClass": "venexCorporate"
+      "blockClass": [
+        "venexCorporate"
+      ]
     }
   },
-  "flex-layout.row#menu__links": {
-    "title": "header menu area",
+
+  "flex-layout.row#header__menu--row": {
+    "title": "header phone layout",
     "props": {
-      "blockClass": "menu__desktop--container"
+      "blockClass": "header__menu--row"
     },
+
     "children": [
-      "flex-layout.col#header__menu",
-      "link#desktops",
-      "link#Laptops",
-      "link#Gpu",
-      "link#Monitors",
-      "link#Micros",
-      "link#Must-see",
-      "link#builsYourPc",
-      "image#venexCorporate"
+      "flex-layout.col#header__menu"
     ]
   },
-
   "flex-layout.col#header__menu": {
     "title": "header phone layout",
     "props": {
-      "blockClass": ""
+      "blockClass": "header__menu"
     },
 
     "children": [
@@ -207,8 +244,8 @@
   "icon#moreCategories": {
     "props": {
       "blockClass": "icon__moreCategories",
-      "id": "arrow-right",
-      "size": 16
+      "id": "arrow-right-2",
+      "size": 14
     }
   },
   "rich-text#categorie__dot": {

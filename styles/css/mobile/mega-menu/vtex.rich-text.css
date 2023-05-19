@@ -31,3 +31,7 @@
     /* background-color: azure; */
     border-top: solid 2px gray;
 }
+
+.wrapper--buildPc__text--mobile {
+    margin-left: 17px;
+}

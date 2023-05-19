@@ -1,0 +1,19 @@
+.headerContainer--modal__header--desktop {
+    background-color: #727784;
+}
+
+
+
+.closeButtonContainer--modal__header--desktop ::before {
+
+
+    content: "User Access";
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 8px;
+
+}

@@ -1,0 +1,134 @@
+{
+  "footer-layout.mobile#mobile__footer--mainContainer": {
+    "title": "footer mobile main container",
+    "props": {
+      "blockClass": "mobile__footer--mainContainer"
+    },
+    "children": [
+      "flex-layout.row#mobile__footer--rowContainer"
+    ]
+  },
+  "flex-layout.row#mobile__footer--rowContainer": {
+    "title": "footer mobile row container",
+    "props": {
+      "blockClass": "mobile__footer--rowContainer"
+    },
+    "children": [
+      "flex-layout.col#mobile__footer--colContainer"
+    ]
+  },
+  "flex-layout.col#mobile__footer--colContainer": {
+    "title": "footer mobile col container",
+    "props": {
+      "blockClass": "mobile__footer--colContainer"
+    },
+    "children": [
+      "rich-text#customerService__title-2",
+      "flex-layout.col#newsLetter__mobile"
+    ]
+  },
+  "flex-layout.col#newsLetter__mobile": {
+    "title": "newsletter",
+    "props": {
+      "blockClass": "newsLetter__mobile"
+    },
+    "children": [
+      "rich-text#suscribe__title",
+      "newsletter#mobile",
+      "flex-layout.row#socialNetworks__container--mobile",
+      "flex-layout.row#data-fiscal__mobile--mainContainer"
+    ]
+  },
+  "newsletter#mobile": {
+    "title": "newsletter",
+    "props": {
+      "blockClass": "newsletter",
+      "hideLabel": true,
+      "placeholder": "Enter your E-Mail",
+      "submit": ">"
+    }
+  },
+
+  "flex-layout.row#socialNetworks__container--mobile": {
+    "title": "social network container",
+    "props": {
+      "blockClass": [
+        "social__container--mobile"
+      ],
+      "width": "50%"
+    },
+    "children": [
+      "image#facebook__mobile",
+      "image#instagram__mobile",
+      "image#youtube__mobile"
+    ]
+  },
+
+  "image#facebook__mobile": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/facebook.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+
+  "image#instagram__mobile": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/instagram.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+
+  "image#youtube__mobile": {
+    "title": "facebook image",
+    "props": {
+      "blockClass": "socialNetwork__image",
+      "src": "assets/img/icons/svg/youtube.svg",
+      "link": {
+        "url": "https://www.venex.com.ar/pagina-inicial.html"
+      }
+    }
+  },
+  "flex-layout.row#data-fiscal__mobile--mainContainer": {
+    "title": "data fiscal mobile main ",
+    "props": {
+      "blockClass": "data-fical__mobile--mainContainer"
+    },
+    "children": [
+      "flex-layout.col#data-fical__mobile--container"
+    ]
+  },
+
+  "flex-layout.col#data-fical__mobile--container": {
+    "title": "data fiscal mobile container",
+    "props": {
+      "blockClass": "data-fical__mobile--container"
+    },
+    "children": [
+      "image#dataFiscal--mobile",
+      "image#cace__mobile"
+    ]
+  },
+  "image#dataFiscal--mobile": {
+    "title": "data fsical image",
+    "props": {
+      "blockClass": "imagefiscal__image--mmobile",
+      "src": "assets/img/miscellaneous-images/DATAWEB.jpg"
+    }
+  },
+  "image#cace__mobile": {
+    "title": "cace image",
+    "props": {
+      "blockClass": "cace__image--mobile",
+      "src": "assets/img/miscellaneous-images/sello-cace-venex.png",
+      "url": "#"
+    }
+  }
+}

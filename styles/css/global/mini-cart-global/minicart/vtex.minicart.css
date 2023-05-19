@@ -3,13 +3,14 @@
     display: none;
 } */
 .minicartContentContainer {
-    background-color: rgb(230, 240, 233);
+    background-color: rgb(184, 194, 187);
 }
 
 .minicartQuantityBadgeDefault {
     background-color: #D4D512;
-    border-radius: 1rem;
+    border-radius: 50%;
     height: 0.5rem;
+    width: 0.5rem;
 
 }
 

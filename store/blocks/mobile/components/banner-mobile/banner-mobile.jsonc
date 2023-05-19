@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#mobile__section--image": {
+    "title": "mobile section banner image main container",
+    "props": {
+      "blockClass": "mobile__banner--image-Maincontainer"
+    },
+    "children": [
+      "flex-layout.col#mobile__section--image"
+    ]
+  },
+
+  "flex-layout.col#mobile__section--image": {
+    "title": "mobile section banner image container",
+    "props": {
+      "blockClass": "mobile__banner--image-container"
+    },
+    "children": [
+      "image#banner__image--one"
+    ]
+  },
+  "image#banner__image--one": {
+    "title": "section image 1",
+    "props": {
+      "blockClass": "desktop__section--image",
+      "src": "assets/img/mobile-banner/buildPc.jpg",
+      "maxwidth": "100%"
+    }
+  }
+}

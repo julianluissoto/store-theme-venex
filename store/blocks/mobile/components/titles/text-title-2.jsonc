@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#mobile__title-2": {
+    "title": "home body title -2",
+    "props": {
+      "blockClass": "mobile__title"
+    },
+    "children": [
+      "flex-layout.col#mobile__title-2"
+    ]
+  },
+  "flex-layout.col#mobile__title-2": {
+    "title": "home body title",
+    "props": {
+      "blockClass": "mobile__title--col"
+    },
+    "children": [
+      "rich-text#mobile__body--title-2",
+      "rich-text#mobile__body--subtitle-2"
+    ]
+  },
+
+  "rich-text#mobile__body--title-2": {
+    "title": "home body title text",
+    "props": {
+      "text": "THAT WHAT YOU WANT, ",
+      "blockClass": "mobile__body--title-2"
+    }
+  },
+  "rich-text#mobile__body--subtitle-2": {
+    "title": "home body title text",
+    "props": {
+      "text": "FIND IT IN VENEX",
+      "blockClass": "mobile__body--subTitle"
+    }
+  }
+}

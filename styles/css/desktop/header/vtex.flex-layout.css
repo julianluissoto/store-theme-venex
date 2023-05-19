@@ -1,8 +1,8 @@
- .stretchChildrenWidth {
+ /* .stretchChildrenWidth {
      width: 8%;
 
  }
-
+ */
  .flexRow--desktop__searchBar--container {
      background-color: #37373F;
  }
@@ -10,7 +10,7 @@
  .flexRowContent--header__orderOptions {
      background-color: var(--primary-color);
      height: 35px;
-     padding-top: 5px;
+     /* padding-top: 5px; */
  }
 
  .flexRow--header__orderOptions {
@@ -33,8 +33,6 @@
 
  }
 
-
-
  .flexColChild--category__container {
      display: flex;
      justify-content: center;
@@ -42,31 +40,30 @@
 
 
  .flexRowContent--menu__desktop--container {
-     min-width: 1280px;
-     padding: 5px;
-     flex-wrap: wrap;
      display: flex;
-     justify-content: space-between;
+     max-height: 55px;
+     padding: 5px;
+
+
+     margin: 0 auto;
  }
 
  .flexCol--links__container {
      justify-content: space-around;
      align-content: center;
 
-
  }
-
 
  .flexRow--menu__desktop--container {
      background-color: #EEEEEE;
-     display: flex;
-     justify-content: center;
-     max-height: 55px;
-     align-items: center;
+
+     min-height: 55px;
+
+
  }
 
  .flexCol--category__container {
-
+     flex-direction: row;
      justify-content: space-between;
  }
 
@@ -79,16 +76,16 @@
      right: 6rem;
  }
 
- .flexRowContent--footer__desktop--container {
-     padding: 10px;
-     justify-content: space-around;
 
- }
 
  .flexCol--desktop__subcategory--hardDriveDiscs {
      border: 2px solid #f3eded;
  }
 
+ .flexColChild--header__container--right {
+     display: flex;
+     align-items: center;
+ }
 
 
 

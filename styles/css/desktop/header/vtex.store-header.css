@@ -1,6 +1,6 @@
 .headerStickyRow--searchBar__container {
-    background-color: var(--primary-color);
     padding: 0;
+    min-height: 84px;
 }
 
 .headerRowContainer {
@@ -16,7 +16,24 @@
 
     background-color: #37373F;
 
-    height: 84px;
+    min-height: 84px;
     display: flex;
+
     justify-content: center;
+}
+
+.headerRowContainer--searchBar__container--col {
+
+    width: 955px;
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width:1280px) {
+    .headerRowContainer--searchBar__container--col {
+
+        width: 1280px;
+        margin: 0 auto;
+
+    }
 }

@@ -1,0 +1,24 @@
+.flexColChild--mobile__sliderLinksRow--container {
+    padding: 10px;
+}
+
+.flexRowContent--mobile__sliderLinks {
+    background-color: #EEEEEE;
+}
+
+.flexRow--mobile__Big-title {
+    background-color: #e7eaec;
+    height: 55px;
+}
+
+.flexRowContent--mobile__Big-title {
+    background-color: #e7eaec;
+    padding-top: 15px;
+    padding-top: 10px;
+
+
+}
+
+.flexRowContent--mobile__slider {
+    position: relative top 45px;
+}

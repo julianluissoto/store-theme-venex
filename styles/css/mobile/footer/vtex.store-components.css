@@ -1,0 +1,14 @@
+.imageElement--imagefiscal__image--mmobile {
+    max-height: 59px;
+    margin-right: 5px;
+    filter: grayscale(100%);
+}
+
+.imageElement--cace__image--mobile {
+    max-height: 45px;
+    filter: grayscale(100%);
+}
+
+.newsletter--newsletter {
+    margin-top: -21px;
+}

@@ -1,0 +1,10 @@
+.imageElement--slider__brand--image {
+    border-radius: 20px 20px 0 0;
+    padding: 0;
+}
+
+.imageElement--mobile__slider--brand-image {
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+}

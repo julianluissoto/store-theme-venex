@@ -12,6 +12,7 @@
       "showPaginationDots": "always",
       "infinite": true,
       "blockClass": "home__slider",
+      "arrowSize": 15,
       "autoplay": {
         "timeout": 2000,
         "stopOnHover": true
