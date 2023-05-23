@@ -1,0 +1,7 @@
+{
+  "store.custom#cart": {
+    "blocks": [
+      "minicart-product-list#productList"
+    ]
+  }
+}

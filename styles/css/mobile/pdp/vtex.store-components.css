@@ -1,0 +1,45 @@
+.productBrand--mobile__product--name {
+    padding-left: 1%;
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+}
+
+.productImagesContainer--first-image {
+    display: flex;
+    justify-content: center;
+}
+
+.productDescriptionContainer--product-description {
+
+    font-size: 23px;
+    font-family: Montserrat-Regular;
+    color: #424143;
+
+
+    overflow: hidden;
+    max-width: calc(100% - 40px);
+    margin: 0px 20px;
+    padding-top: 45px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #CDCDCD;
+
+}
+
+.productDescriptionText--product-description {
+    font-family: Montserrat-Regular;
+    color: #696969;
+    font-size: 14px;
+}
+
+/* ///////////////// */
+.price_sellingPrice--pdp__slider--price {
+    font-family: Montserrat-Bold;
+    line-height: 20px;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.price_className--pdp__slider--price {
+    background-color: #FFF;
+}

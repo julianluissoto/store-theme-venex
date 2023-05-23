@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#pdp__product--specs": {
+    "title": "pdp product specs main container",
+    "props": {
+      "blockClass": "pdp__product-image",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#pdp__specs--modal"
+    ]
+  },
+
+  "flex-layout.col#pdp__specs--modal": {
+    "props": {
+      "blockClass": "pdp__product-image"
+    },
+    "children": [
+      "modal-trigger#pdp__specs__modal-trigger"
+    ]
+  },
+  "modal-trigger#pdp__specs__modal-trigger": {
+    "title": "pdp spces modal trigger",
+    "props": {
+      "blockClass": "pdp__specs__modal-trigger"
+    },
+    "children": [
+      "flex-layout.col#pdp__specs-modal",
+      "modal-layout#pdp__specs-image"
+    ]
+  },
+
+  "modal-layout#pdp__specs-image": {
+    "children": [
+      "image#pdp__specs--image"
+    ]
+  },
+  "image#pdp__specs--image": {
+    "title": "pdp specs image on modal",
+    "props": {
+      "src": "assets/img/modal-images/pdp-specs-modal.png",
+      "blockClass": "pdp__specs--image"
+    }
+  },
+  "flex-layout.col#pdp__specs-modal": {
+    "title": "pdp specs modal trigger",
+    "props": {
+      "blockClass": "pdp__specs__modal-trigger"
+    },
+    "children": [
+      "flex-layout.row#pdp__specs-modal-left",
+      "flex-layout.row#pdp__specs-modal-right"
+    ]
+  },
+  "flex-layout.row#pdp__specs-modal-left": {
+    "title": "pdp specs modal trigger left",
+    "props": {
+      "blockClass": "pdp__specs-modal-left"
+    },
+    "children": [
+      "rich-text#pdp__specs--title-text"
+    ]
+  },
+  "flex-layout.row#pdp__specs-modal-right": {
+    "title": "pdp specs modal trigger-right",
+    "props": {
+      "blockClass": "pdp__specs-modal-right"
+    },
+    "children": [
+      "icon#arrow__pdp-specs"
+    ]
+  },
+  "icon#arrow__pdp-specs": {
+    "props": {
+      "blockClass": "arrow__pdp-specs",
+      "id": "arrow-right",
+      "size": 15
+    }
+  },
+
+  "rich-text#pdp__specs--title-text": {
+    "title": "pdp specs title text",
+    "props": {
+      "blockClass": "pdp__specs--title-text",
+      "text": "ESPECIFICATIONS"
+    }
+  }
+}

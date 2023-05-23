@@ -1,0 +1,141 @@
+{
+  "flex-layout.row#selling-price": {
+    "title": "pdpselling price",
+    "props": {
+      "blockClass": "pdp__selling--price"
+    },
+    "children": [
+      "flex-layout.col#selling-price__container"
+    ]
+  },
+  "flex-layout.col#selling-price__container": {
+    "title": "pdp selling price col container",
+    "props": {
+      "blockClass": "pdp__selling-price--col-container"
+    },
+    "children": [
+      "flex-layout.row#selling-price__container",
+      "flex-layout.row#pay-installments__container",
+      "flex-layout.row#ahora-12__container"
+    ]
+  },
+
+  "flex-layout.row#selling-price__container": {
+    "title": "pdp selling price row container",
+    "props": {
+      "blockClass": "pdp__selling-price--row-container",
+      "fullWidth": false,
+      "colGap": 1,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#list-price__check--image-container",
+      "flex-layout.col#text__list=price",
+      "flex-layout.col#selling-price__col-container"
+    ]
+  },
+  "flex-layout.col#list-price__check--image-container": {
+    "title": "pdp selling price checl image col container",
+    "props": {
+      "blockClass": "list-price__check--image-container",
+      "width": "20%",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#list-price__check-image"
+    ]
+  },
+  "flex-layout.col#text__list=price": {
+    "title": "pdp selling price text col container",
+    "props": {
+      "blockClass": "text__list-price",
+      "width": "33%",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#list-price"
+    ]
+  },
+  "flex-layout.col#selling-price__col-container": {
+    "title": "pdp selling price colcontainer",
+    "props": {
+      "blockClass": "selling-price__col-container",
+      "width": "33%",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-list-price#mobile__promo-selling-price"
+    ]
+  },
+
+  "rich-text#list-price": {
+    "title": "price-list__text",
+    "props": {
+      "blockClass": "list-price__text",
+      "text": "List Price:"
+    }
+  },
+  "image#list-price__check-image": {
+    "title": "price list check image",
+    "props": {
+      "src": "assets/img/miscellaneous-images/check.png",
+      "blockClass": "price-list__check-image"
+    }
+  },
+  "product-list-price#mobile__promo-selling-price": {
+    "title": "mobile promo selling price",
+    "props": {
+      "blockClass": "mobile__promo-selling-price"
+    }
+  },
+
+  "flex-layout.row#pay-installments__container": {
+    "title": "pdp pay-installments row container",
+    "props": {
+      "blockClass": "pdp__installments--row-container",
+      "horizontalAlign": "between",
+      "fullWidth": false,
+      "colGap": 1,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#product-installments__container",
+      "flex-layout.col#arrow__product-installemnts--container"
+    ]
+  },
+  "flex-layout.col#product-installments__container": {
+    "title": "pdp product-installment col container",
+    "props": {
+      "blockClass": "product-installments__container"
+    },
+    "children": [
+      "product-installments"
+    ]
+  },
+  "flex-layout.col#arrow__product-installemnts--container": {
+    "title": "pdp arrow container",
+    "props": {
+      "blockClass": "arrow__product-installemnts--container"
+    },
+    "children": [
+      "icon#arrow__special-price"
+    ]
+  },
+
+  "flex-layout.row#ahora-12__container": {
+    "title": "pdp pay-installments row container",
+    "props": {
+      "blockClass": "pdp__ahora-12--container"
+    },
+    "children": [
+      "image#ahora-12"
+    ]
+  },
+  "image#ahora-12": {
+    "title": "ahora 12 image",
+    "props": {
+      "src": "assets/img/logos/ahora12.png",
+      "blockClass": "ahora-12??image"
+    }
+  }
+}

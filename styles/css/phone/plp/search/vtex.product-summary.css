@@ -1,0 +1,15 @@
+.containerNormal--phone__shelf--container-list {
+    max-width: 100% !important
+}
+
+.element--phone__shelf--container-list {
+    padding: 0;
+}
+
+.priceContainer--product-summary__Shelf--price-list {
+    padding-top: 30%;
+}
+
+.element--phone__plp--shelf-container {
+    flex-direction: column;
+}

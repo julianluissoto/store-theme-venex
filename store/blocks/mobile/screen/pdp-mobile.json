@@ -1,0 +1,7 @@
+{
+  "responsive-layout.mobile#pdp__mobile--venex": {
+    "children": [
+      "flex-layout.row#mobile__pdp--main-container"
+    ]
+  }
+}

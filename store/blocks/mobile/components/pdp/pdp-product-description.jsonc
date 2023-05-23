@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#pdp__product--description": {
+    "title": "pdp product descriptiomn",
+    "props": {
+      "blockClass": "pdp__product--description",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#product--description"
+    ]
+  },
+  "product-description": {
+    "props": {
+      "blockClass": "product-description"
+    }
+  },
+  "flex-layout.row#product--description": {
+    "title": "pdp product description",
+    "props": {
+      "blockClass": "pdp__product--row-description"
+    },
+    "children": [
+      "product-description"
+    ]
+  }
+}

@@ -45,3 +45,8 @@
 .minicartProductListContainer {
     height: 100%;
 }
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button) {
+    background-color: var(--icon-color);
+
+}

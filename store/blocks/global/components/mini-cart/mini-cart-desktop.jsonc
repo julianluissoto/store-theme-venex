@@ -4,10 +4,11 @@
     "props": {
       "blockClass": "miniCart__container",
       "MinicartIcon": "icon-cart#minicart-icon",
-      "variation": "drawer",
+      "variation": "link",
       "itemCountMode": "total",
       "quantityDisplay": "always",
-      "openOnHover": true
+      "openOnHover": true,
+      "linkVariationUrl": "https://julianluissoto--itgloberspartnercl.myvtex.com/cart"
     },
     "children": [
       "minicart-base-content#global"

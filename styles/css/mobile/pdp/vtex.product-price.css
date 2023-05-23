@@ -1,0 +1,17 @@
+.currencyContainer--pdp__product-list-price {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-family: Montserrat-Semibold;
+}
+
+.sellingPrice--hasListPrice {
+    color: rgb(51, 51, 51);
+    font-size: 33px;
+    font-family: Montserrat-Semibold;
+}
+
+.listPrice--mobile__promo-selling-price {
+    color: rgb(51, 51, 51);
+    font-size: 25px;
+    font-family: Montserrat-Semibold
+}

@@ -305,7 +305,8 @@
     "title": "footer links container",
     "props": {
       "blockClass": "footer__desktop--container",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "colSizing": "auto"
     },
     "children": [
       "link#AboutUs",

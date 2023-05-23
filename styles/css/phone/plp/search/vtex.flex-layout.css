@@ -18,3 +18,29 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.flexRowContent--plp__rowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexRowContent--plp__rowContainer :first-child {
+    width: 100%;
+}
+
+.flexColChild--plp__colContainer {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexRowContent--desktop__container--row {
+    flex-direction: row;
+}
+
+/* @media screen and (max-width:955px) {
+    .flexRowContent--desktop__container--row {
+        flex-direction: column;
+    }
+
+} */

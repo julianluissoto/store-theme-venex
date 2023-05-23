@@ -9,6 +9,13 @@
 
 }
 
+@media screen and (max-width:1024px) {
+    .paragraph--desktop__body--title {
+
+        font-size: 20px;
+    }
+}
+
 .container--desktop__body--title {
     margin: 20px;
     display: flex;

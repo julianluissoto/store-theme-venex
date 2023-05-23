@@ -3,9 +3,9 @@
     "title": "Store home",
     "blocks": [
       "responsive-layout.desktop#home__desktop--venex",
-      "responsive-layout.tablet#home__tablet--venex",
-      "responsive-layout.phone#home__phone--venex"
-      //"responsive-layout.mobile#phone__and__tablet"
+      //"responsive-layout.tablet#home__tablet--venex",
+      //"responsive-layout.phone#home__phone--venex"
+      "responsive-layout.mobile#phone__and__tablet"
     ]
   }
 }

@@ -1,0 +1,44 @@
+.wrapper--special-price-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #74C700;
+    line-height: 23.8px;
+    font-family: Montserrat-Medium;
+
+}
+
+
+
+.paragraph--mercado-pago__text {
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.42857143;
+    color: #343636;
+}
+
+.paragraph--list-price__text {
+    font-family: Montserrat-Medium;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A48A7B;
+}
+
+.paragraph--pdp__deliver--text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.paragraph--pdp__deliver--text-subtitle {
+    font-size: 12px;
+}
+
+.paragraph--pdp__share-with-whatsapp__text, .paragraph--pdp__share-with-whatsapp__text {
+    color: #999999;
+}
+
+.container--pdp__share-with-whatsapp__text, .paragraph--pdp__add-to-favourite--text {
+    width: 80%;
+}

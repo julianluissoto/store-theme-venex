@@ -73,7 +73,10 @@
     "props": {
       "src": "assets/img/slider-links-img/pcset.png",
       "blockClass": "mobile__slider--link-image",
-      "url": "https://www.venex.com.ar/impresion-y-scanners"
+
+      "link": {
+        "url": "https://julianluissoto--itgloberspartnercl.myvtex.com/celulares"
+      }
     }
   },
   "rich-text#mobileslider__link--text": {

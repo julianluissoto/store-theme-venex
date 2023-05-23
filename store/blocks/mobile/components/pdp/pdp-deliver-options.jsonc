@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#deliver__options--container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "deliver__options--container",
+      "horizontalAlign": "between",
+      "fullWidth": false,
+      "colGap": 1,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#deliver__icon",
+      "flex-layout.col#deliver__text",
+      "flex-layout.col#deliver__arrow"
+    ]
+  },
+
+  "flex-layout.col#deliver__icon": {
+    "title": "deliver truck icon",
+    "props": {
+      "blockClass": "deliver__icon--container",
+      "width": "30%"
+    },
+    "children": [
+      "image#pdp__truck"
+    ]
+  },
+
+  "image#pdp__truck": {
+    "title": "pdp truck image",
+    "props": {
+      "src": "assets/img/icons/truck.png",
+      "blockClass": "deliver__truck"
+    }
+  },
+
+  "flex-layout.col#deliver__text": {
+    "title": "pdp selling price row container",
+    "props": {
+      "blockClass": "pdp__selling-price--row-container",
+      "width": "40"
+    },
+    "children": [
+      "rich-text#pdp__deliver--text-title",
+      "rich-text#pdp__deliver--text-subtitle"
+    ]
+  },
+  "rich-text#pdp__deliver--text-title": {
+    "title": "pdp deliver text",
+    "props": {
+      "blockClass": "pdp__deliver--text",
+      "text": "RECEIVE YOUR PRODUCT",
+      "font": "t-mini"
+    }
+  },
+  "rich-text#pdp__deliver--text-subtitle": {
+    "title": "pdp deliver text",
+    "props": {
+      "blockClass": "pdp__deliver--text-subtitle",
+      "text": "Select a deliver option",
+      "font": "t-mini"
+    }
+  },
+
+  "flex-layout.col#deliver__arrow": {
+    "title": "pdp deliver arrow",
+    "props": {
+      "blockClass": "pdp__deliver-arow--container",
+      "width": "10%"
+    },
+    "children": [
+      "icon#arrow__special-price"
+    ]
+  }
+}

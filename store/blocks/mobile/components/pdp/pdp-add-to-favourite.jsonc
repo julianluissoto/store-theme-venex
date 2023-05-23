@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#pdp__add-to-favourite-container": {
+    "title": "add to favourite container",
+    "props": {
+      "blockClass": "pdp__add-to-favourite-container",
+      "horizontalAlign": "between",
+      "width": "100%",
+      "fullWidth": false,
+      "colGap": 1,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#add-to-favourite",
+      "flex-layout.row#share-with-whatsapp"
+    ]
+  },
+  "flex-layout.row#add-to-favourite": {
+    "title": "add to favourite",
+    "props": {
+      "blockClass": "add-to-favourite"
+    },
+    "children": [
+      "add-to-list-btn",
+      "rich-text#add-to-favourite__text"
+    ]
+  },
+  "add-to-list-btn": {
+    "props": {
+      "blockClass": "add-to-list-btn"
+    }
+  },
+
+  "rich-text#add-to-favourite__text": {
+    "title": "pdp add to favourite text",
+    "props": {
+      "blockClass": "pdp__add-to-favourite--text",
+      "text": "Add to favorite",
+      "font": "t-mini"
+    }
+  },
+  "flex-layout.row#share-with-whatsapp": {
+    "title": "share with whatapp",
+    "props": {
+      "blockClass": "share-with-whatsapp"
+    },
+    "children": [
+      "icon#whatsapp",
+      "rich-text#share-with-whatsapp__text"
+    ]
+  },
+  "icon#whatsapp": {
+    "title": "whatsapp",
+    "props": {
+      "blockClass": "pdp__whatsapp-icon",
+      "id": "whatsapp",
+      "size": 22
+    }
+  },
+  "rich-text#share-with-whatsapp__text": {
+    "title": "pdp share with whatsapp text",
+    "props": {
+      "blockClass": "pdp__share-with-whatsapp__text",
+      "text": "Share with Whatsapp",
+      "font": "t-mini"
+    }
+  }
+}

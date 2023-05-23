@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#mobile__product-summary--highligh#pdp": {
+    "title": "product image",
+    "props": {
+      "blockClass": "desktop__product-summary--highlight"
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#pdp"
+    ]
+  },
+  "vtex.product-highlights@2.x:product-highlights#pdp": {
+    "props": {
+      "blockClass": "product-highlights__list"
+    },
+    "children": [
+      "product-highlight-text#pdp"
+    ]
+  },
+  "product-highlight-text#pdp": {
+    "props": {
+      "blockClass": "highlight-text",
+      "message": "15% OFF"
+    }
+  }
+}

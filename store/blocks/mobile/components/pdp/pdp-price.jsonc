@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#pdp__price-container": {
+    "title": "pdp price container",
+    "props": {
+      "blockClass": "pdp__price--container"
+    },
+    "children": [
+      "flex-layout.col#product__prices--container",
+
+      "flex-layout.col#pdp__special-price--container"
+    ]
+  },
+  "flex-layout.col#product__prices--container": {
+    "title": " prices container",
+    "props": {
+      "blockClass": "product__prices--container"
+    },
+    "children": [
+      "product-selling-price",
+      "flex-layout.row#price-with-discount__container"
+    ]
+  },
+  "flex-layout.row#price-with-discount__container": {
+    "title": "price with discount container",
+    "props": {
+      "blockClass": "price-with-discount__container"
+    },
+    "children": [
+      "product-list-price#pdp__product-list-price",
+      "flex-layout.col#mobile__product-summary--highligh#pdp"
+    ]
+  },
+  "product-list-price#pdp__product-list-price": {
+    "title": "product-list-price",
+    "props": {
+      "blockClass": "pdp__product-list-price"
+    }
+  },
+
+  "flex-layout.col#pdp__special-price--container": {
+    "title": "special price container",
+    "props": {
+      "blockClass": "pdp__special-price--containe"
+    },
+    "children": [
+      "flex-layout.row#icon__special-price",
+      "rich-text#special-price",
+      "icon#arrow__special-price"
+    ]
+  },
+  "flex-layout.row#icon__special-price": {
+    "title": "icon special price",
+    "props": {
+      "blockClass": "icon__special-price"
+    },
+    "children": [
+      "icon#special__price"
+    ]
+  },
+
+  "icon#special__price": {
+    "props": {
+      "blockClass": "icon__special-price",
+      "id": "dolar",
+      "size": 20
+    }
+  },
+  "icon#arrow__special-price": {
+    "props": {
+      "blockClass": "arrow__special-price",
+      "id": "arrow-right-2",
+      "size": 15
+    }
+  },
+  "rich-text#special-price": {
+    "title": "special price text",
+    "props": {
+      "blockClass": "special-price-text",
+      "text": "Venex special price"
+    }
+  }
+}

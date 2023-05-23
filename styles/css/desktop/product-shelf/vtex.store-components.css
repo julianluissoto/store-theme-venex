@@ -6,17 +6,18 @@
 }
 
 .discountInsideContainer {
-    background-color: var(--icon-color);
 
+    width: fit-content;
+    background-color: var(--icon-color);
     position: absolute;
     font-size: 16px;
     color: #000;
     max-width: 86px;
     height: 28px;
     border-radius: 5px;
-
-    left: -23%;
-    bottom: -3%;
+    left: -2%;
+    bottom: 4%;
     font-family: Montserrat-Regular;
+
 
 }

@@ -150,9 +150,6 @@
     "title": "summary shelf",
     "children": [
       "flex-layout.row#sumary__container"
-      //"product-summary-image#shelf__desktop--image",
-      // "product-summary-price#shelf__desktop--price",
-      // "product-summary-name#shelf__desktop--name"
     ]
   },
   "flex-layout.row#sumary__container": {
