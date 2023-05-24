@@ -2,11 +2,12 @@
   "store.product": {
     "title": "pdp page",
     "props": {
-      "blockClass": "mobile pdp"
+      "blockClass": "pdp"
     },
     "children": [
-      /* "responsive-layout.desktop#pdp__desktop--venex", */
-      "responsive-layout.mobile#pdp__mobile--venex"
+      "responsive-layout.desktop#pdp__desktop--venex",
+      "responsive-layout.tablet#pdp__tablet--venex",
+      "responsive-layout.phone#pdp__phone--venex"
     ]
   }
 }

@@ -323,7 +323,8 @@
     "title": "AboutUs",
     "props": {
       "blockClass": "footer__links",
-      "label": "About Us"
+      "label": "About Us",
+      "href": "/about-us"
     }
   },
   "link#Regreat": {

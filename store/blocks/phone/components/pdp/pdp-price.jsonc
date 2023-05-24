@@ -34,7 +34,10 @@
     "title": "product-list-price",
     "props": {
       "blockClass": "pdp__product-list-price"
-    }
+    },
+    "children": [
+      "product-list-price"
+    ]
   },
 
   "flex-layout.col#pdp__special-price--container": {
@@ -45,9 +48,10 @@
     "children": [
       "flex-layout.row#icon__special-price",
       "rich-text#special-price",
-      "icon#arrow__special-price"
+      "flex-layout.row#icon__special-price--arrow"
     ]
   },
+
   "flex-layout.row#icon__special-price": {
     "title": "icon special price",
     "props": {
@@ -55,6 +59,15 @@
     },
     "children": [
       "icon#special__price"
+    ]
+  },
+  "flex-layout.row#icon__special-price--arrow": {
+    "title": "icon arrow special price",
+    "props": {
+      "blockClass": "icon__special-price--arrow"
+    },
+    "children": [
+      "icon#arrow__special-price"
     ]
   },
 

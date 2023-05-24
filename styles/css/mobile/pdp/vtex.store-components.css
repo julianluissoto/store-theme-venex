@@ -11,7 +11,7 @@
 }
 
 .productDescriptionContainer--product-description {
-
+    width: 90% !important;
     font-size: 23px;
     font-family: Montserrat-Regular;
     color: #424143;

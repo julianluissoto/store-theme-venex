@@ -89,7 +89,7 @@
 
 .flexRowContent--footer__desktop--info {
     height: 17rem;
-    justify-content: space-around;
+    justify-content: center;
 
     margin: 0 auto;
 }

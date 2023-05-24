@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#pdp__tablet--breadcrum-container": {
+    "title": "pdp breadcrum container",
+    "props": {
+      "blockClass": "pdp__tablet--breadcrum-container"
+    },
+    "children": [
+      "breadcrumb#pdp__tablet--breadcrum"
+    ]
+  },
+  "breadcrumb#pdp__tablet--breadcrum": {
+    "title": "tablet breadcrum ",
+
+    "props": {
+      "blockClass": "pdp__tablet--breadcrum",
+      "showOnMobile": true
+    }
+  }
+}

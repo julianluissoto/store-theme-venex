@@ -1,0 +1,7 @@
+{
+  "responsive-layout.phone#pdp__phone--venex": {
+    "children": [
+      "flex-layout.row#phone__pdp--main-container"
+    ]
+  }
+}

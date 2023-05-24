@@ -130,12 +130,22 @@
     }
 }
 
-@media screen and (max-width:759px) {
+@media screen and (min-width:759px) {
     .galleryItem--general-grid {
 
         height: 54%;
         flex-basis: 58% !important;
         max-width: 48% !important;
+
+    }
+}
+
+@media screen and (max-width:758px) {
+    .galleryItem--general-grid {
+
+        height: 47%;
+        flex-basis: 48% !important;
+        max-width: 47% !important;
 
     }
 }

@@ -37,8 +37,7 @@
   "flex-layout.col#deliver__text": {
     "title": "pdp selling price row container",
     "props": {
-      "blockClass": "pdp__selling-price--row-container",
-      "width": "40"
+      "blockClass": "pdp__selling-price--row-container"
     },
     "children": [
       "rich-text#pdp__deliver--text-title",

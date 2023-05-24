@@ -40,9 +40,9 @@
 
 .currencyCode--mobile__plp--price, .currencyLiteral--mobile__plp--price, .currencyInteger--mobile__plp--price, .currencyGroup--mobile__plp--price {
     font-family: Montserrat-Regular;
-    color: #706F6F;
+    color: #333333;
 
-    font-size: 16px;
+    font-size: 24px;
 
 }
 

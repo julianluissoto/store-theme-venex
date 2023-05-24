@@ -1,0 +1,8 @@
+.numeric-stepper-container :global(.vtex-numeric-stepper__input) {
+    height: 52px;
+
+}
+
+.quantitySelectorContainer {
+    border: 1px solid red;
+}

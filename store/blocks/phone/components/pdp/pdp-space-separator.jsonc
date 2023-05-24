@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#pdp__line-separator-container": {
+    "title": "pdp line separator",
+    "props": {
+      "blockClass": "pdp__line-separator-container"
+    },
+    "children": []
+  }
+}

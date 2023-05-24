@@ -1,0 +1,7 @@
+{
+  "responsive-layout.tablet#pdp__tablet--venex": {
+    "children": [
+      "flex-layout.row#tablet__pdp--main-container"
+    ]
+  }
+}

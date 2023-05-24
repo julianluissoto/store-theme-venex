@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#pdp__tablet--name--container": {
+    "title": "tablet name and identifier container",
+    "props": {
+      "blockClass": "pdp__tablet--name--container",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--name-container",
+      "flex-layout.col#pdp__tablet--ad-to-favoutite-btn--container"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--ad-to-favoutite-btn--container": {
+    "title": "pdp tablet add to favourite container",
+    "props": {
+      "blockClass": "pdp__tablet--ad-to-favoutite-btn--container",
+      "width": "20%"
+    },
+    "children": [
+      "add-to-list-btn"
+    ]
+  },
+
+  "flex-layout.col#pdp__tablet--name-container": {
+    "title": "pdp name container",
+    "props": {
+      "blockClass": "pdp__name--container",
+      "width": "grow"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product#pdp__mobile",
+      "product-rating-inline"
+    ]
+  }
+}

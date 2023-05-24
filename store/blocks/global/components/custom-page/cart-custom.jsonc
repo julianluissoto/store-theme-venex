@@ -1,0 +1,9 @@
+{
+  "store.custom#cart": {
+    "blocks": [
+      "minicart-product-list#productList",
+      "flex-layout.row#minicart__summary",
+      "flex-layout.row#minicart__checkout"
+    ]
+  }
+}

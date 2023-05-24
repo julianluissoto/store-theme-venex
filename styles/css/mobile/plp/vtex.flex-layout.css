@@ -58,7 +58,7 @@
 }
 
 .flexRowContent--mobile__product-summary--container-price-col {
-    padding-top: 5%;
+    padding-top: 8%;
     flex-direction: column;
     align-items: initial;
 }

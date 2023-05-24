@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#mobile__pdp--main-container": {
+  "flex-layout.row#phone__pdp--main-container": {
     "title": "pdp container",
     "props": {
       "blockClass": "pdp__main--container"
@@ -18,7 +18,7 @@
       "flex-layout.row#pdp__add-to-favourite-container",
       "flex-layout.row#pdp__product--description",
       "flex-layout.row#pdp__product--specs",
-      "flex-layout.row#mobile__Big--title",
+      "flex-layout.row#pdp__mobile--Big-title",
       "flex-layout.row#pdp__slider--container",
       "flex-layout.row#mobile__pdp-logo--banner",
       "flex-layout.row#disclosure-layout__Maincontainer",
@@ -26,8 +26,6 @@
       "flex-layout.row#customerService__contactInfo--mobile"
     ]
   },
-
-  ////////////////////
 
   "flex-layout.row#pdp__container": {
     "title": "product shelf right column",
@@ -75,9 +73,30 @@
       "blockClass": "mobile-product-info__container"
     },
     "children": [
-      "flex-layout.col#pdp__info--container"
+      "flex-layout.col#pdp__info--container",
+      "flex-layout.col#pdp__deliver--container",
+      "flex-layout.col#pdp__add-to-cart--container"
     ]
   },
+  "flex-layout.col#pdp__deliver--container": {
+    "title": "pdp deliver col container",
+    "props": {
+      "blockClass": "pdp__deliver-col--container"
+    },
+    "children": [
+      "flex-layout.row#deliver__options--container"
+    ]
+  },
+  "flex-layout.col#pdp__add-to-cart--container": {
+    "title": "pdp add to cart col container",
+    "props": {
+      "blockClass": "pdp__add-to-cart--container"
+    },
+    "children": [
+      "add-to-cart-button#pdp"
+    ]
+  },
+
   "flex-layout.col#pdp__info--container": {
     "title": "pdp info col container",
     "props": {
@@ -86,15 +105,14 @@
     "children": [
       "flex-layout.row#pdp__price-container",
       "flex-layout.row#pdp__mercado-pago",
-      "flex-layout.row#selling-price",
-      "flex-layout.row#deliver__options--container",
-      "add-to-cart-button#pdp"
+      "flex-layout.row#selling-price"
     ]
   },
   "add-to-cart-button#pdp": {
     "title": "add to cart button",
     "props": {
-      "isOneClickBuy": true,
+      "blockClass": "pdp__adt-to-cart--button",
+      "isOneClickBuy": false,
       "text": "Buy"
     }
   },
@@ -158,7 +176,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 2,
+        "tablet": 5,
         "mobile": 2
       },
       "fullWidth": true,

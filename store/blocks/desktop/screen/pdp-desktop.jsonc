@@ -1,0 +1,11 @@
+{
+  "responsive-layout.desktop#pdp__desktop--venex": {
+    "title": "pdp desktop",
+    "props": {
+      "blockClass": "responsive-layout__pdp--desktop"
+    },
+    "children": [
+      "flex-layout.row#dekstop__pdp--main-container"
+    ]
+  }
+}

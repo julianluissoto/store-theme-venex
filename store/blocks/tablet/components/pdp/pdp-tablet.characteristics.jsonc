@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#pdp__tablet--characteristics": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--characteristics"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--characteristics": {
+    "title": "pdp tablet characteristics first",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-first"
+    },
+
+    "children": [
+      "flex-layout.row#pdp__tablet--characteristics-first--line",
+      "flex-layout.row#pdp__tablet--characteristics-second--line"
+    ]
+  },
+
+  "flex-layout.row#pdp__tablet--characteristics-title": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-title-container"
+    },
+    "children": [
+      "rich-text#pdp__characteristics-title"
+    ]
+  },
+  "rich-text#pdp__characteristics-title": {
+    "title": "pdp tablet characteristics title",
+    "props": {
+      "text": "Characteristics",
+      "blockClass": "pdp__characteristics-title"
+    }
+  },
+
+  "flex-layout.row#pdp__tablet--characteristics-first--line": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-first--line"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--spces",
+      "flex-layout.col#pdp__tablet--spces",
+      "flex-layout.col#pdp__tablet--spces",
+      "flex-layout.col#pdp__tablet--spces",
+      "flex-layout.col#pdp__tablet--spces"
+    ]
+  },
+  "flex-layout.row#pdp__tablet--characteristics-second--line": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-second--line"
+    },
+    "children": []
+  },
+  "flex-layout.col#pdp__tablet--spces": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-second--line"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet--characteristics-item",
+      "rich-text#pdp__characteristics-item"
+    ]
+  },
+  "rich-text#pdp__characteristics-item": {
+    "title": "pdp tablet characteristics-item",
+    "props": {
+      "text": "Solid Disc: 256Gb",
+      "blockClass": "pdp__characteristics-item-text"
+    }
+  },
+
+  "flex-layout.row#pdp__tablet--characteristics-item": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-second--line"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--characteristics-col-item-image",
+      "flex-layout.col#pdp__tablet--characteristics-col-item-text"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--characteristics-col-item-image": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-second--line",
+      "width": "30%"
+    },
+    "children": [
+      "image#pdp__ssd-item"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--characteristics-col-item-text": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "blockClass": "pdp__tablet--characteristics-col-item-text"
+    },
+    "children": [
+      "rich-text#pdp__characteristics-item-id-text"
+    ]
+  },
+
+  "rich-text#pdp__characteristics-item-id-text": {
+    "title": "pdp tablet characteristics",
+    "props": {
+      "text": "STORAGE",
+      "blockClass": "pdp__characteristics-item-id-text"
+    }
+  },
+
+  "image#pdp__ssd-item": {
+    "title": "image credit card option",
+    "props": {
+      "src": "assets/img/icons/characteristics-images/ssd.png",
+      "blockClass": "pdp__ssd-item"
+    }
+  }
+}

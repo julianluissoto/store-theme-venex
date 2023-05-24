@@ -42,3 +42,29 @@
 .container--pdp__share-with-whatsapp__text, .paragraph--pdp__add-to-favourite--text {
     width: 80%;
 }
+
+.container--special-price-text {
+    position: relative;
+    right: 23%
+}
+
+.wrapper--pdp__share-with-whatsapp__text {
+    max-width: 50%;
+}
+
+.container--mobile__pdp--big-title {
+    background-color: #EEEEEE;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+@media screen and (min-width:641px) {
+    .container--mobile__pdp--big-title {
+        padding: 0;
+        background-color: #fff;
+        font-size: 29px;
+        font-family: Montserrat-Bold;
+        text-align: left;
+
+    }
+}

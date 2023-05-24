@@ -1,0 +1,23 @@
+.wrapper--pdp__characteristics-title {
+    font-family: Montserrat-Regular;
+    font-size: 23px;
+    color: #37373f;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wrapper--pdp__characteristics-item-id-text {
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    width: 77%;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #37373f;
+    font-size: 14px;
+}
+
+.wrapper--pdp__characteristics-item-text {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #37373f
+}
