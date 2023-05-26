@@ -29,7 +29,7 @@
   "flex-layout.col#pdp__tablet--add-to-cart-container": {
     "title": "pdp deliver container",
     "props": {
-      "blockClass": "add-to-cart__container",
+      "blockClass": "pdp__tablet--add-to-cart-container",
       "width": "80%"
     },
     "children": [

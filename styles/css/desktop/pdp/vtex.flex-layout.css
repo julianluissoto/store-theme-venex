@@ -1,0 +1,12 @@
+.flexRow--pdp__desktop--main-row-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flexCol--pdp__desktop--main-section-info-container {
+    border-left: 1px solid #EEE;
+}
+
+.flexRow--pdp__tablet--breadcrum-container {
+    padding-left: 2%;
+}

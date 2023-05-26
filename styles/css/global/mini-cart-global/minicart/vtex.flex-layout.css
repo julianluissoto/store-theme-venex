@@ -10,7 +10,7 @@
 
 
 .flexCol--miniCartimage--container-global {
-
+    align-items: center;
     flex-direction: column;
 
 }
@@ -32,11 +32,17 @@
 }
 
 .flexRow--productlist__mainContainer-global {
-    border: 1px solid black;
+    border: 1px solid #EEEEEE;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .flexColChild--miniCartimage--container-global {
     max-width: 50px;
+}
+
+.flexRow--cart__main--row-container {
+    max-width: 1280px;
+    margin: 0 auto;
 }

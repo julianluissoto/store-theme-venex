@@ -33,29 +33,9 @@
 }
 
 .sliderTrackContainer--desktop__slider--brands {
-    width: 1170px;
+    max-width: 1280px !important;
     margin: 0 auto;
-    width: 98%;
-
-
 }
-
-/* @media screen and (max-width:640px) {
-    .sliderTrackContainer--desktop__slider--brands {
-        max-height: 214px;
-        background-color: #EEEEEE;
-        width: 100vw
-    }
-
-    .slide--desktop__slider--brands {
-        justify-content: center;
-    }
-
-    .slideChildrenContainer--desktop__slider--brands {
-        height: 214px;
-        max-width: 214px;
-    }
-} */
 
 .sliderTrack--mobile__slider--brands {
     column-gap: 1rem;

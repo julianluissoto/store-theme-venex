@@ -1,0 +1,10 @@
+{
+  "whatsapp-button": {
+    "title": "whatsapp button",
+    "props": {
+      "logo": "assets/img/logos/whatsapp.png",
+      "phone": "2448775568",
+      "message": "Welcome again message from props"
+    }
+  }
+}

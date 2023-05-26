@@ -21,7 +21,7 @@
 
 
 .sliderTrack--porduct__shelf--slider {
-    gap: 1.5rem;
+
     position: relative;
     top: 0.5rem
 }
@@ -32,6 +32,6 @@
 
 .sliderTrackContainer--porduct__shelf--slider {
     position: relative;
-    bottom: 3px;
+    top: 2%;
     right: 1%
 }

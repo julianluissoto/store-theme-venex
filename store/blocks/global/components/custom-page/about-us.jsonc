@@ -1,7 +1,0 @@
-{
-  "store.custom#about-us": {
-    "blocks": [
-      "flex-layout.row#mobile-product-info__container"
-    ]
-  }
-}

@@ -103,7 +103,7 @@
 }
 
 .flexRowContent--partners_main--container {
-    width: 76vw;
+    max-width: 1280px;
     margin: 2rem auto;
 }
 

@@ -38,7 +38,6 @@
     "children": [
       "logo#header__menu",
       "search-bar#desktop",
-      //"login",
       "modal-trigger#login__modal--trigger",
       "image#fav__icon",
       "minicart.v2#desktop"
@@ -87,7 +86,7 @@
     "title": "login__content",
     "props": {
       "blockClass": "login__content--desktop",
-      "defaultOption": 1,
+      "defaultOption": 0,
       "optionsTitle": "I'm Client",
       "emailAndPasswordTitle": "access with your E-mail and Password",
       "emailPlaceholder": "Please enter your E-Mail",

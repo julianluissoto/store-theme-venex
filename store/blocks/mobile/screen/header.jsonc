@@ -5,7 +5,8 @@
       "blockClass": "mobile__header--container"
     },
     "children": [
-      "header-layout#header__mobile--container"
+      "header-layout#header__mobile--container",
+      "whatsapp-button"
     ]
   }
 }

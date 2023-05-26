@@ -1,7 +1,39 @@
 {
   "store.custom#cart": {
+    "title": "store custom cart page",
     "blocks": [
-      "minicart-product-list#productList",
+      "flex-layout.row#cart__main-container",
+      "flex-layout.row#titleAndLogo",
+      "flex-layout.row#partners"
+    ]
+  },
+  "flex-layout.row#cart__main-container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "cart__main--row-container"
+    },
+    "children": [
+      "flex-layout.col#cart__main-col-container-left",
+      "flex-layout.col#cart__main-col-container-right"
+    ]
+  },
+  "flex-layout.col#cart__main-col-container-left": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "product-quantity__container",
+      "width": "70%"
+    },
+    "children": [
+      "minicart-product-list#productList"
+    ]
+  },
+  "flex-layout.col#cart__main-col-container-right": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "product-quantity__container",
+      "width": "Grow"
+    },
+    "children": [
       "flex-layout.row#minicart__summary",
       "flex-layout.row#minicart__checkout"
     ]

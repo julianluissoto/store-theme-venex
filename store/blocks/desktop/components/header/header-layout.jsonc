@@ -7,7 +7,8 @@
     "children": [
       "flex-layout.row#header__orderOptions",
       "flex-layout.row#desktop__searchBar--container",
-      "flex-layout.row#menu__links--container"
+      "flex-layout.row#menu__links--container",
+      "whatsapp-button"
     ]
   },
 
@@ -18,7 +19,6 @@
     },
     "children": [
       "flex-layout.col#header__container--left",
-
       "flex-layout.col#header__container--right"
     ]
   },
@@ -30,7 +30,8 @@
   "flex-layout.col#header__container--right": {
     "title": "header flex col right",
     "props": {
-      "blockClass": "header__container--right"
+      "blockClass": "header__container--right",
+      "width": "45%"
     },
     "children": [
       "flex-layout.row#header__container--rightContainer"
@@ -130,12 +131,18 @@
 
   "flex-layout.col#header__help--container": {
     "title": " helpText container col",
+    "props": {
+      "blockClass": "header__help--container"
+    },
     "children": [
       "flex-layout.row#help__Options--container"
     ]
   },
   "flex-layout.row#help__Options--container": {
     "title": "help options container row",
+    "props": {
+      "blockClass": "help__Options--container"
+    },
     "children": [
       "image#help__icon",
       "rich-text#help__center--text"

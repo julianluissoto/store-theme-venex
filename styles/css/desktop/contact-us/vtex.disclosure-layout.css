@@ -1,0 +1,13 @@
+.trigger--about-us__dislosure--hidden {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content--about-us__disclosure--content--visible {
+
+    border-left: 1px solid var(--icon-color);
+    padding-left: 8%;
+    position: relative;
+    left: 12%;
+
+}

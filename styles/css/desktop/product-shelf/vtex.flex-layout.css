@@ -16,6 +16,8 @@
 
 .flexRow--desktop__sliderBrands--container {
     margin-bottom: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .flexRow--desktop__productShelf--container {

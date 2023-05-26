@@ -3,3 +3,10 @@
     color: var(--cion-color);
     font-size: 16px;
 }
+
+
+
+.link--pdp__tablet--breadcrum--1 ::before {
+    content: "back to previous";
+    height: 15px;
+}

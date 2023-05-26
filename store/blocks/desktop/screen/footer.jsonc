@@ -1,5 +1,6 @@
 {
   "footer": {
+    "title": "desktop- Footer",
     "blocks": [
       "footer-layout.desktop#desktop__footer--mainContainer",
       "footer-layout.mobile"
@@ -49,7 +50,6 @@
       "flex-layout.row#customerService__contactInfo"
     ]
   },
-  //first column
 
   "flex-layout.row#customerService__contactInfo": {
     "title": " customer services container",

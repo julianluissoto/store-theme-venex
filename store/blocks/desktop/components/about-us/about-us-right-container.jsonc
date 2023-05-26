@@ -1,0 +1,85 @@
+{
+  "flex-layout.col#desktop__about-us--right-container": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--right-container",
+      "width": "Grow"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--right-title-container",
+      "flex-layout.row#desktop__about-us-right-text-container"
+    ]
+  },
+
+  "flex-layout.row#desktop__about-us-right-text-container": {
+    "title": "about us desktop right title container",
+    "props": {
+      "blockClass": "desktop__about-us-right-title-container"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--right-title-container"
+    ]
+  },
+  "flex-layout.col#desktop__about-us--right-title-container": {
+    "title": "about us desktop right title col container",
+    "props": {
+      "blockClass": "desktop__about-us-right-title-container"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--right-text-container",
+      "flex-layout.row#desktop__about-us--right-text-container",
+      "flex-layout.row#desktop__about-us--right-text-container",
+      "flex-layout.row#desktop__about-us--right-text-container-small",
+      "flex-layout.row#desktop__about-us--right-our-vision-container"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-title-container": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-title-container"
+    },
+    "children": [
+      "rich-text#about-us__right-column--title"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-text-container": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-title-container"
+    },
+    "children": [
+      "rich-text#about-us__right-column--paragraph"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-text-container-small": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-title-container"
+    },
+    "children": [
+      "rich-text#about-us__right-column--paragraph-small"
+    ]
+  },
+
+  "rich-text#about-us__right-column--title": {
+    "props": {
+      "blockClass": "about-us__right-column--title",
+      "text": "We are venex",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#about-us__right-column--paragraph": {
+    "props": {
+      "blockClass": "about-us__right-column--text",
+      "text": "We are a family business founded in 2009. Our main invested capital was effort, work and the desire to improve ourselves day by day with the hope of creating a solid structure that would allow us to face the different challenges that could be presented to us along the way. over time.",
+      "font": "heading-6"
+    }
+  },
+  "rich-text#about-us__right-column--paragraph-small": {
+    "props": {
+      "blockClass": "about-us__right-column--text",
+      "text": "We are what you want, when you want, where you want. we are venex",
+      "font": "heading-6"
+    }
+  }
+}

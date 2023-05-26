@@ -1,0 +1,10 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "responsive-layout.desktop#about-us__desktop--venex"
+      /*  "responsive-layout.tablet#about-us__tablet--venex",
+      "responsive-layout.phone#about-us__phone--venex" */
+      /* "flex-layout.row#mobile-product-info__container" */
+    ]
+  }
+}

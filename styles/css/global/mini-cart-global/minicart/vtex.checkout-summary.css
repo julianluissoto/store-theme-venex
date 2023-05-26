@@ -6,11 +6,17 @@
 .summaryItemLabel {
     font-weight: 600;
     color: black;
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
 }
 
 .price {
     font-weight: 600;
-    color: black;
+    color: rgb(112, 107, 107);
     font-family: monospace;
+}
+
+.summarySmallDisclaimer--checkout__summary {
+    font-family: Montserrat-Regular;
+    color: rgb(112, 107, 107);
+
 }

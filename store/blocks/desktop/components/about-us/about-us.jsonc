@@ -1,1 +1,43 @@
-{}
+{
+  "responsive-layout.desktop#about-us__desktop--venex": {
+    "title": " about us desktop responsive layout",
+    "props": {
+      "blockClass": "about-us__desktop--venex"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--main-container",
+      "flex-layout.row#titleAndLogo",
+      "flex-layout.row#partners"
+    ]
+  },
+
+  "flex-layout.row#desktop__about-us--main-container": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--main-container"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us-main-col--container"
+    ]
+  },
+
+  "flex-layout.col#desktop__about-us-main-col--container": {
+    "title": "about us desktop main col container",
+    "props": {
+      "blockClass": "desktop__about-us-main-col--container"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us-container"
+    ]
+  },
+  "flex-layout.row#desktop__about-us-container": {
+    "title": "about us desktop row container",
+    "props": {
+      "blockClass": "desktop__about-us-container"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--left-container",
+      "flex-layout.col#desktop__about-us--right-container"
+    ]
+  }
+}

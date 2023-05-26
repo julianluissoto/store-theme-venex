@@ -1,0 +1,79 @@
+.flexRow--desktop__about-us--main-container {
+    margin: 0 auto;
+    background-color: #EEE;
+
+
+}
+
+.flexColChild--desktop__about-us--right-container {
+    margin-bottom: 7%;
+}
+
+
+.flexRowContent--desktop__about-us--main-container {
+    padding-top: 4%;
+    background-color: #FFF;
+    width: 1280px;
+    height: 900px;
+    margin-bottom: 60%;
+    margin: 0 auto;
+
+}
+
+.flexCol--desktop__about-us-right-title-container {
+    row-gap: 4%;
+}
+
+.flexColChild--desktop__about-us--right-title-container {
+    padding-bottom: 5%;
+    height: 100%;
+    padding-left: 3%;
+    border-left: 5px solid var(--icon-color);
+    margin-bottom: 8%;
+
+}
+
+.flexCol--desktop__about-us--right-our-vision {
+    row-gap: 30%;
+}
+
+.flexRowContent--desktop__about-us--left-row-linksdesktop__about-us--left-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 9px 0px;
+    line-height: 1;
+    font-family: Montserrat-Regular;
+    border-bottom: 1px solid transparent
+}
+
+.flexRowContent--desktop__about-us--left-row-linksdesktop__about-us--left-container :hover {
+    border-bottom-color: var(--icon-color);
+}
+
+.flexRowContent--disclosure__about-to-us {
+    border-bottom: 1px solid transparent;
+}
+
+
+.flexRowContent--desktop__about-us--left-row-linksdesktop__about-us--left-container :hover {
+    font-family: Montserrat-Bold;
+
+}
+
+.flexRow--desktop__about-us--left-row-links-title {
+    line-height: 1;
+
+    border-bottom: 1px solid var(--icon-color);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flexRowContent--disclosure__about-to-us {
+    flex-direction: column !important;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.flexCol--desktop__about-us--left-container {
+    height: 50%;
+}

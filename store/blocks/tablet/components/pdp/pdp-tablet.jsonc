@@ -21,6 +21,7 @@
       "flex-layout.row#pdp__tablet-info--container",
       "flex-layout.row#pdp__line-separator-container",
       "flex-layout.row#tablet-deliver__options--container",
+      "flex-layout.row#product-quantity__container",
       "flex-layout.row#pdp__line-separator-container",
       "flex-layout.row#pdp__product--description",
       "flex-layout.row#pdp__tablet--characteristics-title",
@@ -82,7 +83,7 @@
       "displayThumbnailsArrows": true,
       "displayMode": "carousel",
       "maxHeight": 550,
-
+      "showPaginationDots": false,
       "zoomMode": "open-modal",
       "aspectRatio": "3:4"
     }
