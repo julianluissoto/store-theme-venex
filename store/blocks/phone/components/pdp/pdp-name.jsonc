@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#pdp__name-container": {
+    "title": "pdp name container",
+    "props": {
+      "blockClass": "pdp__name--container"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product#pdp__mobile"
+    ]
+  },
+  "product-identifier.product#pdp__mobile": {
+    "title": "mobile product-identifier__container",
+    "props": {
+      "blockClass": "mobile__pdp--product-identifier"
+    }
+  },
+  "vtex.store-components:product-name": {
+    "title": "mobile__product-name",
+    "props": {
+      "blockClass": "mobile__product--name"
+    }
+  }
+}

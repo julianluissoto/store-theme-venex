@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#pdp__tablet--selling-price": {
+    "title": "pdp tablet selling price",
+    "props": {
+      "blockClass": "pdp__tablet--selling-price"
+    },
+    "children": [
+      "flex-layout.col#selling-price__check-text-and-price__container",
+      "flex-layout.col#pdp__ahora-12--container"
+    ]
+  },
+  "flex-layout.col#pdp__ahora-12--container": {
+    "title": "pdp tablet ahora 12 row container",
+    "props": {
+      "blockClass": "pdp__ahora-12--container"
+    },
+    "children": [
+      "image#ahora-12"
+    ]
+  },
+  "flex-layout.col#selling-price__check-text-and-price__container": {
+    "title": "pdp selling price col container",
+    "props": {
+      "blockClass": "pdp__selling-price--col-container"
+    },
+    "children": [
+      "flex-layout.row#selling-price-and-check-icon__container",
+      "flex-layout.row#pdp__tablet--price"
+    ]
+  },
+  "flex-layout.row#selling-price-and-check-icon__container": {
+    "title": "pdp selling price row container",
+    "props": {
+      "blockClass": "pdp__selling-price--row-container"
+    },
+    "children": [
+      "flex-layout.col#list-price__check--image-container",
+      "flex-layout.col#pdp__tablet--text__list-price"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--text__list-price": {
+    "title": "pdp tablet selling price text col container",
+    "props": {
+      "blockClass": "text__list-price",
+      "width": "70%",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#list-price"
+    ]
+  },
+
+  "flex-layout.row#pdp__tablet--price": {
+    "title": "pdp tablet selling price",
+    "props": {
+      "blockClass": "pdp__tablet--price"
+    },
+    "children": [
+      "product-list-price#pdp__tablet--product-list-price"
+    ]
+  },
+  "product-list-price#pdp__tablet--product-list-price": {
+    "props": {
+      "blockClass": "pdp__tablet--product-list-price"
+    }
+  }
+}

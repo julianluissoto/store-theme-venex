@@ -1,0 +1,70 @@
+.wrapper--special-price-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #74C700;
+    line-height: 23.8px;
+    font-family: Montserrat-Medium;
+
+}
+
+
+
+.paragraph--mercado-pago__text {
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.42857143;
+    color: #343636;
+}
+
+.paragraph--list-price__text {
+    font-family: Montserrat-Medium;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A48A7B;
+}
+
+.paragraph--pdp__deliver--text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.paragraph--pdp__deliver--text-subtitle {
+    font-size: 12px;
+}
+
+.paragraph--pdp__share-with-whatsapp__text, .paragraph--pdp__share-with-whatsapp__text {
+    color: #999999;
+}
+
+.container--pdp__share-with-whatsapp__text, .paragraph--pdp__add-to-favourite--text {
+    width: 80%;
+}
+
+.container--special-price-text {
+    position: relative;
+    right: 23%
+}
+
+.wrapper--pdp__share-with-whatsapp__text {
+    max-width: 50%;
+}
+
+.container--mobile__pdp--big-title {
+    background-color: #EEEEEE;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+@media screen and (min-width:641px) {
+    .container--mobile__pdp--big-title {
+        padding: 0;
+        background-color: #fff;
+        font-size: 29px;
+        font-family: Montserrat-Bold;
+        text-align: left;
+
+    }
+}

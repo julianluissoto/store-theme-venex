@@ -1,0 +1,302 @@
+.flexRowContent--mobile-product-info__container {
+    background-color: #EEEEEE;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 8%;
+    border-radius: 0 0 10px 10px;
+}
+
+.flexRow--pdp__name--container {
+    max-width: 98% !important;
+    background-color: #EEEEEE;
+    border-radius: 10px 10px 0 0;
+}
+
+.flexRow--pdp__slider--container {
+
+    padding-top: 4%;
+    background-color: #EEEEEE;
+    padding-bottom: 4%;
+
+}
+
+.flexRow--pdp__mobile--Big-title {
+    background-color: #FFF;
+    margin-top: 10%;
+}
+
+@media screen and (min-width:641px) {
+
+    .flexRow--pdp__slider--container {
+
+        padding-top: 2%;
+        margin-top: 3%;
+    }
+}
+
+.flexRow--pdp__tablet--banner-main-container {
+    margin-top: 15%;
+}
+
+
+.flexRowContent--price-with-discount__container, .flexRowContent--pdp__price--container {
+    display: flex;
+}
+
+.flexColChild--product__prices--container {
+    width: 80%;
+}
+
+.flexCol--pdp__special-price--containe {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexCol--desktop__product-summary--highlight {
+    background-color: var(--icon-color);
+    padding: 3px 5px;
+    width: fit-content !important;
+    position: relative;
+    right: 35%;
+    border-radius: 5px;
+}
+
+.flexColChild--desktop__product-summary--highlight {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Montserrat-Bold;
+    color: rgb(55, 55, 63);
+}
+
+
+
+.flexRowContent--pdp__mercado-pago--container {
+
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.flexCol--mercado-pago__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexColChild--mercado-pago__container {
+    display: flex;
+    align-items: center;
+
+}
+
+.flexColChild--mercado-pago__container ::nth-child(2) {
+    position: relative;
+    right: 3%;
+}
+
+.flexRowContent--pdp__selling-price--row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* @media screen and (min-width:641px) {
+    .flexRowContent--pdp__selling-price--row-container {
+        flex-direction: row;
+    }
+} */
+
+.flexRow--pdp__selling-price--row-container {
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+.flexRowContent--pdp__installments--row-container {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #343636
+}
+
+.flexRowContent--pdp__installments--row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexRowContent--pdp__ahora-12--container {
+    width: 30%;
+}
+
+
+
+.flexRowContent--pdp__MP--container {
+    border-bottom: 1px solid #c3bfbf;
+    padding-bottom: 2%;
+}
+
+.flexCol--arrow__product-installemnts--container {
+    position: relative;
+    right: 3%;
+}
+
+.flexRowContent--deliver__options--container, .flexCol--pdp__specs__modal-trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+
+.flexCol--pdp__selling-price--row-container {
+    position: relative;
+    right: 75%
+}
+
+@media screen and (min-width:641px) {
+    .flexCol--pdp__selling-price--row-container {
+        right: 0
+    }
+}
+
+
+
+.flexCol--deliver__icon--container {
+    background-color: #FFF;
+
+    height: 31px;
+    width: 31px !important;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.flexColChild--deliver__icon--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 641px) {
+    .flexCol--deliver__icon--container {
+        background-color: #EEEEEE;
+        height: 42px;
+        width: 42px !important;
+        overflow: hidden;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.flexRow--pdp__MP--container {
+    border-left: 5px solid var(--icon-color);
+}
+
+.flexRow--pdp__selling--price {
+    margin-top: 3%;
+    border-left: 5px solid #A48A7B;
+
+}
+
+.flexColChild--pdp__info--col-container :global(.vtex-button) {
+    border: none;
+}
+
+.flexRow--pdp__selling-price--row-container {
+    padding-top: 5%;
+}
+
+.flexCol--pdp__add-to-favourite-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+
+.flexRowContent--share-with-whatsapp, .flexRowContent--add-to-favourite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.flexRowContent--share-with-whatsapp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+    margin-right: 2px;
+    justify-content: start;
+}
+
+.flexRowContent--add-to-favourite :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+    margin-right: 2px;
+}
+
+
+.flexCol--pdp__product--description {
+    margin-bottom: 10%;
+}
+
+.flexRow--pdp-mobile__banner--logo-container {
+    margin-top: 22%;
+}
+
+/* //////////// */
+.flexCol--pdp__slider--container {
+    margin-top: 2%;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    background-color: #EEEEEE;
+}
+
+.flexColChild--pdp__slider--container {
+    width: 95%;
+    margin: 5% auto;
+}
+
+.flexCol--pdp__specs__modal-trigger {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flexRowContent--pdp__add-to-favourite-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 16%;
+    padding-top: 3%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.flexRow--deliver__options--container {
+    padding-top: 5%;
+    width: 95%;
+    padding-bottom: 5%;
+}
+
+.flexRow--pdp__MP--container, .flexRow--pdp__selling--price {
+    padding-left: 4%;
+}
+
+.flexColChild--pdp__add-to-cart--container :global(.vtex-button) {
+    height: 55px;
+}
+
+@media screen and (min-width:641px) {
+    .flexRowContent--pdp__name--container {
+        flex-direction: column;
+    }
+}

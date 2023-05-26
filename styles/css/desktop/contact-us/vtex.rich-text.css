@@ -1,0 +1,27 @@
+.paragraph--about-us__right-column--title {
+
+    font-size: 52px;
+    color: #424143;
+    text-transform: inherit;
+
+    line-height: 1;
+    font-family: Montserrat-Semibold;
+}
+
+.paragraph--about-us__right-column--text {
+    font-family: Montserrat-Regular;
+    color: #575756;
+    font-size: 15px;
+}
+
+.paragraph--about-us__right-column--text {
+    font-family: Montserrat-Regular;
+    color: #575756;
+    font-size: 15px;
+}
+
+.wrapper--about-us__right-our-vision-title {
+    font-family: Montserrat-Semibold;
+    color: #575756;
+    font-size: 31px;
+}

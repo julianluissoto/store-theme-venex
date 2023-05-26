@@ -3,9 +3,14 @@
     color: #424143;
 }
 
+.gallery--general-grid {
+    justify-content: space-between;
+
+}
+
 @media screen and (max-width:640px) {
     .gallery--general-grid {
-        justify-content: center;
+        justify-content: space-between;
 
     }
 }

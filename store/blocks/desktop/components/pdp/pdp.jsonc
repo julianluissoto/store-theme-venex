@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#dekstop__pdp--main-container": {
+    "title": "pdp container",
+    "props": {
+      "blockClass": "pdp__desktop-main-container"
+    },
+    "children": [
+      "flex-layout.col#pdp__desktop--col-container"
+    ]
+  },
+  "flex-layout.col#pdp__desktop--col-container": {
+    "title": "pdp info col container",
+    "props": {
+      "blockClass": "pdp__info--col-container"
+    },
+    "children": [
+      "flex-layout.row#pdp__container",
+      "flex-layout.row#pdp__add-to-favourite-container",
+      "flex-layout.row#pdp__product--description",
+      "flex-layout.row#pdp__product--specs",
+      "flex-layout.row#pdp__mobile--Big-title",
+      "flex-layout.row#pdp__slider--container"
+      /* "flex-layout.row#mobile__pdp-logo--banner",
+      "flex-layout.row#disclosure-layout__Maincontainer",
+      "flex-layout.row#contact__button",
+      "flex-layout.row#customerService__contactInfo--mobile" */
+    ]
+  }
+}

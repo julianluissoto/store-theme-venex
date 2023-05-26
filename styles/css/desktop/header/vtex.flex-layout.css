@@ -35,7 +35,8 @@
 
  .flexColChild--category__container {
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
+     width: 218px;
  }
 
 
@@ -67,9 +68,11 @@
      justify-content: space-between;
  }
 
- .flexColChild--category__container {
-     width: 230px;
+ .flexCol--category__container :hover {
+     background-color: #EEEEEE;
  }
+
+
 
  .flexRow--iconMoreCategories__container {
      position: relative;

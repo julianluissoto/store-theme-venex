@@ -2,7 +2,8 @@
   "header-layout#header__mobile--container": {
     "title": "header mobile container",
     "props": {
-      "blockClass": "header__mobile--container"
+      "blockClass": "header__mobile--container",
+      "sticky": true
     },
     "children": [
       "flex-layout.row#header__flex"
@@ -50,9 +51,8 @@
     "props": {
       "blockClass": "logo__phone-mobile",
       "url": "assets/img/logo-venex/header_logo.png",
-      "link": {
-        "url": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
-      }
+
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
     }
   },
   "drawer#search-bar": {

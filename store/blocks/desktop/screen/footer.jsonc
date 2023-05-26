@@ -1,5 +1,6 @@
 {
   "footer": {
+    "title": "desktop- Footer",
     "blocks": [
       "footer-layout.desktop#desktop__footer--mainContainer",
       "footer-layout.mobile"
@@ -49,7 +50,6 @@
       "flex-layout.row#customerService__contactInfo"
     ]
   },
-  //first column
 
   "flex-layout.row#customerService__contactInfo": {
     "title": " customer services container",
@@ -305,7 +305,8 @@
     "title": "footer links container",
     "props": {
       "blockClass": "footer__desktop--container",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "colSizing": "auto"
     },
     "children": [
       "link#AboutUs",
@@ -322,7 +323,8 @@
     "title": "AboutUs",
     "props": {
       "blockClass": "footer__links",
-      "label": "About Us"
+      "label": "About Us",
+      "href": "/about-us"
     }
   },
   "link#Regreat": {

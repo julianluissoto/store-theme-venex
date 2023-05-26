@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#product-quantity__container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "product-quantity__container"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--product-quantity-container",
+      "flex-layout.col#pdp__tablet--add-to-cart-container"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--product-quantity-container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "product-quantity__container",
+      "width": "10%"
+    },
+    "children": [
+      "product-quantity#pdp__tablet-quantity-selector"
+    ]
+  },
+  "product-quantity#pdp__tablet-quantity-selector": {
+    "title": "pdp quantity selector",
+    "props": {
+      "selectorType": "dropdown",
+      "blockClass": "product-quantity"
+    }
+  },
+  "flex-layout.col#pdp__tablet--add-to-cart-container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "pdp__tablet--add-to-cart-container",
+      "width": "80%"
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#pdp__tablet--banner": {
+    "title": "deliver arrow pdp tablet container",
+    "props": {
+      "blockClass": "pdp__tablet--banner-main-container",
+      "width": "Grow"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--banner"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--banner": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "pdp__tablet-banner--container"
+    },
+
+    "children": [
+      "image#pdp__tablet--banner"
+    ]
+  },
+  "image#pdp__tablet--banner": {
+    "title": "pdp tablet banner",
+    "props": {
+      "src": "assets/img/tablet-banner/armadorpclargo.jpg",
+      "blockClass": "pdp__tablet--banner"
+    }
+  }
+}

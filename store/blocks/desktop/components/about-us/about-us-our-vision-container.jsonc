@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#desktop__about-us--right-our-vision-container": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-title-container"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--right-our-vision-container"
+    ]
+  },
+  "flex-layout.col#desktop__about-us--right-our-vision-container": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-title-container"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--right-our-vision",
+      "flex-layout.row#desktop__about-us--right-our-mision"
+    ]
+  }
+}

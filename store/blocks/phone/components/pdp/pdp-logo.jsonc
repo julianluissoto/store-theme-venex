@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#mobile__pdp-logo--banner": {
+    "title": "mobile section banner image main container",
+    "props": {
+      "blockClass": "pdp-mobile__banner--logo-container"
+    },
+    "children": [
+      "flex-layout.col#mobile__logo--banner"
+    ]
+  }
+  /* "flex-layout.col#mobile__logo--banner": {
+    "title": "mobile section banner image main container",
+    "props": {
+      "blockClass": "mobile__banner--container"
+    },
+    "children": [
+      "logo#banner__logo"
+    ]
+  },
+  "logo#banner__logo": {
+    "title": "logo mobile banner",
+
+    "props": {
+      "blockClass": "logo__mobile--banner",
+      "height": 22,
+      "width": 128,
+      "url": "assets/img/logo-venex/dark logo.png",
+      "href": "https://julianluissoto--itgloberspartnercl.myvtex.com/"
+    }
+  } */
+}

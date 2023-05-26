@@ -2,9 +2,9 @@
     background-color: var(--secondary-color);
 }
 
-.flexRowContent--mobile__footer--rowContainer {
+/* .flexRowContent--mobile__footer--rowContainer {
     padding-top: 25px;
-}
+} */
 
 .flexColChild--mobile__footer--colContainer {
     padding-top: 45px;

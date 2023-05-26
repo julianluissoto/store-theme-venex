@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#tablet-deliver__options--container": {
+    "title": "pdp deliver container",
+    "props": {
+      "blockClass": "tablet-deliver__options--container",
+      "horizontalAlign": "between",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--deliver__left-col",
+      "flex-layout.col#pdp__tablet--deliver__right-col"
+    ]
+  },
+  "flex-layout.col#pdp__tablet--deliver__left-col": {
+    "title": "deliver truck icon",
+    "props": {
+      "blockClass": "pdp__tablet--deliver__left-col",
+      "width": "50%"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet--deliver-left-row"
+    ]
+  },
+  "flex-layout.row#pdp__tablet--deliver-left-row": {
+    "title": "deliver arrow pdp tablet container",
+    "props": {
+      "blockClass": "pdp__tablet--deliver-left-row",
+      "width": "Grow"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--deliver__icon",
+      "flex-layout.col#deliver__text"
+    ]
+  },
+
+  "flex-layout.col#pdp__tablet--deliver__right-col": {
+    "title": "deliver arrow pdp tablet container",
+    "props": {
+      "blockClass": "pdp__tablet--deliver__rightcol",
+      "width": "Grow"
+    },
+    "children": [
+      "flex-layout.col#deliver__arrow"
+    ]
+  },
+
+  "flex-layout.col#pdp__tablet--deliver__icon": {
+    "title": "deliver truck icon",
+    "props": {
+      "blockClass": "deliver__icon--container",
+      "width": "20%"
+    },
+    "children": [
+      "image#pdp__truck"
+    ]
+  }
+}

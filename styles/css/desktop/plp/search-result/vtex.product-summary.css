@@ -7,8 +7,31 @@
 } */
 
 
+.price_className--desktop__plp--price {
+
+
+    position: relative;
+    top: 200%;
+    right: 55%;
+
+}
+
+.containerNormal--desktop__shelf--container-grid {
+    max-width: 100% !important;
+}
+
+.brandName--desktop__plp--name {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    color: #706F6F
+}
+
+.price_installmentContainer--desktop__plp--price {
+    display: none;
+}
 
 .image--shelf__image-list {
+    min-height: 200px;
     height: 80%;
 }
 
@@ -32,4 +55,9 @@
 .productBrand--shelf__name-list {
     font-size: 15px;
     font-family: Montserrat-Regular;
+}
+
+.price_sellingPriceContainer--desktop__plp--price {
+    padding-left: 12%;
+
 }

@@ -1,0 +1,26 @@
+{
+  "gallery#mobile__search--results-gallery": {
+    "title": "gallery search result gallery ",
+    "props": {
+      "blockClass": "gallery__container",
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+          }
+        },
+        {
+          "name": "general-list",
+          "component": "GeneralList",
+          "itemsPerRow": 1
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#mobile__shelf--container--grid",
+      "GeneralList": "product-summary.shelf#mobile__shelf--container--list"
+    }
+  }
+}

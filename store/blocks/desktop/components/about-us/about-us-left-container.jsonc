@@ -1,0 +1,74 @@
+{
+  "flex-layout.col#desktop__about-us--left-container": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--left-container",
+      "width": "33%"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us-left-row-links--container"
+    ]
+  },
+
+  "flex-layout.row#desktop__about-us-left-row-links--container": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--left-row-linksdesktop__about-us--left-container"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--left-col-links"
+    ]
+  },
+  "flex-layout.col#desktop__about-us--left-col-links": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--left-row-linksdesktop__about-us--left-container"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--left-row-links-title",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "flex-layout.row#desktop__about-us--left-row-links-2",
+      "disclosure-layout#about-us__disclosure"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--left-row-links-title": {
+    "title": "about us desktop main container title",
+    "props": {
+      "blockClass": "desktop__about-us--left-row-links-title"
+    },
+    "children": [
+      "link#whoWeAre"
+    ]
+  },
+
+  "link#whoWeAre": {
+    "title": "link to who we are",
+    "props": {
+      "blockClass": "about-us__menu-links-title",
+      "label": "Who we are",
+      "href": "https://www.venex.com.ar/quienes-somos.htm#page-info-content"
+    }
+  },
+  "flex-layout.row#desktop__about-us--left-row-links-2": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--left-row-linksdesktop__about-us--left-container"
+    },
+    "children": [
+      "link#whoWeAre2"
+    ]
+  },
+
+  "link#whoWeAre2": {
+    "title": "link to who we are",
+    "props": {
+      "blockClass": "about-us__menu-links--titles",
+      "label": "terms and conditions",
+      "href": "https://www.venex.com.ar/quienes-somos.htm#page-info-content"
+    }
+  }
+}

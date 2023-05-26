@@ -2,6 +2,25 @@
     padding-top: 7%;
 }
 
+.container--layout--result__container--mobile {
+    margin-top: 4% !important;
+}
+
+.filterPopupTitle--order-by__mobile {
+    color: #5a5555;
+    font-family: Montserrat-Semibold;
+
+}
+
+.galleryItem--mobile-grid {
+
+    flex-basis: 27% !important;
+    max-width: 33% !important;
+    border: 1px solid grey;
+    background-color: transparent;
+    padding: 0;
+}
+
 .sidebar {
     background-color: #37373F;
     max-width: 60%;
@@ -17,7 +36,15 @@
 
 }
 
-.caretIcon--mobile__filter {
+.filtersWrapperMobile--mobile__filter {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    font-family: Montserrat-Semibold;
+    font-size: 20px;
+}
+
+.caretIcon--mobile__filter, .caretIcon--order-by__mobile {
     color: #91C612;
 }
 
@@ -45,4 +72,8 @@
 
 .accordionFilterContainer--mobile__filter {
     padding-left: 1rem !important;
+}
+
+.gallery--gallery__container--general-grid {
+    justify-content: space-between;
 }

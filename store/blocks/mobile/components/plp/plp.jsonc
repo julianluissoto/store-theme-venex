@@ -1,0 +1,182 @@
+{
+  "flex-layout.row#mobile__search--container": {
+    "title": "search row desktop container",
+    "children": [
+      "flex-layout.col#mobile__container--filter",
+      "flex-layout.col#mobile__container--result-search"
+    ],
+    "props": {
+      "blockClass": "mobile__container--row",
+      "preserveLayoutOnMobile": false
+    }
+  },
+
+  "flex-layout.row#mobile__search--banner": {
+    "title": "search banner image",
+    "children": [
+      "image#mobile__search--banner"
+    ],
+    "props": {
+      "blockClass": "mobile__search--banner",
+      "width": "100%"
+    }
+  },
+  "image#mobile__search--banner": {
+    "title": "search banner image",
+    "props": {
+      "src": "assets/img/search-images/banner-search.jpg",
+      "blockClass": "mobile__search--banner"
+    }
+  },
+
+  "flex-layout.col#mobile__container--filter": {
+    "title": "container filter col",
+    "children": [
+      "filter-navigator.v3#mobile__filter"
+    ],
+    "props": {
+      "width": "50%",
+      "horizontalAlign": "left",
+      "blockClass": "mobile__container--filter",
+      "paddingLeft": 0
+    }
+  },
+  "filter-navigator.v3#mobile__filter": {
+    "title": "filter navigator",
+    "props": {
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "blockClass": "mobile__filter",
+      "initiallyCollapsed": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible"
+    }
+  },
+  "flex-layout.col#mobile__container--result-search": {
+    "title": "Container result search",
+    "children": [
+      "flex-layout.row#mobile__result-searchrow--container"
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": "desktop__container--result-search"
+    }
+  },
+  ////////////////
+
+  "flex-layout.row#mobile__result-searchrow--container": {
+    "title": "Container search result row",
+    "children": [
+      "search-content#mobile"
+    ]
+  },
+  "search-content#mobile": {
+    "title": "global search content",
+    "props": {
+      "blockClass": "search-contenmt__container"
+    },
+
+    "blocks": [
+      "gallery#mobile__search--results-gallery",
+      "not-found"
+    ]
+  },
+
+  "product-summary.shelf#mobile__shelf--container--grid": {
+    "title": "grid summary shelf",
+    "props": {
+      "blockClass": "mobile__shelf--container-grid"
+    },
+
+    "children": [
+      "flex-layout.col#mobile__product-summary--grid-container"
+    ]
+  },
+  "flex-layout.col#mobile__product-summary--grid-container": {
+    "title": "Container search result row",
+    "props": {
+      "blockClass": "mobile__product-summary--grid-container"
+    },
+    "children": [
+      "flex-layout.row#mobile__product-summary--left-container",
+
+      "flex-layout.row#mobile__product-summary--right-container"
+    ]
+  },
+  "flex-layout.row#mobile__product-summary--left-container": {
+    "title": "mobile grid image",
+    "props": {
+      "blockClass": "mobile__product-summary--container-image-col"
+    },
+
+    "children": [
+      "flex-layout.col#desktop__product-summary--image-container"
+    ]
+  },
+
+  "flex-layout.row#mobile__product-summary--right-container": {
+    "title": "grid porduct price and name",
+
+    "props": {
+      "blockClass": "mobile__product-summary--container-price-col"
+    },
+    "children": [
+      "flex-layout.col#mobile__plp--prices-container",
+      "product-summary-name#mobile__plp--name"
+    ]
+  },
+  "flex-layout.col#mobile__plp--prices-container": {
+    "title": "plp prices container",
+
+    "props": {
+      "blockClass": "mobile__product-summary--container-price-col"
+    },
+    "children": [
+      "product-summary-price#mobile__plp--price",
+      "product-list-price#mobile__promo-selling-price"
+    ]
+  },
+
+  "product-summary-price#mobile__plp--price": {
+    "title": "product summary desktop price",
+    "props": {
+      "blockClass": "mobile__plp--price"
+    }
+  },
+  "product-summary-name#mobile__plp--name": {
+    "title": "product summarry desktop name",
+    "props": {
+      "blockClass": "mobile__plp--name"
+    }
+  },
+
+  "order-by.v2": {
+    "title": "order by desktop ",
+    "props": {
+      "showOrderTitle": false,
+      "blockClass": "desktop__sortby",
+      "hiddenOptions": [
+        "OrderByNameASC",
+        "OrderByTopSaleDESC",
+        "OrderByReleaseDateDESC",
+        "OrderByBestDiscountDESC"
+      ]
+    }
+  },
+
+  /////////////
+  "product-summary.shelf#mobile__shelf--container--list": {
+    "props": {
+      "blockClass": "desktop__shelf--container-list"
+    },
+    "title": "summary shelf",
+    "children": [
+      "flex-layout.row#plp__product--list"
+    ]
+  }
+}

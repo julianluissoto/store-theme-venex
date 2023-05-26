@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#pdp__tablet-info--container": {
+    "title": "pdp info col container",
+    "props": {
+      "blockClass": "pdp__price-and-pay--col-container"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet-pay-and-price--col-container"
+    ]
+  },
+  "flex-layout.col#pdp__tablet-pay-and-price--col-container": {
+    "title": "pdp info col container",
+    "props": {
+      "blockClass": "pdp__price-and-pay--col-container"
+    },
+    "children": [
+      "flex-layout.row#pdp__price-container",
+
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#pdp__mercado-pago--text",
+      "flex-layout.row#pdp__mercadopago-and-calculate-button--container",
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#pdp__tablet--selling-price",
+      "flex-layout.row#product-installments__container"
+    ]
+  },
+
+  "flex-layout.row#pdp__mercadopago-and-calculate-button--container": {
+    "title": "pdp line separator",
+    "props": {
+      "blockClass": "pdp__mercadopago-and-calculate-button--container"
+    },
+    "children": [
+      "flex-layout.col#pdp__mercado-pago--image",
+      "flex-layout.col#pdp__mercado-pago--modal-trigger"
+    ]
+  },
+  "flex-layout.row#pdp__mercado-pago--text": {
+    "title": "pdp mercadopago text",
+    "props": {
+      "blockClass": "pdp__mercado-pago--text"
+    },
+    "children": [
+      "flex-layout.col#pdp__mercado-pago--text"
+    ]
+  }
+}

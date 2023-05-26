@@ -1,0 +1,15 @@
+.label--about-us__menu-links-title {
+    font-family: Montserrat-Semibold;
+    padding-bottom: 2%;
+    font-size: 15px;
+}
+
+.label--about-us__menu-links--titles {
+    font-family: Montserrat-regular;
+    font-size: 15px;
+
+}
+
+.link--about-us__menu-links-title, .link--about-us__menu-links--titles {
+    justify-content: left !important;
+}

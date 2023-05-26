@@ -1,0 +1,117 @@
+{
+  "flex-layout.row#pdp__mercado-pago": {
+    "title": "pdp mercado pago",
+    "props": {
+      "blockClass": "pdp__MP--container"
+    },
+    "children": [
+      "flex-layout.col#pdp__mercado-pago--container"
+    ]
+  },
+  "flex-layout.col#pdp__mercado-pago--container": {
+    "title": " mercado pago container",
+    "props": {
+      "blockClass": "mercado-pago__container"
+    },
+
+    "children": [
+      "flex-layout.row#pdp__mercado-pago--container",
+      "icon#arrow__special-price"
+    ]
+  },
+
+  "flex-layout.row#pdp__mercado-pago--container": {
+    "title": "pdp mercado pago container",
+    "props": {
+      "blockClass": "pdp__mercado-pago--container"
+    },
+    "children": [
+      "flex-layout.col#pdp__mercado-pago--text",
+      "flex-layout.col#pdp__mercado-pago--image",
+      "flex-layout.col#pdp__mercado-pago--modal-trigger"
+    ]
+  },
+  "flex-layout.col#pdp__mercado-pago--text": {
+    "title": "pdp mercado pago text",
+    "props": {
+      "blockClass": "pdp__mercado-pago--text"
+    },
+    "children": [
+      "rich-text#mercado-pago"
+    ]
+  },
+
+  "flex-layout.col#pdp__mercado-pago--image": {
+    "title": "pdp mercado pago image",
+    "props": {
+      "blockClass": "pdp__mercado-pago--image"
+    },
+    "children": [
+      "image#mercadopago"
+    ]
+  },
+
+  "flex-layout.col#pdp__mercado-pago--modal-trigger": {
+    "title": "pdp mercado pago text",
+    "props": {
+      "blockClass": "pdp__mercado-pago--text"
+    },
+    "children": [
+      "modal-trigger#mercadopago__modal-trigger"
+    ]
+  },
+  "modal-trigger#mercadopago__modal-trigger": {
+    "children": [
+      "link#link__calculate-quotes",
+      "modal-layout#mercadopago__modal--layout"
+    ],
+    "props": {
+      "blockClass": "mercadopago__modal-trigger"
+    }
+  },
+  "link#link__calculate-quotes": {
+    "title": "mercado pago calculate",
+    "props": {
+      "blockClass": "link__calculate-quotes",
+      "label": "calcular cuotas",
+      "displayMode": "button"
+    }
+  },
+  "modal-layout#mercadopago__modal--layout": {
+    "title": "mercado pago modal layout container",
+    "props": {
+      "fullScreen": false
+    },
+    "children": [
+      "modal-content#modal__content--mercadopago"
+    ]
+  },
+  "modal-content#modal__content--mercadopago": {
+    "title": "modal head er content",
+    "children": [
+      "image#mercadopago_options"
+    ]
+  },
+  "image#mercadopago_options": {
+    "title": "mercado pago opctions image",
+    "props": {
+      "src": "assets/img/modal-images/mercado-pago.png",
+      "blockClass": "mercado-pago__modal"
+    }
+  },
+  "image#mercadopago": {
+    "title": "mercado pago logo",
+    "props": {
+      "src": "assets/img/logos/logoMP.png",
+      "blockClass": "mercado-pago__logo"
+    }
+  },
+
+  "rich-text#mercado-pago": {
+    "title": "mercado pago text",
+    "props": {
+      "blockClass": "mercado-pago__text",
+      "text": "Pay with Mercado Pago"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "disclosure-layout#about-us__disclosure": {
+    "title": "about us disclosure",
+    "props": {
+      "blockClass": "about-us__disclosure"
+    },
+    "children": [
+      "flex-layout.row#disclosure__about-to-us"
+    ]
+  },
+
+  "flex-layout.row#disclosure__about-to-us": {
+    "title": "",
+    "props": {
+      "blockClass": "disclosure__about-to-us"
+    },
+    "children": [
+      "disclosure-trigger#about-us__dislosure",
+      "disclosure-content#about-us__disclosure--content"
+    ]
+  },
+
+  "disclosure-trigger#about-us__dislosure": {
+    "title": "disclosure layout trriger",
+    "props": {
+      "blockClass": "about-us__dislosure",
+      "as": "p",
+      "width": "52%"
+    },
+    "children": [
+      "flex-layout.row#disclosure__about-us--arrow-container"
+    ]
+  },
+  "flex-layout.row#disclosure__about-us--arrow-container": {
+    "title": " disclosure about us arrow container ",
+    "props": {
+      "blockClass": "disclosure__about-us--arrow-container"
+    },
+    "children": [
+      "link#whoWeAre2-disclosure",
+      "icon#arrowDown"
+    ]
+  },
+
+  "link#whoWeAre2-disclosure": {
+    "title": "link to who we are",
+    "props": {
+      "blockClass": "about-us__menu-links--titles",
+      "label": "promo and raffles",
+      "width": "90%"
+    }
+  },
+  "disclosure-content#about-us__disclosure--content": {
+    "title": "disclosure layout content",
+    "props": {
+      "blockClass": "about-us__disclosure--content"
+    },
+    "children": [
+      "flex-layout.col#disclosure__about-us__container"
+    ]
+  },
+
+  "rich-text#disclosure__text": {
+    "props": {
+      "blockClass": "disclosure__triger--text",
+      "text": "promotions and raffles",
+      "font": "heading-4"
+    }
+  },
+  "flex-layout.col#disclosure__about-us__container": {
+    "title": " disclosure about us container ",
+    "props": {
+      "blockClass": ""
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--left-row-links-3",
+      "flex-layout.row#desktop__about-us--left-row-links-3"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--left-row-links-3": {
+    "title": "about us desktop main container",
+    "props": {
+      "blockClass": "desktop__about-us--left-row-linksdesktop__about-us--left-container"
+    },
+    "children": [
+      "link#whoWeAre3"
+    ]
+  },
+
+  "link#whoWeAre3": {
+    "title": "link to who we are",
+    "props": {
+      "blockClass": "about-us__menu-links--titles",
+      "label": "computers",
+      "href": "https://www.venex.com.ar/quienes-somos.htm#page-info-content"
+    }
+  }
+}

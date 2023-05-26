@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#tablet__pdp--main-container": {
+    "title": "pdp container",
+    "props": {
+      "blockClass": "pdp__tablet--main-container"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet-info--col-container"
+    ]
+  },
+  "flex-layout.col#pdp__tablet-info--col-container": {
+    "title": "pdp info col container",
+    "props": {
+      "blockClass": "pdp__tablet-info--col-container"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet--breadcrum-container",
+
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#pdp__tablet-image-and-name--container",
+      "flex-layout.row#pdp__tablet-info--container",
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#tablet-deliver__options--container",
+      "flex-layout.row#product-quantity__container",
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#pdp__product--description",
+      "flex-layout.row#pdp__tablet--characteristics-title",
+      "flex-layout.row#pdp__tablet--characteristics",
+      "flex-layout.row#pdp__tablet--characteristics",
+      "product-reviews",
+      "product-specifications",
+      "shipping-simulator",
+      "flex-layout.row#pdp__mobile--Big-title",
+      "flex-layout.row#pdp__slider--container",
+      "flex-layout.row#pdp__tablet--banner"
+    ]
+  },
+  "flex-layout.row#pdp__tablet-image-and-name--container": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "pdp__container"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--col-container"
+    ]
+  },
+
+  "flex-layout.col#pdp__tablet--col-container": {
+    "title": "product shelf right column",
+    "props": {
+      "blockClass": "pdp__container"
+    },
+
+    "children": [
+      "flex-layout.row#pdp__tablet--name--container",
+      "flex-layout.row#pdp__tablet--product-image"
+    ]
+  },
+
+  "flex-layout.row#pdp__tablet--product-image": {
+    "title": "pdp product image row",
+    "props": {
+      "blockClass": "pdp__product-image"
+    },
+    "children": [
+      "flex-layout.col#pdp__tablet--image-container"
+    ]
+  },
+
+  "flex-layout.col#pdp__tablet--image-container": {
+    "title": "pdp tablet image container",
+    "props": {
+      "blockClass": "pdp__tablet--image-container"
+    },
+    "children": [
+      "product-images#tablet__pdp--image"
+    ]
+  },
+
+  "product-images#tablet__pdp--image": {
+    "title": "pdp product-image",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "displayMode": "carousel",
+      "maxHeight": 550,
+      "showPaginationDots": false,
+      "zoomMode": "open-modal",
+      "aspectRatio": "3:4"
+    }
+  }
+}

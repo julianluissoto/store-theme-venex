@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#desktop__about-us--right-our-mision": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--right-our-mision"
+    ]
+  },
+  "flex-layout.col#desktop__about-us--right-our-mision": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--right-our-mision-title",
+      "flex-layout.row#desktop__about-us--right-our-mision-text"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-our-mision-title": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision-title"
+    },
+    "children": [
+      "rich-text#about-us__right-our-mision-title"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-our-mision-text": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision-text"
+    },
+    "children": [
+      "rich-text#about-us__right-our-mision-text"
+    ]
+  },
+
+  "rich-text#about-us__right-our-mision-title": {
+    "props": {
+      "blockClass": "about-us__right-our-vision-title",
+      "text": "OUR MISION",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#about-us__right-our-mision-text": {
+    "props": {
+      "blockClass": "about-us__right-column--text",
+      "text": "Offer technological products that accompany and satisfy the needs of our clients, accompanying them with the best attention, advice and post-sale service. Also providing the possibility that anyone throughout the national territory can purchase our products from the comfort of their home.",
+      "font": "heading-2"
+    }
+  }
+}

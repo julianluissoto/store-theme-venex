@@ -3,6 +3,10 @@
 
 }
 
+.menuContainerNav--desktop__submenuCol--container {
+    width: 86% !important;
+}
+
 .styledLinkContent--header__menu--subcategory-ssd, .styledLinkContent--header__menu--subcategory-hdd {
     color: var(--primary-color);
     font-family: Montserrat-Regular;
@@ -25,7 +29,7 @@
 
 .styledLink--desktop__pcComponents {
     position: relative;
-    right: 6rem;
+    right: 4rem;
 }
 
 .styledLinkIcon--all__categories {
@@ -43,7 +47,7 @@
 }
 
 .submenuWrapper--desktop__pcComponents {
-    width: 25rem;
+    width: 20rem;
     background-color: #fffefe;
     border: 2px solid #f3eded;
 }
@@ -52,10 +56,9 @@
     background-color: #fffefe;
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 24.8rem;
-    margin-top: -2rem;
-    width: 20rem;
-
+    margin-left: 101%;
+    margin-top: -12%;
+    width: 290%;
     padding: 0;
 
 }
@@ -87,8 +90,6 @@
 
 .submenu--desktop__subcategory--hardDriveDiscs {
     background-color: #fff;
-    min-width: 1000px;
     position: relative;
-    left: 42.5rem;
     border: 1px solid #EEEEEE;
 }

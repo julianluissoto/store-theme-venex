@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#pdp__mobile--Big-title": {
+    "title": "pdp big title",
+    "props": {
+      "blockClass": "pdp__mobile--Big-title"
+    },
+    "children": [
+      "rich-text#mobile__pdp--Big-title"
+    ]
+  },
+
+  "rich-text#mobile__pdp--Big-title": {
+    "title": "home body title text",
+    "props": {
+      "text": "THOSE WHO SEEN THIS PRODUCT WERE ALSO INTERESTED IN:",
+      "blockClass": "mobile__pdp--big-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "heading-5"
+    }
+  }
+}

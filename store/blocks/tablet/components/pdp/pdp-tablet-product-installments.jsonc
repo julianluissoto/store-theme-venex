@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#product-installments__container": {
+    "title": "pdp product-installment col container",
+    "props": {
+      "blockClass": "product-installments__container"
+    },
+    "children": [
+      "product-installments#pdp__tablet--installments"
+    ]
+  },
+  "product-installments#pdp__tablet--installments": {
+    "props": {
+      "blockClass": "pdp__tablet--installments"
+    }
+  }
+}

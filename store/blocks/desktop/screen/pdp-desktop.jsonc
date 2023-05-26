@@ -1,0 +1,81 @@
+{
+  "responsive-layout.desktop#pdp__desktop--venex": {
+    "title": "pdp desktop",
+    "props": {
+      "blockClass": "responsive-layout__pdp--desktop"
+    },
+    "children": [
+      "flex-layout.row#pdp__desktop--main-container"
+    ]
+  },
+  "flex-layout.row#pdp__desktop--main-container": {
+    "title": "pdp desktop main n container",
+    "props": {
+      "blockClass": "pdp__desktop--main-row-container"
+    },
+    "children": [
+      "flex-layout.col#pdp__desktop--main-col-container"
+    ]
+  },
+  "flex-layout.col#pdp__desktop--main-col-container": {
+    "title": "pdp desktop main n container",
+    "props": {
+      "blockClass": "pdp__desktop--main-col-container"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet--breadcrum-container",
+
+      "flex-layout.row#pdp__line-separator-container",
+      "flex-layout.row#pdp__desktop--main-section-container",
+      /*  "flex-layout.row#pdp__tablet-image-and-name--container",
+      "flex-layout.row#pdp__tablet-info--container", */
+      "flex-layout.row#pdp__line-separator-container",
+
+      "flex-layout.row#pdp__product--description",
+      "flex-layout.row#pdp__tablet--characteristics-title",
+      "flex-layout.row#pdp__tablet--characteristics",
+      "flex-layout.row#pdp__tablet--characteristics",
+      "product-reviews",
+      "shipping-simulator",
+      "flex-layout.row#pdp__mobile--Big-title",
+      "flex-layout.row#pdp__slider--container",
+      "flex-layout.row#pdp__tablet--banner",
+      "flex-layout.row#titleAndLogo",
+      "flex-layout.row#partners"
+    ]
+  },
+
+  "flex-layout.row#pdp__desktop--main-section-container": {
+    "title": "pdp desktop mmain section container",
+    "props": {
+      "blockClass": "pdp__desktop--main-section-container"
+    },
+    "children": [
+      "flex-layout.col#pdp__desktop--main-section-image-container",
+      "flex-layout.col#pdp__desktop--main-section-info-container"
+    ]
+  },
+  "flex-layout.col#pdp__desktop--main-section-image-container": {
+    "title": "pdp desktop main left col section container",
+    "props": {
+      "blockClass": "pdp__desktop--main-section-image-container",
+      "width": "60%"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet-image-and-name--container"
+    ]
+  },
+  "flex-layout.col#pdp__desktop--main-section-info-container": {
+    "title": "pdp desktop main right col section container",
+    "props": {
+      "blockClass": "pdp__desktop--main-section-info-container",
+      "width": "Grow"
+    },
+    "children": [
+      "flex-layout.row#pdp__tablet-info--container",
+
+      "flex-layout.row#tablet-deliver__options--container",
+      "flex-layout.row#product-quantity__container"
+    ]
+  }
+}

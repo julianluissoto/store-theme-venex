@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#desktop__about-us--right-our-vision": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision"
+    },
+    "children": [
+      "flex-layout.col#desktop__about-us--col-right-our-vision"
+    ]
+  },
+  "flex-layout.col#desktop__about-us--col-right-our-vision": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--col-right-our-vision"
+    },
+    "children": [
+      "flex-layout.row#desktop__about-us--right-our-vision-title",
+      "flex-layout.row#desktop__about-us--right-our-vision-text"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-our-vision-title": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision-title"
+    },
+    "children": [
+      "rich-text#about-us__right-our-vision-title"
+    ]
+  },
+  "flex-layout.row#desktop__about-us--right-our-vision-text": {
+    "title": "about us desktop right title row container",
+    "props": {
+      "blockClass": "desktop__about-us--right-our-vision-text"
+    },
+    "children": [
+      "rich-text#about-us__right-our-vision-text"
+    ]
+  },
+
+  "rich-text#about-us__right-our-vision-title": {
+    "props": {
+      "blockClass": "about-us__right-our-vision-title",
+      "text": "OUR VISION",
+      "font": "heading-2"
+    }
+  },
+  "rich-text#about-us__right-our-vision-text": {
+    "props": {
+      "blockClass": "about-us__right-column--text",
+      "text": "To be the leading and reference company, at a national level, in the commercialization and distribution of technological equipment.",
+      "font": "heading-2"
+    }
+  }
+}

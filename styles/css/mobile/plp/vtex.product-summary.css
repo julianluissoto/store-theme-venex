@@ -1,0 +1,76 @@
+.imageWrapper--mobile__shelf--image {
+
+
+    padding-top: 7%;
+    background: linear-gradient(to bottom, #FFFFFF, #D6D6D6);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+
+}
+
+
+.image--mobile__shelf--image {
+    height: 100% !important;
+    max-width: 205px;
+}
+
+.nameContainer--mobile__plp--name {
+    padding: 0;
+}
+
+.priceContainer--mobile__plp--price {
+    padding-bottom: 0;
+}
+
+.imageWrapper--shelf__image-list {
+    position: relative;
+    top: 10%;
+}
+
+.price_installmentContainer--mobile__plp--price {
+    display: none;
+}
+
+.brandName--mobile__plp--name {
+    font-family: Montserrat-Light;
+    color: #555959;
+    font-size: 12px;
+}
+
+.currencyCode--mobile__plp--price, .currencyLiteral--mobile__plp--price, .currencyInteger--mobile__plp--price, .currencyGroup--mobile__plp--price {
+    font-family: Montserrat-Regular;
+    color: #333333;
+
+    font-size: 24px;
+
+}
+
+.price_className--mobile__plp--price {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.price_listPriceContainer, .price_listPriceLabel--mobile__plp--price {
+    color: #706F6F;
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+}
+
+.price_sellingPriceLabel--mobile__plp--price {
+    font-family: Montserrat-Regular;
+    color: #706F6F;
+}
+
+.containerNormal--mobile__shelf--container-grid {
+    max-width: 100% !important;
+}
+
+@media screen and (max-width:1023px) {
+    .imageWrapper--product-summary__Shelf--image {
+        height: 119%;
+    }
+}

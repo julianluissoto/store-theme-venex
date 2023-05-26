@@ -33,3 +33,11 @@
  .container--home__orderOptions {
      justify-content: end;
  }
+
+ .wrapper--home__orderOptions--text {
+     text-align: left;
+ }
+
+ .container--home__orderOptions--text {
+     margin-left: 20%;
+ }

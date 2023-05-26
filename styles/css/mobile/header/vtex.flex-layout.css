@@ -9,16 +9,16 @@
     height: 47px;
     width: 100%;
     padding-left: 0 !important;
-    position: fixed;
+    /* position: fixed; */
     z-index: 50;
 }
 
 /* .flexRow--megamenu__mobile--container {
     z-index: 50;
 } */
-.flexRow--mobile__slider {
+/* .flexRow--mobile__slider {
     margin-top: 45px;
-}
+} */
 
 /* .flexRow--header__mobile--container :global(.vtex-store-components-3-x-container) {
 
